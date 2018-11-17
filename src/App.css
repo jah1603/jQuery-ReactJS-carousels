@@ -1,0 +1,286 @@
+body {
+  font-family: "Century Gothic", verdana, sans-serif;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: silver;
+  padding: 20px;
+}
+
+.navbar li {
+  float: right;
+  font-size: 20px;
+}
+
+.navbar li a {
+  color: DeepSkyBlue;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+  font-weight: bold;
+}
+
+.navbar li a:hover {
+  color: white;
+}
+
+.navbar a .active {
+  color: white;
+}
+
+.navbar .website-title {
+  float: left !important;
+  color: white !important;
+  font-size: 30px !important;
+}
+
+.navbar .icon {
+  display: none;
+}
+
+.welcome-message {
+  text-align: center;
+  padding: 185px;
+  color: white;
+  font-size: 130%;
+  font-weight: bold;
+  letter-spacing: .7px;
+}
+
+@media (max-width: 840px) {
+  .welcome-message {
+    font-size: 70%;
+    padding: 50px;
+    padding-bottom: 300px;
+  }
+}
+
+.button {
+  background-color: white;
+  color: #242C32;
+  border: 2px solid #242C32;
+  padding: 25px 60px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition: color 0.3s, background-color 0.3s;
+  transition: color 0.3s, background-color 0.3s;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #242C32;
+  color: white;
+}
+
+.about {
+  margin: 50px 100px;
+  width: auto;
+}
+
+@media (max-width: 840px) {
+  .about {
+    margin: 20px 20px;
+  }
+}
+
+.about-paragraph {
+  width: 50%;
+  float: left;
+  margin-top: 10px;
+  letter-spacing: .5px;
+  line-height: 2em;
+  font-size: 16px;
+  word-spacing: 2px;
+}
+
+@media (max-width: 840px) {
+  .about-paragraph {
+    width: auto;
+  }
+}
+
+.about-photo {
+  width: 45%;
+  float: right;
+  margin-top: 10px;
+  text-align: center;
+}
+
+@media (max-width: 840px) {
+  .about-photo {
+    width: 100%;
+  }
+}
+
+.profile {
+  width: 90%;
+  height: auto;
+  max-width: 500px;
+  margin-top: 2em;
+}
+
+.cv {
+  margin-top: 20px;
+}
+
+.contact {
+  text-align: center;
+  margin: 50px 100px;
+  letter-spacing: .5px;
+  line-height: 2em;
+  font-size: 16px;
+  word-spacing: 2px;
+}
+
+@media (max-width: 840px) {
+  .contact {
+    font-size: 75%;
+    margin: 20px 20px;
+  }
+}
+
+.social-media img {
+  margin-right: 15px;
+  margin-left: 15px;
+  padding-bottom: 8px;
+  border-bottom: 8px solid white;
+}
+
+.social-media img:hover {
+  opacity: 0.8;
+  border-bottom: 8px solid #2b90d9;
+}
+
+.email a {
+  text-decoration: none;
+  color: black;
+}
+
+.email a:hover {
+  color: #2b90d9;
+}
+
+.projects {
+  margin: 50px 100px;
+  width: auto;
+  letter-spacing: .5px;
+  line-height: 2em;
+  font-size: 16px;
+  word-spacing: 2px;
+}
+
+@media (max-width: 840px) {
+  .projects {
+    margin: 20px 20px;
+  }
+}
+
+.project-info {
+  margin-top: 50px;
+  border-bottom: 3px dotted green;
+  padding-bottom: 50px;
+  overflow: hidden;
+}
+
+.headline {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.project-paragraph {
+  width: 50%;
+  float: right;
+}
+
+@media (max-width: 840px) {
+  .project-paragraph {
+    width: 100%;
+  }
+}
+
+.project-photo {
+  width: 50%;
+  float: left;
+  margin-top: 2em;
+}
+
+@media (max-width: 840px) {
+  .project-photo {
+    width: auto;
+  }
+}
+
+.github a {
+  color: #2b90d9;
+  text-decoration: none;
+}
+
+p a {
+  text-decoration: none;
+  color: #2b90d9;
+}
+
+.screenshot {
+  width: 100%;
+  height: auto;
+  max-width: 90%;
+  border: 2px solid black;
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 840px) {
+  .navbar li a:not(.website-title) {
+    display: none;
+  }
+  .navbar li a.icon {
+    float: right;
+    display: block;
+    color: white;
+  }
+}
+
+.responsive {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+  width: 100%;
+  background-color: #242C32;
+  float: right;
+  margin-bottom: 50px;
+}
+
+.responsive a.icon {
+  right: 0;
+}
+
+.responsive li a {
+  color: #ccc;
+  display: block;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+  font-weight: bold;
+}
+
+.responsive li a:hover {
+  color: white;
+}
+
+.responsive .website-title {
+  display: none;
+}
+/*# sourceMappingURL=app.css.map */
