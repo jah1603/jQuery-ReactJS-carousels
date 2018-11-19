@@ -14,7 +14,7 @@ class Portfolio extends React.Component {
 
   <div className="projects">
 
-    <h1 className="headline"> My Portfolio</h1>
+    <h1 className="headline"> Software Portfolio</h1>
 
     <br></br>
 

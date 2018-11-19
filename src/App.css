@@ -46,7 +46,7 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-background: linear-gradient(to bottom right, #334d50, #cbcaa5);
+  background: linear-gradient(to bottom right, #334d50, #cbcaa5);
 
   padding: 20px;
 }
@@ -185,11 +185,13 @@ color: white;
 .about {
   margin: 50px 100px;
   width: auto;
+  background: linear-gradient(to bottom right, #334d50, #cbcaa5);
 }
 
 @media (max-width: 840px) {
   .about {
     margin: 20px 20px;
+    background: linear-gradient(to bottom right, #334d50, #cbcaa5);
   }
 }
 
@@ -201,6 +203,7 @@ color: white;
   line-height: 2em;
   font-size: 16px;
   word-spacing: 2px;
+
 }
 
 @media (max-width: 840px) {
@@ -253,12 +256,12 @@ color: white;
   margin-right: 15px;
   margin-left: 15px;
   padding-bottom: 8px;
-  border-bottom: 8px solid white;
+  border-bottom: 8px solid #334d50;
 }
 
 .social-media img:hover {
   opacity: 0.8;
-  border-bottom: 8px solid #2b90d9;
+  border-bottom: 8px solid #a3bded;
 }
 
 .email a {
@@ -267,7 +270,7 @@ color: white;
 }
 
 .email a:hover {
-  color: #2b90d9;
+  color: ##191970;
 }
 
 .projects {
@@ -287,15 +290,18 @@ color: white;
 
 .project-info {
   margin-top: 50px;
-  border-bottom: 3px dotted #334d50;
+  border-bottom: 3px solid #334d50;
   padding-bottom: 50px;
   overflow: hidden;
 }
 
 .headline {
   text-align: center;
+  padding: 10px;
   margin-bottom: 20px;
   font-weight: normal;
+  background: linear-gradient(to bottom right, #334d50, #cbcaa5);
+
 }
 
 .project-paragraph {
