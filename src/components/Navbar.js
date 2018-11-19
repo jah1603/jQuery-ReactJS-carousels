@@ -40,7 +40,7 @@ class Navbar extends React.Component {
             <NavLink to="/contact" onClick={this.revertClass} activeStyle={{ color: "white" }}><img className="navbar-icon" src={require("../images/contact.png")} alt="home icon" width="40" height="40"></img></NavLink>
           </li>
           <li>
-            <NavLink to="/projects" onClick={this.revertClass} activeStyle={{ color: "white"}}><img className="navbar-icon" src={require("../images/profiles.png")} alt="home icon" width="40" height="40"></img></NavLink>
+            <NavLink to="/portfolio" onClick={this.revertClass} activeStyle={{ color: "white"}}><img className="navbar-icon" src={require("../images/profiles.png")} alt="home icon" width="40" height="40"></img></NavLink>
           </li>
           <li>
             <NavLink to="/about" onClick={this.revertClass} activeStyle={{ color: "white"}}><img className="navbar-icon" src={require("../images/man.png")} alt="home icon" width="40" height="40"></img></NavLink>

@@ -4,7 +4,7 @@ import ImageSlide from './ImageSlide.js'
 const imgUrls = ["../images/reach1.png", '../images/reach2.png', '../images/reach3.png', '../images/reach4.png']
 
 
-class Carousel extends React.Component {
+class ReachCarousel extends React.Component {
 
   constructor (props) {
     super(props);
@@ -70,4 +70,4 @@ class Carousel extends React.Component {
   }
 }
 
-export default Carousel;
+export default ReachCarousel;
