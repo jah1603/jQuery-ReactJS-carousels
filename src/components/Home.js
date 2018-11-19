@@ -12,10 +12,10 @@ var sectionStyle = {
 const Home = () => (
   <div className="welcome-header" style={ sectionStyle }>
     <div className="welcome-message">
-      <h1>Hi, I'm James</h1>
+      <h1>I'm James</h1>
       <h3>I'm a software developer based in Edinburgh</h3>
       <Link to='/projects'>
-        <button className="button" type="button">View my work</button>
+        <button className="button" type="button">Browse my portfolio</button>
       </Link>
     </div>
   </div>

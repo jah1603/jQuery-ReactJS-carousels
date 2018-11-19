@@ -37,7 +37,8 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: silver;
+background: linear-gradient(to bottom right, #334d50, #cbcaa5);
+
   padding: 20px;
 }
 
@@ -47,28 +48,30 @@ body {
 }
 
 .navbar li a {
-  color: crimson;
+  color: '3333CC';
   display: block;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  
+
   -webkit-transition: color 0.3s;
   transition: color 0.3s;
   font-weight: bold;
 }
 
 .navbar li a:hover {
-  color: white;
+  color: black;
+  background: linear-gradient(to bottom right, #F7F8F8, #ACBB78);
+  border-radius: 5px;
 }
 
 .navbar a .active {
-  color: white;
+  color: black;
 }
 
 .navbar .website-title {
   float: left !important;
-  color: white !important;
+  color: black !important;
   font-size: 30px !important;
 }
 
@@ -94,12 +97,13 @@ body {
 }
 
 .button {
-  background-color: white;
+  background-color: silver;
   color: #242C32;
-  border: 2px solid #242C32;
+
   padding: 25px 60px;
   text-align: center;
   display: inline-block;
+  border-radius: 15px;
   font-size: 20px;
   margin: 4px 2px;
   cursor: pointer;
@@ -109,8 +113,8 @@ body {
 }
 
 .button:hover {
-  background-color: #242C32;
-  color: white;
+  background: linear-gradient(to bottom right, #334d50, #cbcaa5);
+
 }
 
 .about {
@@ -264,6 +268,7 @@ p a {
 .screenshot {
   width: 100%;
   height: auto;
+  margin-left: 5%;
   max-width: 90%;
   border: 2px solid black;
   margin-bottom: 15px;
@@ -276,7 +281,11 @@ p a {
   .navbar li a.icon {
     float: right;
     display: block;
-    color: white;
+    color: black;
+  }
+  .navbar-icon {
+    width: 20px;
+    height: 20px
   }
 }
 
@@ -285,7 +294,8 @@ p a {
   margin: 0;
   padding: 20px;
   width: 100%;
-  background-color: #242C32;
+  background: linear-gradient(to bottom right, #F7F8F8, #ACBB78);
+;
   float: right;
   margin-bottom: 50px;
 }
@@ -295,10 +305,11 @@ p a {
 }
 
 .responsive li a {
-  color: #ccc;
+  color: black;
   display: block;
-  text-align: right;
-  padding: 14px 16px;
+  position: relative;
+  left: 95%;
+  padding: 3px 3px;
   text-decoration: none;
   text-transform: uppercase;
   -webkit-transition: color 0.3s;
@@ -307,7 +318,8 @@ p a {
 }
 
 .responsive li a:hover {
-  color: white;
+  color: black;
+  background: linear-gradient(to bottom right, #F7F8F8, #ACBB78);
 }
 
 .responsive .website-title {
