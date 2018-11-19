@@ -1,4 +1,5 @@
 import React from "react";
+import Carousel from './Carousel.js';
 
 class Projects extends React.Component {
 
@@ -14,6 +15,11 @@ class Projects extends React.Component {
   <div className="projects">
 
     <h1 className="headline"> My Portfolio</h1>
+
+  <Carousel>
+
+  </Carousel>
+
 
     <div className="project-info">
 

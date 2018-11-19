@@ -2,6 +2,36 @@ body {
   font-family: "Century Gothic", verdana, sans-serif;
 }
 
+#container, .carousel {
+  height: 100%;
+  margin: 0;
+  width: 100%;
+}
+
+.image-slide {
+  height: 100%;
+  width: 100%;
+  transition: background-image .3s ease-in-out;
+}
+
+.slide-arrow {
+  color: #14B6D4;
+  cursor: pointer;
+  font-size: 2rem;
+  position: absolute;
+  top: 50%;
+}
+
+.slide-arrow.right {
+  right: 3rem;
+}
+
+.slide-arrow.left {
+  left: 3rem;
+}
+
+
+
 .navbar {
   list-style-type: none;
   margin: 0;
@@ -17,12 +47,12 @@ body {
 }
 
 .navbar li a {
-  color: DeepSkyBlue;
+  color: crimson;
   display: block;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  text-transform: uppercase;
+  
   -webkit-transition: color 0.3s;
   transition: color 0.3s;
   font-weight: bold;
