@@ -59,6 +59,12 @@ background: linear-gradient(to bottom right, #334d50, #cbcaa5);
   font-weight: bold;
 }
 
+.navbar li .website-title a:hover {
+  color: blue;
+  background: linear-gradient(to bottom right, #F7F8F8, #ACBB78);
+  border-radius: 5px;
+}
+
 .navbar li a:hover {
   color: black;
   background: linear-gradient(to bottom right, #F7F8F8, #ACBB78);
@@ -83,6 +89,8 @@ background: linear-gradient(to bottom right, #334d50, #cbcaa5);
   text-align: center;
   padding: 185px;
   color: white;
+  font-weight:900;
+  text-shadow: 0px 0px 3px #000;
   font-size: 130%;
   font-weight: bold;
   letter-spacing: .7px;
@@ -97,13 +105,16 @@ background: linear-gradient(to bottom right, #334d50, #cbcaa5);
 }
 
 .button {
-  background-color: silver;
-  color: #242C32;
+
+background: linear-gradient(to bottom right, #334d50, #cbcaa5);
+
+color: black;
 
   padding: 25px 60px;
   text-align: center;
   display: inline-block;
-  border-radius: 15px;
+  border-radius: 3px;
+  border-color: black;
   font-size: 20px;
   margin: 4px 2px;
   cursor: pointer;
@@ -113,8 +124,53 @@ background: linear-gradient(to bottom right, #334d50, #cbcaa5);
 }
 
 .button:hover {
-  background: linear-gradient(to bottom right, #334d50, #cbcaa5);
+background: linear-gradient(to bottom right, #0F2027, #203A43, #2C5364);
+color: white;
 
+}
+
+.draw-border {
+  color: black;
+  transition: color 0.25s 0.0833333333s;
+  position: relative;
+  border-radius: 3px;
+  border-width: 2px;
+}
+.draw-border::before, .draw-border::after {
+  border: 0 solid transparent;
+  border-radius: 3px;
+  box-sizing: border-box;
+  content: '';
+  pointer-events: none;
+  position: absolute;
+  width: 0;
+  height: 0;
+  bottom: 0;
+  right: 0;
+}
+.draw-border::before {
+  border-bottom-width: 2px;
+  border-left-width: 2px;
+}
+.draw-border::after {
+  border-top-width: 2px;
+  border-right-width: 2px;
+}
+.draw-border:hover {
+  color: white;
+  background: linear-gradient(to bottom right, #0F2027, #203A43, #2C5364);
+}
+.draw-border:hover::before, .draw-border:hover::after {
+  border-color: white;
+  transition: border-color 0s, width 0.25s, height 0.25s;
+  width: 100%;
+  height: 100%;
+}
+.draw-border:hover::before {
+  transition-delay: 0s, 0s, 0.25s;
+}
+.draw-border:hover::after {
+  transition-delay: 0s, 0.25s, 0s;
 }
 
 .about {
