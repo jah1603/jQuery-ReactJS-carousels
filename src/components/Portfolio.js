@@ -14,7 +14,7 @@ class Portfolio extends React.Component {
 
   <div className="projects">
 
-    <h1 className="headline"> Software Portfolio</h1>
+    <h1 className="headline"> My Portfolio</h1>
 
     <br></br>
 
@@ -24,7 +24,7 @@ class Portfolio extends React.Component {
 
       <table>
       <tr>
-      <th><img style={{width:'3rem', height: '3rem', marginTop: '0,5rem'}} src={require('../images/reach.png')}></img></th>
+      <th><img style={{width:'3rem', height: '3rem', marginTop: '0,5rem', borderRadius: '15rem'}} src={require('../images/reach.png')}></img></th>
       <th>
       <h2 style={{marginLeft: '0.5rem'}}>
           Reach
@@ -35,7 +35,7 @@ class Portfolio extends React.Component {
 
       <h2 style={{fontWeight: 'normal', fontStyle: 'italic'}}> A modern social networking and dating app built in Python (Django) and ReactJS</h2>
       <h4 className="github"><a href="https://www.github.com/jah1603/Reach--">View on GitHub</a></h4>
-      <p>At CodeClan, my final project involved collaborating as an agile team of four to create an single-page informational web application using vanilla JavaScript. Together we built Eventfull, a full-stack JavaScript app that allows users to search for events based on category, dates and location. <br/><br/>
+      <p>Post-CodeClan, I undertook a project with two colleagues involving the creation of a modern dating app for hyperconnected individuals. Together we implemented the code in Python (backend) and ReactJS (frontend), learning lots of new techniques along the way. Reach is a full-stack dating platform that measures users' social reach via web scraping, letting them match with other users according to lifestyle preferences. dates and location. <br/><br/>
       The app uses two APIs (<a href="https://www.skiddle.com/api/">Skiddle</a> and <a href="https://geocode.xyz/">GeoCode</a>) to fetch event and geographical data. Search results are presented on an interactive Leaflet map where users can click through to see more information and buy tickets. The user can also save their favourite events through the use of a MongoDB NoSQL database. JavaScript is used heavily on the front-end to create a modern looking, responsive and dynamic UI.<br/><br/>
       In addition to learning a huge amount about JavaScript, we also had the opportunity to practise agile methodologies to plan and coordinate as a team. Stand ups, sprints, scrum boards and pair programming were all used to deliver a fully functional MVP with additional features before the deadline.</p>
 
