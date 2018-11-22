@@ -49,6 +49,39 @@ class Portfolio extends React.Component {
   </div>
 
 
+    <br></br>
+
+    <div className="project-info">
+
+    <div className="project-paragraph">
+
+      <table>
+      <tr>
+      <th><img style={{width:'5rem', height: '5rem', marginTop: '0,5rem', borderRadius: '15rem'}} src={require('../images/weather2.gif')}></img></th>
+      <th>
+      <h2 style={{marginLeft: '0.1rem'}}>
+          Weather2Walk Weather2Wed Weather2Golf
+      </h2>
+      </th>
+      </tr>
+      </table>
+
+      <h2 style={{fontWeight: 'normal', fontStyle: 'italic'}}> A series of activity-related mobile weather apps made in ReactNative, available on the Google Play store</h2>
+      <h4 className="github"><a href="https://www.github.com/jah1603/Reach--">View on GitHub</a></h4>
+      <p>Post-CodeClan, I undertook a project with two colleagues involving the creation of a modern dating app for hyperconnected individuals. Together we implemented the code in Python (backend) and ReactJS (frontend), learning lots of new techniques along the way. Reach is a full-stack dating platform that measures users' social reach via web scraping, letting them match with other users according to lifestyle preferences. dates and location. <br/><br/>
+      The app uses two APIs (<a href="https://www.skiddle.com/api/">Skiddle</a> and <a href="https://geocode.xyz/">GeoCode</a>) to fetch event and geographical data. Search results are presented on an interactive Leaflet map where users can click through to see more information and buy tickets. The user can also save their favourite events through the use of a MongoDB NoSQL database. JavaScript is used heavily on the front-end to create a modern looking, responsive and dynamic UI.<br/><br/>
+      In addition to learning a huge amount about JavaScript, we also had the opportunity to practise agile methodologies to plan and coordinate as a team. Stand ups, sprints, scrum boards and pair programming were all used to deliver a fully functional MVP with additional features before the deadline.</p>
+
+    </div>
+
+  <ReachCarousel>
+
+  </ReachCarousel>
+
+
+  </div>
+
+
     <div className="project-info">
 
       <div className="project-paragraph">

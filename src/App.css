@@ -1,5 +1,5 @@
 body {
-  font-family: "Century Gothic", verdana, sans-serif;
+  font-family: "Georgia", verdana, sans-serif;
   background: linear-gradient(to bottom right, #fdfcfb, #e2d1c3);
 }
 
@@ -23,12 +23,8 @@ body {
   top: 57%;
 }
 
-.reach-slide-arrow.right a:hover {
-  color: white;
-  cursor: pointer;
-  font-size: 2rem;
-  position: absolute;
-  top: 57%;
+.reach-slide-arrow:hover {
+  color: #ACBB78;
 }
 
 .reach-slide-arrow.right {
