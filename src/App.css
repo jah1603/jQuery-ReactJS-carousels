@@ -40,7 +40,7 @@ body {
   cursor: pointer;
   font-size: 2rem;
   position: absolute;
-  top: 207%;
+  top: 195%;
 }
 
 .weather2-slide-arrow:hover {
@@ -422,7 +422,7 @@ p a {
 }
 
 .weather-screenshot {
-  margin-top: 10%;
+  margin-top: 2%;
   width: 30%;
   background-color: transparent;
   height: auto;
