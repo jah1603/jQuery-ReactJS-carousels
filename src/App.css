@@ -40,7 +40,7 @@ body {
   cursor: pointer;
   font-size: 2rem;
   position: absolute;
-  top: 225%;
+  top: 207%;
 }
 
 .weather2-slide-arrow:hover {
@@ -60,7 +60,7 @@ body {
   cursor: pointer;
   font-size: 2rem;
   position: absolute;
-  top: 320%;
+  top: 313%;
 }
 
 .fixture-pal-slide-arrow:hover {
@@ -72,6 +72,46 @@ body {
 }
 
 .fixture-pal-slide-arrow.left {
+  left: 5%;
+}
+
+.weather2wed-slide-arrow {
+  color: #334d50;
+  cursor: pointer;
+  font-size: 2rem;
+  position: absolute;
+  top: 520%;
+}
+
+.weather2wed-slide-arrow:hover {
+  color: #ACBB78;
+}
+
+.weather2wed-slide-arrow.right {
+  right: 40%;
+}
+
+.weather2wed-slide-arrow.left {
+  left: 5%;
+}
+
+.story-slide-arrow {
+  color: #334d50;
+  cursor: pointer;
+  font-size: 2rem;
+  position: absolute;
+  top: 417%;
+}
+
+.story-slide-arrow:hover {
+  color: #ACBB78;
+}
+
+.story-slide-arrow.right {
+  right: 40%;
+}
+
+.story-slide-arrow.left {
   left: 5%;
 }
 
@@ -382,6 +422,7 @@ p a {
 }
 
 .weather-screenshot {
+  margin-top: 10%;
   width: 30%;
   background-color: transparent;
   height: auto;
@@ -390,6 +431,25 @@ p a {
 }
 
 .fixture-pal-screenshot {
+  margin-top: 10%;
+  width: 55%;
+  background-color: transparent;
+  height: auto;
+  margin-left: 2%;
+  margin-bottom: 15px;
+}
+
+.weather2wed-screenshot {
+  margin-top: 10%;
+  width: 55%;
+  background-color: transparent;
+  height: auto;
+  margin-left: 2%;
+  margin-bottom: 15px;
+}
+
+.story-screenshot {
+  margin-top: 10%;
   width: 55%;
   background-color: transparent;
   height: auto;
