@@ -60,7 +60,7 @@ body {
   cursor: pointer;
   font-size: 2rem;
   position: absolute;
-  top: 313%;
+  top: 321%;
 }
 
 .fixture-pal-slide-arrow:hover {
@@ -80,7 +80,7 @@ body {
   cursor: pointer;
   font-size: 2rem;
   position: absolute;
-  top: 520%;
+  top: 505%;
 }
 
 .weather2wed-slide-arrow:hover {
@@ -100,7 +100,7 @@ body {
   cursor: pointer;
   font-size: 2rem;
   position: absolute;
-  top: 417%;
+  top: 416%;
 }
 
 .story-slide-arrow:hover {
@@ -449,7 +449,7 @@ p a {
 }
 
 .story-screenshot {
-  margin-top: 10%;
+  margin-top: 5%;
   width: 55%;
   background-color: transparent;
   height: auto;
