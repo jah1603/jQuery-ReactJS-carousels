@@ -1,10 +1,14 @@
 import React from "react";
 import Arrow from './Arrow.js'
 import ImageSlide from './ImageSlide.js'
-const imgUrls = ["../images/reach1.png", '../images/reach2.png', '../images/reach3.png', '../images/reach4.png']
+const imgUrls = ["../images/w2walk1.png", '../images/w2walk2.png',
+  '../images/w2wed1.png', '../images/w2wed2.png',
+ '../images/w2wed3.png', '../images/w2golf1.png', '../images/w2golf2.png',
+ '../images/w2golf3.png'
+]
 
 
-class ReachCarousel extends React.Component {
+class Weather2Carousel extends React.Component {
 
   constructor (props) {
     super(props);
@@ -41,10 +45,14 @@ class ReachCarousel extends React.Component {
 
   returnImage(index){
     switch(index) {
-    case 0: return require("../images/reach1.png");
-    case 1: return require("../images/reach2.png");
-    case 2: return require("../images/reach3.png");
-    case 3: return require("../images/reach4.png");
+    case 0: return require("../images/w2walk1.png");
+    case 1: return require("../images/w2walk2.png");
+    case 2: return require("../images/w2wed1.png");
+    case 3: return require("../images/w2wed2.png");
+    case 4: return require("../images/w2wed3.png");
+    case 5: return require("../images/w2golf1.png");
+    case 6: return require("../images/w2golf2.png");
+    case 7: return require("../images/w2golf3.png");
 
   }
   }
@@ -57,8 +65,7 @@ class ReachCarousel extends React.Component {
         direction="left"
         clickFunction={ this.previousSlide }
         glyph="&#9664;"
-        project='reach'
-        />
+        project="weather2" />
 
          <img className="screenshot" src={this.returnImage(this.state.currentImageIndex)} ></img>
 
@@ -66,12 +73,11 @@ class ReachCarousel extends React.Component {
         direction="right"
         clickFunction={ this.nextSlide }
         glyph="&#9654;"
-        project='reach'
-        />
+        project='weather2' />
 
       </div>
     );
   }
 }
 
-export default ReachCarousel;
+export default Weather2Carousel;
