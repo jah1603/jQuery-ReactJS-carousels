@@ -35,6 +35,26 @@ body {
   left: 7%;
 }
 
+.weather2-slide-arrow {
+  color: #334d50;
+  cursor: pointer;
+  font-size: 2rem;
+  position: absolute;
+  top: 225%;
+}
+
+.weather2-slide-arrow:hover {
+  color: #ACBB78;
+}
+
+.weather2-slide-arrow.right {
+  right: 50%;
+}
+
+.weather2-slide-arrow.left {
+  left: 15%;
+}
+
 
 
 .navbar {
@@ -338,6 +358,14 @@ p a {
   background-color: transparent;
   height: auto;
   margin-left: 5%;
+  margin-bottom: 15px;
+}
+
+.weather-screenshot {
+  width: 30%;
+  background-color: transparent;
+  height: auto;
+  margin-left: 15%;
   margin-bottom: 15px;
 }
 

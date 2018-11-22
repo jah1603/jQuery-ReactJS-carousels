@@ -67,7 +67,7 @@ class Weather2Carousel extends React.Component {
         glyph="&#9664;"
         project="weather2" />
 
-         <img className="screenshot" src={this.returnImage(this.state.currentImageIndex)} ></img>
+         <img className="weather-screenshot" src={this.returnImage(this.state.currentImageIndex)} ></img>
 
        <Arrow
         direction="right"
