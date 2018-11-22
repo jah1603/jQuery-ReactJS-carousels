@@ -1,6 +1,7 @@
 import React from "react";
 import ReachCarousel from './ReachCarousel.js';
 import Weather2Carousel from './Weather2Carousel.js';
+import FixtureCarousel from './FixtureCarousel.js';
 
 class Portfolio extends React.Component {
 
@@ -36,9 +37,8 @@ class Portfolio extends React.Component {
 
       <h2 style={{fontWeight: 'normal', fontStyle: 'italic'}}> A modern social networking and dating app built in Python (Django) and ReactJS</h2>
       <h4 className="github"><a href="https://www.github.com/jah1603/Reach--">View on GitHub</a></h4>
-      <p>Post-CodeClan, I undertook a project with two colleagues involving the creation of a modern dating app for hyperconnected individuals. Together we implemented the code in Python (backend) and ReactJS (frontend), learning lots of new techniques along the way. Reach is a full-stack dating platform that measures users' social reach via web scraping, letting them match with other users according to lifestyle preferences. dates and location. <br/><br/>
-      The app uses two APIs (<a href="https://www.skiddle.com/api/">Skiddle</a> and <a href="https://geocode.xyz/">GeoCode</a>) to fetch event and geographical data. Search results are presented on an interactive Leaflet map where users can click through to see more information and buy tickets. The user can also save their favourite events through the use of a MongoDB NoSQL database. JavaScript is used heavily on the front-end to create a modern looking, responsive and dynamic UI.<br/><br/>
-      In addition to learning a huge amount about JavaScript, we also had the opportunity to practise agile methodologies to plan and coordinate as a team. Stand ups, sprints, scrum boards and pair programming were all used to deliver a fully functional MVP with additional features before the deadline.</p>
+      <p>I undertook this project with two friends. Our vision was a social app for hyperconnected influencers. Together we implemented the code in Python (backend) and ReactJS (frontend), using a PSQL database for data persistence. Reach is a full-stack dating platform that measures users' social reach via web scraping, letting them find, match and interact with other users according to lifestyle preferences, location and age.<br/><br/>
+      The app features full JSON web token authentication, geolocation, email activation, and retrieves users' social reach by scraping their follower count on three major social media platforms. All of this underpins a fresh and vibrant UI designed to appeal to millenials.</p>
 
     </div>
 
@@ -83,26 +83,38 @@ class Portfolio extends React.Component {
   </div>
 
 
-    <div className="project-info">
+  <br></br>
 
-      <div className="project-paragraph">
+  <div className="project-info">
 
-        <h2>Reach - A modern social networking and dating app built in Python (Django) and ReactJS</h2>
-        <h4 className="github"><a href="https://www.github.com/gregorcox/Event-Finder-Project">GitHub</a></h4>
-        <p>At CodeClan, my final project involved collaborating as an agile team of four to create an single-page informational web application using vanilla JavaScript. Together we built Eventfull, a full-stack JavaScript app that allows users to search for events based on category, dates and location. <br/><br/>
-        The app uses two APIs (<a href="https://www.skiddle.com/api/">Skiddle</a> and <a href="https://geocode.xyz/">GeoCode</a>) to fetch event and geographical data. Search results are presented on an interactive Leaflet map where users can click through to see more information and buy tickets. The user can also save their favourite events through the use of a MongoDB NoSQL database. JavaScript is used heavily on the front-end to create a modern looking, responsive and dynamic UI.<br/><br/>
-        In addition to learning a huge amount about JavaScript, we also had the opportunity to practise agile methodologies to plan and coordinate as a team. Stand ups, sprints, scrum boards and pair programming were all used to deliver a fully functional MVP with additional features before the deadline.</p>
+  <div className="project-paragraph">
 
-      </div>
+    <table>
+    <tr>
+    <th><img style={{width:'5rem', height: '5rem', marginTop: '0,5rem'}} src={require('../images/football-boots.png')}></img></th>
+    <th>
+    <h2 style={{marginLeft: '0.5rem'}}>
+        FixturePal
+    </h2>
+    </th>
+    </tr>
+    </table>
 
-      <div className="project-photo">
-        <img className="screenshot" src={require('../images/reach1.png')} alt="Event Finder" />
-        <img className="screenshot" src={require('../images/reach2.png')} alt="Event Finder" />
-        <img className="screenshot" src={require('../images/reach3.png')} alt="Spending Tracker" />
-        <img className="screenshot" src={require('../images/reach4.png')} alt="Event Finder" />
-      </div>
+    <h2 style={{fontWeight: 'normal', fontStyle: 'italic'}}> A sports match schedule generator and results tracker, built in Java</h2>
+    <h4 className="github"><a href="https://github.com/jah1603/FixturePal">View on GitHub</a></h4>
+    <p>This project dates back to my time at CodeClan, where I created a custom brief along with two colleagues. The end product - FixturePal - can generate the entire match schedule for a sports season (including alternating home and away games) with a round-robin algorithm. <br/><br/>
+    As well as being able to create a league of teams and enter match scores, users can keep track of team performance in a given league courtesy of a league table filtered by points, goal difference and goals scored. An option for logging match events in short match reports also exists, thereby enabling users to record information on goalscorers and displinary records.
+  </p>
 
-    </div>
+  </div>
+
+<FixtureCarousel>
+
+</FixtureCarousel>
+
+
+</div>
+
 
     <div className="project-info">
 

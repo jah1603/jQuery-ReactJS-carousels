@@ -55,6 +55,26 @@ body {
   left: 15%;
 }
 
+.fixture-pal-slide-arrow {
+  color: #334d50;
+  cursor: pointer;
+  font-size: 2rem;
+  position: absolute;
+  top: 320%;
+}
+
+.fixture-pal-slide-arrow:hover {
+  color: #ACBB78;
+}
+
+.fixture-pal-slide-arrow.right {
+  right: 40%;
+}
+
+.fixture-pal-slide-arrow.left {
+  left: 5%;
+}
+
 
 
 .navbar {
@@ -366,6 +386,14 @@ p a {
   background-color: transparent;
   height: auto;
   margin-left: 15%;
+  margin-bottom: 15px;
+}
+
+.fixture-pal-screenshot {
+  width: 55%;
+  background-color: transparent;
+  height: auto;
+  margin-left: 2%;
   margin-bottom: 15px;
 }
 
