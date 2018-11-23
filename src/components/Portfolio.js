@@ -16,35 +16,56 @@ class Portfolio extends React.Component {
 
   projectScrollingScript(numProjects){
 
+    function applyBorder(element){
+
+      element.css({textAlign: 'center', fontWeight: 540, fontSize: 18, marginLeft: '5%', paddingBottom: '1%', color: '#2F4F4F', borderBottom: 'solid', borderBottomWidth: 3, borderColor: '#334d50'})
+
+    }
+
+    function disableBorder(element){
+
+      element.removeAttr( 'style' );
+
+      element.css({display: 'inline-block', textAlign: 'center', color: 'black', fontSize: 18, marginLeft: '5%', paddingBottom: '1%'})
+
+
+    }
+
+
     $(document).ready(function() {
 
-      console.log($("#cf7_controls-projects").attr('id'));
+      var activeSpan = $("div.selected");
 
-  $("#cf7_controls-projects").on('click', 'span', function() {
+      applyBorder(activeSpan)
+
+
+  $("#cf7_controls-projects").on('click', 'div', function() {
 
     var newDiv = $(this).index();
 
-    console.log(newDiv);
+    var currentIndex = $("div.selected").index();
 
-    console.log("DIV 3", $(`.${3}`));
+    var currentSelectedDiv = $(`.${currentIndex}`)
+
+
+    currentSelectedDiv.attr('id', 'hidden');
 
     // console.log("numProjects", numProjects);
-    $('#highlighted').each(function(){
+    // $('#highlighted').each(function(){
+    //
+    //   $(this).attr('id', 'hidden');
+    //
+    // })
 
-      $(this).attr('id', 'hidden');
-
-    })
-
-
-    var currentHighlightedDiv = $('#highlighted div');
-    console.log("Current div", currentHighlightedDiv);
+    var currentHighlightedDiv = $(`.${newDiv}`)
 
     $(`.${newDiv}`).attr('id', 'highlighted')
 
-    console.log("project div", currentHighlightedDiv.find("div"));
-
-    $("#cf7_controls-projects span").removeClass("selected");
+    $("#cf7_controls-projects div").removeClass("selected");
     $(this).addClass("selected");
+
+    disableBorder($("#cf7_controls-projects div"));
+    applyBorder($(this));
 
 
   });
@@ -62,11 +83,11 @@ class Portfolio extends React.Component {
     <h1 className="headline"> My portfolio</h1>
 
     <p id="cf7_controls-projects">
-      <span className="selected">Reach</span>
-      <span>Weather2...</span>
-      <span>FixturePal</span>
-      <span>Invent.story</span>
-      <span>Weather2Wed</span>
+      <div className="selected" style={{display: 'inline-block', textAlign: 'center', fontSize: 18, marginLeft: '5%', paddingBottom: '1%'}}>Reach</div>
+      <div style={{display: 'inline-block', textAlign: 'center', fontSize: 18, marginLeft: '5%', paddingBottom: '1%'}}>Weather2...</div>
+      <div style={{display: 'inline-block', fontSize: 18, marginLeft: '5%', paddingBottom: '1%'}}>FixturePal</div>
+      <div style={{display: 'inline-block', fontSize: 18, marginLeft: '5%', paddingBottom: '1%'}}>Invent.story</div>
+      <div style={{display: 'inline-block', fontSize: 18, marginLeft: '5%', paddingBottom: '1%'}}>Weather2Wed</div>
     </p>
 
     <br></br>
@@ -77,7 +98,7 @@ class Portfolio extends React.Component {
 
       <table>
       <tr>
-      <th><img style={{width:'3rem', height: '3rem', marginTop: '0,5rem', borderRadius: '15rem'}} src={require('../images/reach.png')}></img></th>
+      <th><img style={{width:'3rem', height: '3rem', marginTop: '0.2rem', borderRadius: '15rem'}} src={require('../images/reach.png')}></img></th>
       <th>
       <h2 style={{marginLeft: '0.5rem'}}>
           Reach
@@ -110,7 +131,7 @@ class Portfolio extends React.Component {
 
       <h4 className="github"><a href="https://www.github.com/jah1603/Reach--">View on GitHub</a></h4>
       <p>I undertook this project with two friends based on our overarching vision of a networking app for hyperconnected social influencers. Together we implemented the code in Python (backend) and ReactJS (frontend), using a PSQL database for data persistence. Reach is a full-stack dating platform that measures users' social reach via web scraping, letting them find, match and interact with other users according to lifestyle preferences, location and age.<br/><br/>
-      The app features full JSON web token authentication, geolocation, swipeable cards, email activation, and retrieves users' social reach by scraping their follower count on three major social media platforms. All of this underpins a fresh and vibrant UI designed to appeal to millenials.</p>
+      The app, which features full JSON web token authentication, a Django REST API, geolocation, swipeable cards and email activation, retrieves users' total social reach by scraping their follower count on three major social media platforms. All of this underpins a fresh and vibrant UI designed to appeal to millenials.</p>
 
     </div>
 
@@ -184,7 +205,7 @@ class Portfolio extends React.Component {
 
     <table>
     <tr>
-    <th><img style={{width:'5rem', height: '5rem', marginTop: '0,5rem'}} src={require('../images/football-boots.png')}></img></th>
+    <th><img style={{width:'5rem', height: '5rem', marginTop: '0.2rem'}} src={require('../images/football-boots.png')}></img></th>
     <th>
     <h2 style={{marginLeft: '0.5rem'}}>
         FixturePal
@@ -207,8 +228,8 @@ class Portfolio extends React.Component {
     </table>
 
     <h4 className="github"><a href="https://github.com/jah1603/FixturePal">View on GitHub</a></h4>
-    <p>This project dates back to my time at CodeClan, where I created a custom brief along with two colleagues. The end product - FixturePal - can generate the entire match schedule for a sports season (including alternating home and away games) with a round-robin algorithm. <br/><br/>
-    As well as being able to create a league of teams and enter match scores, users can keep track of team performance in a given league courtesy of a league table filtered by points, goal difference and goals scored. An option for logging match events in short match reports also exists, thereby enabling users to record information on goalscorers and displinary records.
+    <p>This project dates back to my time at CodeClan, where I created a custom brief along with two colleagues. The end product - FixturePal - can generate the entire match schedule for a sports season (including alternating home and away games) using a round-robin algorithm. <br/><br/>
+    As well as being able to create a league of teams and enter match scores, users can keep track of team performance in a given league courtesy of a league table filtered by points, goal difference and goals scored. An option for logging match events in short match reports also exists, thereby enabling users to record information on goalscorers and disciplinary records.
   </p>
 
   </div>
