@@ -2,7 +2,7 @@ import React from "react";
 import Arrow from './Arrow.js'
 import ImageSlide from './ImageSlide.js'
 const imgUrls = ["../images/w2wweb1.png", '../images/w2wweb2.png',
-  '../images/w2wweb3.png'
+  '../images/w2wweb3.png', '../images/w2wweb4.png'
 ]
 
 
@@ -46,6 +46,7 @@ class W2WCarousel extends React.Component {
     case 0: return require("../images/w2wweb1.png");
     case 1: return require("../images/w2wweb2.png");
     case 2: return require("../images/w2wweb3.png");
+    case 3: return require('../images/w2wweb4.png');
   }
   }
 
