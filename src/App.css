@@ -54,6 +54,16 @@ p#cf7_controls {
   cursor:pointer;
   justify-content: 'center'
 }
+p#cf7_controls-projects {
+  text-align:center;
+  justify-content: 'center';
+  overflow: 'visible';
+}
+#cf7_controls-projects span {
+  padding-right:2em;
+  cursor:pointer;
+  justify-content: 'center'
+}
 #cf7 img {
   width: 55%;
   height: auto;
@@ -432,6 +442,20 @@ color: white;
   border-bottom: 3px solid #334d50;
   padding-bottom: 50px;
   overflow: hidden;
+  opacity:1;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=1);
+}
+
+.project-info-hidden {
+  display: none;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  opacity:0;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
 }
 
 .headline {

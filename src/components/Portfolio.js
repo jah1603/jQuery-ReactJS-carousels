@@ -4,6 +4,8 @@ import Weather2Carousel from './Weather2Carousel.js';
 import FixtureCarousel from './FixtureCarousel.js';
 import W2WCarousel from './W2WCarousel.js';
 import BookCarousel from './BookCarousel.js';
+import $ from 'jquery';
+
 
 class Portfolio extends React.Component {
 
@@ -12,7 +14,45 @@ class Portfolio extends React.Component {
     this.state = {};
   }
 
+  projectScrollingScript(numProjects){
+
+    $(document).ready(function() {
+
+      var counter = 1;
+
+      console.log($("#cf7_controls-projects").attr('id'));
+
+  $("#cf7_controls-projects").on('click', 'span', function() {
+    console.log("counter", counter);
+    console.log("numProjects", numProjects);
+    $("#cf7 img").removeClass("opaque");
+
+    // var newImage = $(this).index();
+
+    $("#cf7 img").eq(counter).addClass("opaque");
+
+    console.log("image", $("#cf7 img").eq(counter));
+
+    $("#cf7_controls-projects div").removeClass("selected");
+    $(this).addClass("selected");
+
+    if (counter === numProjects - 1){
+      counter = 0;
+    }
+
+    else {
+
+    counter++;
+
+  }
+
+  });
+});
+  }
+
   render(){
+
+    this.projectScrollingScript(5);
 
     return(
 
@@ -20,6 +60,13 @@ class Portfolio extends React.Component {
 
     <h1 className="headline"> My portfolio</h1>
 
+    <p id="cf7_controls-projects">
+      <span className="selected">Reach</span>
+      <span>Weather2...</span>
+      <span>FixturePal</span>
+      <span>Invent.story</span>
+      <span>Weather2Wed</span>
+    </p>
 
     <br></br>
 
