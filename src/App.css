@@ -38,7 +38,7 @@ body {
 .pulse {
    -webkit-animation: pulse 2s infinite;
    background-repeat: no-repeat;
-   background-size: 80% 80%;
+   background-size: 70% 70%;
    background-position: center center;
 }
 

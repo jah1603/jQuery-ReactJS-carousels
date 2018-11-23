@@ -18,28 +18,34 @@ class Portfolio extends React.Component {
 
     $(document).ready(function() {
 
-      var counter = 4;
-
       console.log($("#cf7_controls-projects").attr('id'));
 
   $("#cf7_controls-projects").on('click', 'span', function() {
 
+    var newDiv = $(this).index();
+
+    console.log(newDiv);
+
+    console.log("DIV 3", $(`.${3}`));
+
     // console.log("numProjects", numProjects);
-    $("#highlighted div").attr('id', 'hidden')
-    var currentHighlightedDiv = $("#highlighted div")
+    $('#highlighted').each(function(){
+
+      $(this).attr('id', 'hidden');
+
+    })
+
+
+    var currentHighlightedDiv = $('#highlighted div');
     console.log("Current div", currentHighlightedDiv);
 
-    // var newDiv = $(this).index();
-    console.log(counter);
-
-    currentHighlightedDiv.find(".project-list:first").attr('id', 'highlighted')
+    $(`.${newDiv}`).attr('id', 'highlighted')
 
     console.log("project div", currentHighlightedDiv.find("div"));
 
     $("#cf7_controls-projects span").removeClass("selected");
     $(this).addClass("selected");
 
-    counter = counter + 4;
 
   });
 });
@@ -65,7 +71,7 @@ class Portfolio extends React.Component {
 
     <br></br>
 
-    <div id='highlighted' className="project-info">
+    <div id='highlighted' className="project-info 0">
 
     <div className="project-paragraph">
 
@@ -118,7 +124,7 @@ class Portfolio extends React.Component {
 
     <br></br>
 
-    <div id="hidden" className="project-info">
+    <div id="hidden" className="project-info 1">
 
     <div className="project-paragraph">
 
@@ -172,7 +178,7 @@ class Portfolio extends React.Component {
 
   <br></br>
 
-  <div id="hidden" className="project-info">
+  <div id="hidden" className="project-info 2">
 
   <div className="project-paragraph">
 
@@ -215,7 +221,7 @@ class Portfolio extends React.Component {
 </div>
 
 
-<div id="hidden" className="project-info">
+<div id="hidden" className="project-info 3">
 
 <div className="project-paragraph">
 
@@ -260,7 +266,7 @@ class Portfolio extends React.Component {
 </div>
 
 
-    <div id="hidden" className="project-info">
+    <div id="hidden" className="project-info 4">
 
     <div className="project-paragraph">
 
