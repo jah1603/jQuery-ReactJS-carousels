@@ -442,12 +442,18 @@ color: white;
   border-bottom: 3px solid #334d50;
   padding-bottom: 50px;
   overflow: hidden;
+}
+
+#highlighted {
+
   opacity:1;
   -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
   filter: alpha(opacity=1);
+
 }
 
-.project-info-hidden {
+#hidden {
+
   display: none;
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
@@ -456,6 +462,11 @@ color: white;
   opacity:0;
   -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   filter: alpha(opacity=0);
+
+}
+
+.project-info-hidden {
+
 }
 
 .headline {

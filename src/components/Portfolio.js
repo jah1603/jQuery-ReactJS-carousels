@@ -18,33 +18,23 @@ class Portfolio extends React.Component {
 
     $(document).ready(function() {
 
-      var counter = 1;
 
       console.log($("#cf7_controls-projects").attr('id'));
 
   $("#cf7_controls-projects").on('click', 'span', function() {
-    console.log("counter", counter);
+
     console.log("numProjects", numProjects);
-    $("#cf7 img").removeClass("opaque");
+    $("#highlighted div").attr('id', 'hidden')
 
-    // var newImage = $(this).index();
+    var newDiv = $(this).index();
+    console.log(newDiv);
 
-    $("#cf7 img").eq(counter).addClass("opaque");
+    $(".projects div").eq(newDiv).attr('id', 'highlighted')
 
-    console.log("image", $("#cf7 img").eq(counter));
+    console.log("project div", $("#highlighted div").eq(newDiv));
 
-    $("#cf7_controls-projects div").removeClass("selected");
+    $("#cf7_controls-projects span").removeClass("selected");
     $(this).addClass("selected");
-
-    if (counter === numProjects - 1){
-      counter = 0;
-    }
-
-    else {
-
-    counter++;
-
-  }
 
   });
 });
@@ -70,7 +60,7 @@ class Portfolio extends React.Component {
 
     <br></br>
 
-    <div className="project-info">
+    <div id='highlighted' className="project-info">
 
     <div className="project-paragraph">
 
@@ -125,7 +115,7 @@ class Portfolio extends React.Component {
 
     <br></br>
 
-    <div className="project-info">
+    <div id="hidden" className="project-info">
 
     <div className="project-paragraph">
 
@@ -179,7 +169,7 @@ class Portfolio extends React.Component {
 
   <br></br>
 
-  <div className="project-info">
+  <div id="hidden" className="project-info">
 
   <div className="project-paragraph">
 
@@ -222,7 +212,7 @@ class Portfolio extends React.Component {
 </div>
 
 
-<div className="project-info">
+<div id="hidden" className="project-info">
 
 <div className="project-paragraph">
 
@@ -267,7 +257,7 @@ class Portfolio extends React.Component {
 </div>
 
 
-    <div className="project-info">
+    <div id="hidden" className="project-info">
 
     <div className="project-paragraph">
 
