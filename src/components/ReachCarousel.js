@@ -1,7 +1,9 @@
 import React from "react";
 import Arrow from './Arrow.js'
-import ImageSlide from './ImageSlide.js'
-const imgUrls = ["../images/reach1.png", '../images/reach2.png', '../images/reach3.png', '../images/reach4.png']
+import $ from 'jquery';
+import Background from '../images/opposite-arrows.png'
+
+const reachUrls = ["../images/reach1.png", '../images/reach2.png', '../images/reach3.png', '../images/reach4.png']
 
 
 class ReachCarousel extends React.Component {
@@ -10,64 +12,66 @@ class ReachCarousel extends React.Component {
     super(props);
 
     this.state = {
-      currentImageIndex: 0
+
     };
 
-    this.nextSlide = this.nextSlide.bind(this);
-    this.previousSlide = this.previousSlide.bind(this);
   }
 
-  previousSlide () {
-    const lastIndex = imgUrls.length - 1;
-    const { currentImageIndex } = this.state;
-    const shouldResetIndex = currentImageIndex === 0;
-    const index =  shouldResetIndex ? lastIndex : currentImageIndex - 1;
 
-    this.setState({
-      currentImageIndex: index
-    });
+  crossfadeScript(numberOfPhotos){
+
+    $(document).ready(function() {
+
+      var counter = 1;
+
+  $("#cf7_controls").on('click', 'div', function() {
+    console.log("counter", counter);
+    console.log("numPhotos", numberOfPhotos);
+    $("#cf7 img").removeClass("opaque");
+
+    // var newImage = $(this).index();
+
+    $("#cf7 img").eq(counter).addClass("opaque");
+
+    console.log("image", $("#cf7 img").eq(counter));
+
+    $("#cf7_controls div").removeClass("selected");
+    $(this).addClass("selected");
+
+    if (counter === numberOfPhotos - 1){
+      counter = 0;
+    }
+
+    else {
+
+    counter++;
+
   }
 
-  nextSlide () {
-    const lastIndex = imgUrls.length - 1;
-    const { currentImageIndex } = this.state;
-    const shouldResetIndex = currentImageIndex === lastIndex;
-    const index =  shouldResetIndex ? 0 : currentImageIndex + 1;
-
-    this.setState({
-      currentImageIndex: index
-    });
-  }
-
-  returnImage(index){
-    switch(index) {
-    case 0: return require("../images/reach1.png");
-    case 1: return require("../images/reach2.png");
-    case 2: return require("../images/reach3.png");
-    case 3: return require("../images/reach4.png");
-
-  }
+  });
+});
   }
 
   render () {
+
+    this.crossfadeScript(reachUrls.length);
+
     return (
-      <div className="carousel">
 
-      <Arrow
-        direction="left"
-        clickFunction={ this.previousSlide }
-        glyph="&#9664;"
-        project='reach'
-        />
+      <div id="cf7" className="shadow">
 
-         <img className="screenshot" src={this.returnImage(this.state.currentImageIndex)} ></img>
+      <p id="cf7_controls" style={{justifyContent: 'center', overflow: 'visible'}}>
+        <div className="pulse" style={{borderRadius: 50, padding: '2%', marginLeft: '28%', height: 1, width: 1, backgroundImage: "url(" + Background + ")", backgroundSize: 'cover'}}>
+        <span className="selected"> </span>
+        </div>
+      </p>
 
-       <Arrow
-        direction="right"
-        clickFunction={ this.nextSlide }
-        glyph="&#9654;"
-        project='reach'
-        />
+
+         <img className="opaque" src={require("../images/reach1.png")} ></img>
+         <img src={require("../images/reach2.png")} ></img>
+         <img src={require("../images/reach3.png")} ></img>
+         <img src={require("../images/reach4.png")} ></img>
+
 
       </div>
     );

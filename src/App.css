@@ -1,3 +1,5 @@
+
+
 body {
   font-family: "Georgia", verdana, sans-serif;
   background: linear-gradient(to bottom right, #fdfcfb, #e2d1c3);
@@ -9,51 +11,109 @@ body {
   width: 100%;
 }
 
-.image-slide {
-  height: 100%;
+@-webkit-keyframes pulse {
+  0% {
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  70% {
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    box-shadow: 0 0 0 10px #E4E5E6;
+    background-color: #E4E5E6;
+  }
+  100% {
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+    box-shadow: 0 0 0 0 #E4E5E6;
+  }
+}
+
+.pulse {
+   -webkit-animation: pulse 2s infinite;
+}
+
+.pulse:hover {
+  -webkit-animation: none;
+}
+
+p#cf7_controls {
+  text-align:center;
+}
+#cf7_controls span {
+  padding-right:2em;
+  cursor:pointer;
+  justify-content: 'center'
+}
+#cf7 img {
+  width: 55%;
+  height: auto;
+  position: absolute;
+  margin-left: 2%;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  opacity:0;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+}
+
+#cf7 img.opaque {
+  opacity:1;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=1);
+}
+#cf7 {
+  position: relative;
+  height: auto;
   width: 100%;
-  transition: background-image .3s ease-in-out;
+  margin: 0 auto 10px;
+  overflow: visible;
 }
 
 .reach-slide-arrow {
   color: #334d50;
   cursor: pointer;
   font-size: 2rem;
-  position: absolute;
-  top: 57%;
+
 }
 
 .reach-slide-arrow:hover {
   color: #ACBB78;
 }
 
-.reach-slide-arrow.right {
-  right: 42%;
+/* .reach-slide-arrow.right {
+  right: 40%;
 }
 
 .reach-slide-arrow.left {
-  left: 7%;
-}
+  left: 10%;
+} */
 
 .weather2-slide-arrow {
   color: #334d50;
   cursor: pointer;
   font-size: 2rem;
-  position: absolute;
-  top: 195%;
 }
 
 .weather2-slide-arrow:hover {
   color: #ACBB78;
 }
 
-.weather2-slide-arrow.right {
+/* .weather2-slide-arrow.right {
   right: 50%;
 }
 
 .weather2-slide-arrow.left {
   left: 15%;
-}
+} */
 
 .fixture-pal-slide-arrow {
   color: #334d50;
@@ -414,10 +474,9 @@ p a {
 }
 
 .screenshot {
-  width: 50%;
+  width: 100%;
   background-color: transparent;
   height: auto;
-  margin-left: 5%;
   margin-bottom: 15px;
 }
 

@@ -60,19 +60,36 @@ class Weather2Carousel extends React.Component {
     return (
       <div className="carousel">
 
+      <table>
+      <tr style={{ justifyContent: 'center'}}>
+
+      <td style={{justifyContent: 'center', top: '50%', width: '10%', height: 1}}>
       <Arrow
         direction="left"
         clickFunction={ this.previousSlide }
         glyph="&#9664;"
-        project="weather2" />
+        project='weather2'
+        />
 
-         <img className="weather-screenshot" src={this.returnImage(this.state.currentImageIndex)} ></img>
+      </td>
+
+      <td style={{width: '70%', height: '100%'}}>
+         <img className="screenshot" src={this.returnImage(this.state.currentImageIndex)} ></img>
+      </td>
+
+      <td style={{width: '10%'}}>
 
        <Arrow
         direction="right"
         clickFunction={ this.nextSlide }
         glyph="&#9654;"
-        project='weather2' />
+        project='weather2'
+        />
+
+        </td>
+
+        </tr>
+        </table>
 
       </div>
     );

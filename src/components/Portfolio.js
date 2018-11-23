@@ -44,12 +44,14 @@ class Portfolio extends React.Component {
 
     </div>
 
-  <ReachCarousel>
+    <ReachCarousel>
 
-  </ReachCarousel>
+    </ReachCarousel>
 
 
   </div>
+
+
 
 
     <br></br>
