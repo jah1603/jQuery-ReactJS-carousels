@@ -227,7 +227,7 @@ class Portfolio extends React.Component {
     </tr>
     </table>
 
-    <h4 className="github"><a href="https://github.com/jah1603/FixturePal">View on GitHub</a></h4>
+    <h4 className="github"><a href="https://github.com/jah1603/FixturePal/blob/master/src/main/java/models/League.java">View on GitHub</a></h4>
     <p>This project dates back to my time at CodeClan, where I created a custom brief along with two colleagues. The end product - FixturePal - can generate the entire match schedule for a sports season (including alternating home and away games) using a round-robin algorithm. <br/><br/>
     As well as being able to create a league of teams and enter match scores, users can keep track of team performance in a given league courtesy of a league table filtered by points, goal difference and goals scored. An option for logging match events in short match reports also exists, thereby enabling users to record information on goalscorers and disciplinary records.
   </p>
