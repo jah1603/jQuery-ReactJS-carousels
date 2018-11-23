@@ -423,7 +423,7 @@ color: white;
 }
 
 .projects {
-  margin: 50px 100px;
+  margin: 5px 100px;
   width: auto;
   letter-spacing: .5px;
   line-height: 2em;
@@ -439,8 +439,7 @@ color: white;
 
 .project-info {
   margin-top: 50px;
-  border-bottom: 3px solid #334d50;
-  padding-bottom: 50px;
+  padding-bottom: 5px;
   overflow: hidden;
 }
 

@@ -18,23 +18,28 @@ class Portfolio extends React.Component {
 
     $(document).ready(function() {
 
+      var counter = 4;
 
       console.log($("#cf7_controls-projects").attr('id'));
 
   $("#cf7_controls-projects").on('click', 'span', function() {
 
-    console.log("numProjects", numProjects);
+    // console.log("numProjects", numProjects);
     $("#highlighted div").attr('id', 'hidden')
+    var currentHighlightedDiv = $("#highlighted div")
+    console.log("Current div", currentHighlightedDiv);
 
-    var newDiv = $(this).index();
-    console.log(newDiv);
+    // var newDiv = $(this).index();
+    console.log(counter);
 
-    $(".projects div").eq(newDiv).attr('id', 'highlighted')
+    currentHighlightedDiv.find(".project-list:first").attr('id', 'highlighted')
 
-    console.log("project div", $("#highlighted div").eq(newDiv));
+    console.log("project div", currentHighlightedDiv.find("div"));
 
     $("#cf7_controls-projects span").removeClass("selected");
     $(this).addClass("selected");
+
+    counter = counter + 4;
 
   });
 });
@@ -109,8 +114,6 @@ class Portfolio extends React.Component {
 
 
   </div>
-
-
 
 
     <br></br>
