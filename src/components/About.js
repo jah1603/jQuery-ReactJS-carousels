@@ -13,7 +13,7 @@ const About = () => (
       Before CodeClan I completed a Master of Engineering degree in Naval Architecture, graduating with Merit. The analytical thinking techniques that I learned in my degree remain hugely beneficial when up against a new programming challenge. While I'm not programming I enjoy travelling, playing piano and guitar, learning foreign languages and reading.</p>
     </div>
     <div className="about-photo">
-      <img className="profile" src={require('../images/profile.jpg')} alt="James Henderson" />
+      <img className="profile" src={require('../images/me1.jpg')} alt="James Henderson" />
     </div>
   </div>
 );

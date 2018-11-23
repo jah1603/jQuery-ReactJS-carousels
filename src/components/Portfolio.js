@@ -18,7 +18,7 @@ class Portfolio extends React.Component {
 
     function applyBorder(element){
 
-      element.css({textAlign: 'center', fontWeight: 540, fontSize: 18, marginLeft: '5%', paddingBottom: '1%', color: '#2F4F4F', borderBottom: 'solid', borderBottomWidth: 3, borderColor: '#334d50'})
+      element.css({textAlign: 'center', fontWeight: 540, fontSize: 18, marginLeft: '3%', marginRight: '3%', paddingBottom: '1%', color: '#2F4F4F', borderBottom: 'solid', borderBottomWidth: 3, borderColor: '#334d50'})
 
     }
 
@@ -26,7 +26,7 @@ class Portfolio extends React.Component {
 
       element.removeAttr( 'style' );
 
-      element.css({display: 'inline-block', textAlign: 'center', color: 'black', fontSize: 18, marginLeft: '5%', paddingBottom: '1%'})
+      element.css({display: 'inline-block', width: '10%', textAlign: 'center', color: 'black', fontSize: 18, marginLeft: '3%', marginRight: '3%', paddingBottom: '1%'})
 
 
     }
@@ -82,12 +82,12 @@ class Portfolio extends React.Component {
 
     <h1 className="headline"> My portfolio</h1>
 
-    <p id="cf7_controls-projects">
-      <div className="selected" style={{display: 'inline-block', textAlign: 'center', fontSize: 18, marginLeft: '5%', paddingBottom: '1%'}}>Reach</div>
-      <div style={{display: 'inline-block', textAlign: 'center', fontSize: 18, marginLeft: '5%', paddingBottom: '1%'}}>Weather2...</div>
-      <div style={{display: 'inline-block', fontSize: 18, marginLeft: '5%', paddingBottom: '1%'}}>FixturePal</div>
-      <div style={{display: 'inline-block', fontSize: 18, marginLeft: '5%', paddingBottom: '1%'}}>Invent.story</div>
-      <div style={{display: 'inline-block', fontSize: 18, marginLeft: '5%', paddingBottom: '1%'}}>Weather2Wed</div>
+    <p id="cf7_controls-projects" style={{justifyContent: 'center'}}>
+      <div className="selected project-header" style={{display: 'inline-block', width: '10%', textAlign: 'center', fontSize: 18, marginLeft: '3%', marginRight: '3%', paddingBottom: '1%'}}>Reach</div>
+      <div className="project-header" style={{display: 'inline-block', width: '10%', textAlign: 'center', fontSize: 18, marginLeft: '3%', marginRight: '3%', paddingBottom: '1%'}}>Weather2...</div>
+      <div className="project-header" style={{display: 'inline-block', width: '10%', fontSize: 18, marginLeft: '3%', marginRight: '3%', paddingBottom: '1%'}}>FixturePal</div>
+      <div className="project-header" style={{display: 'inline-block', width: '10%', fontSize: 18, marginLeft: '3%', marginRight: '3%', paddingBottom: '1%'}}>Invent.story</div>
+      <div className="project-header" style={{display: 'inline-block', width: '10%', fontSize: 18, marginLeft: '3%', marginRight: '3%', paddingBottom: '1%'}}>Weather2Wed</div>
     </p>
 
     <br></br>
@@ -160,7 +160,7 @@ class Portfolio extends React.Component {
       </tr>
       </table>
 
-      <h2 style={{fontWeight: 'normal', fontStyle: 'italic'}}> A series of mobile weather apps made in ReactNative, available on the Google Play store</h2>
+      <h2 style={{fontWeight: 'normal', fontStyle: 'italic'}}> A series of activity-related mobile weather apps, available on the Google Play store</h2>
 
       <table>
       <tr>

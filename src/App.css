@@ -44,6 +44,7 @@ body {
 
 .pulse:hover {
   -webkit-animation: none;
+  cursor: pointer;
 }
 
 p#cf7_controls {
@@ -443,6 +444,12 @@ color: white;
   overflow: hidden;
 }
 
+.project-header:hover {
+
+  cursor: pointer;
+
+}
+
 #highlighted {
 
   opacity:1;
@@ -478,7 +485,7 @@ color: white;
 }
 
 .project-paragraph {
-  width: 35%;
+  width: 37%;
   float: right;
 }
 
