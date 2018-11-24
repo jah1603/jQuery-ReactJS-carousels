@@ -82,7 +82,7 @@ class Portfolio extends React.Component {
 
     <h1 className="headline"> My portfolio</h1>
 
-    <p id="cf7_controls-projects" style={{justifyContent: 'center'}}>
+    <p id="cf7_controls-projects" style={{justifyContent: 'center', marginBottom: '4%'}}>
       <div className="selected project-header" style={{display: 'inline-block', width: '10%', textAlign: 'center', fontSize: 18, marginLeft: '3%', marginRight: '3%', paddingBottom: '1%'}}>Reach</div>
       <div className="project-header" style={{display: 'inline-block', width: '10%', textAlign: 'center', fontSize: 18, marginLeft: '3%', marginRight: '3%', paddingBottom: '1%'}}>Weather2...</div>
       <div className="project-header" style={{display: 'inline-block', width: '10%', fontSize: 18, marginLeft: '3%', marginRight: '3%', paddingBottom: '1%'}}>FixturePal</div>
@@ -90,7 +90,7 @@ class Portfolio extends React.Component {
       <div className="project-header" style={{display: 'inline-block', width: '10%', fontSize: 18, marginLeft: '3%', marginRight: '3%', paddingBottom: '1%'}}>Weather2Wed</div>
     </p>
 
-    <br></br>
+
 
     <div id='highlighted' className="project-info 0">
 
@@ -143,8 +143,6 @@ class Portfolio extends React.Component {
   </div>
 
 
-    <br></br>
-
     <div id="hidden" className="project-info 1">
 
     <div className="project-paragraph">
@@ -183,7 +181,7 @@ class Portfolio extends React.Component {
       </table>
 
       <h4 className="github"><a href="https://play.google.com/store/apps/details?id=com.weather2.weather2walk">View on Google Play store</a></h4>
-      <p>My motivation to do this project stemmed from a desire to hone my front-end development skills and create something visually stimulating and pleasing to the eye. Consisting of <span style={{fontStyle: 'italic'}}>Weather2Walk</span>, <span style={{fontStyle: 'italic'}}>Weather2Golf</span> and <span style={{fontStyle: 'italic'}}>Weather2Wed</span>, this mobile app series was built in ReactNative using emulators in Genymotion and Android Studio. <br/><br/>
+      <p>My motivation to do this project stemmed from a desire to hone my front-end development skills and create something visually stimulating and pleasing to the eye. Consisting of <span style={{fontStyle: 'italic'}}>Weather2Walk</span>, <span style={{fontStyle: 'italic'}}>Weather2Golf</span> and <span style={{fontStyle: 'italic'}}>Weather2Wed</span>, this mobile app series was built in ReactNative using Expo combined with emulators in Genymotion and Android Studio. <br/><br/>
       The app uses four APIs (DarkSky, Geograph, FourSquare and GoogleMaps) to fetch relevant data. Weather data is presented in the form of historical averages obtained through a number of sequential requests, and prospective venues for the searched location are presented on an interactive map. Weather2Walk benefits from a fuzzy search, meaning highly specific place names (waterfalls, forests or small hills) can be searched, while Weather2Golf offers hourly weather snapshots, helping golfers to make an informed decision about their tee-off time.<br/><br/>
       </p>
 
@@ -196,8 +194,6 @@ class Portfolio extends React.Component {
 
   </div>
 
-
-  <br></br>
 
   <div id="hidden" className="project-info 2">
 

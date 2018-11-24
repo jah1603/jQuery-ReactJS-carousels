@@ -521,11 +521,12 @@ p a {
   width: 100%;
   background-color: transparent;
   height: auto;
-  margin-bottom: 15px;
+  margin-left: 15px;
+  margin-top: 15%;
 }
 
 .weather-screenshot {
-  margin-top: 2%;
+  margin-top: 5%;
   width: 30%;
   background-color: transparent;
   height: auto;
@@ -534,7 +535,7 @@ p a {
 }
 
 .fixture-pal-screenshot {
-  margin-top: 2%;
+  margin-top: 5%;
   width: 55%;
   background-color: transparent;
   height: auto;
