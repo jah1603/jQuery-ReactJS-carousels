@@ -92,6 +92,55 @@ p#cf7_controls-projects {
   overflow: visible;
 }
 
+/* Weather2 crossfade */
+
+p#cf7-weather2_controls {
+  text-align:center;
+}
+#cf7-weather2_controls span {
+  padding-right:2em;
+  cursor:pointer;
+  justify-content: 'center'
+}
+p#cf7-weather2_controls-projects {
+  text-align:center;
+  justify-content: 'center';
+  overflow: 'visible';
+}
+#cf7-weather2_controls-projects span {
+  padding-right:2em;
+  cursor:pointer;
+  justify-content: 'center',
+}
+#cf7-weather2 img {
+  width: 30%;
+  height: auto;
+  position: absolute;
+  margin-left: 10%;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  opacity:0;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+}
+
+#cf7-weather2 img.opaque {
+  opacity:1;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=1);
+}
+#cf7-weather2 {
+  position: relative;
+  height: auto;
+  width: 100%;
+  margin: 0 auto 10px;
+  overflow: visible;
+}
+
+/* Weather2 crossfade end */
+
 .reach-slide-arrow {
   color: #334d50;
   cursor: pointer;
@@ -471,12 +520,12 @@ color: white;
 }
 
 @keyframes slide-out {
-    0% { transform: translateX(-30%); }
+    0% { transform: translateX(-25%); }
     100% { transform: translateX(0%); }
 }
 
 @-webkit-keyframes slide-out {
-    0% { -webkit-transform: translateX(-30%); }
+    0% { -webkit-transform: translateX(-25%); }
     100% { -webkit-transform: translateX(0%); }
 }
 

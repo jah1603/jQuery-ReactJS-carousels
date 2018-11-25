@@ -1,6 +1,9 @@
 import React from "react";
 import Arrow from './Arrow.js'
 import ImageSlide from './ImageSlide.js'
+import Background from '../images/fast-forward.png'
+import $ from 'jquery';
+
 const imgUrls = ["../images/w2walk1.png", '../images/w2walk2.png',
   '../images/w2wed1.png',
  '../images/w2wed3.png', '../images/w2golf1.png', '../images/w2golf2.png',
@@ -14,82 +17,67 @@ class Weather2Carousel extends React.Component {
     super(props);
 
     this.state = {
-      currentImageIndex: 0
+
     };
 
-    this.nextSlide = this.nextSlide.bind(this);
-    this.previousSlide = this.previousSlide.bind(this);
   }
 
-  previousSlide () {
-    const lastIndex = imgUrls.length - 1;
-    const { currentImageIndex } = this.state;
-    const shouldResetIndex = currentImageIndex === 0;
-    const index =  shouldResetIndex ? lastIndex : currentImageIndex - 1;
+  crossfadeScript(numberOfPhotos){
 
-    this.setState({
-      currentImageIndex: index
-    });
-  }
+    $(document).ready(function() {
 
-  nextSlide () {
-    const lastIndex = imgUrls.length - 1;
-    const { currentImageIndex } = this.state;
-    const shouldResetIndex = currentImageIndex === lastIndex;
-    const index =  shouldResetIndex ? 0 : currentImageIndex + 1;
+      var counter = 1;
 
-    this.setState({
-      currentImageIndex: index
-    });
-  }
+  $("#cf7-weather2_controls").on('click', 'div', function() {
+    console.log("counter", counter);
+    console.log("numPhotos", numberOfPhotos);
+    $("#cf7-weather2 img").removeClass("opaque");
 
-  returnImage(index){
-    switch(index) {
-    case 0: return require("../images/w2walk1.png");
-    case 1: return require("../images/w2walk2.png");
-    case 2: return require("../images/w2wed1.png");
-    case 3: return require("../images/w2wed3.png");
-    case 4: return require("../images/w2golf1.png");
-    case 5: return require("../images/w2golf2.png");
-    case 6: return require("../images/w2golf3.png");
+    // var newImage = $(this).index();
+
+    $("#cf7-weather2 img").eq(counter).addClass("opaque");
+
+    console.log("image", $("#cf7-weather2 img").eq(counter));
+
+    $("#cf7-weather2_controls div").removeClass("selected");
+    $(this).addClass("selected");
+
+    if (counter === numberOfPhotos - 1){
+      counter = 0;
+    }
+
+    else {
+
+    counter++;
 
   }
+
+  });
+});
   }
 
   render () {
+
+    this.crossfadeScript(imgUrls.length);
+
     return (
-      <div className="carousel">
 
-      <table>
-      <tr style={{ justifyContent: 'center'}}>
+      <div id="cf7-weather2" className="shadow">
 
-      <td style={{justifyContent: 'center', top: '50%', width: '10%', height: 1}}>
-      <Arrow
-        direction="left"
-        clickFunction={ this.previousSlide }
-        glyph="&#9664;"
-        project='weather2'
-        />
+      <p id="cf7-weather2_controls" style={{justifyContent: 'center', overflow: 'visible'}}>
+        <div className="pulse" style={{borderRadius: 35, marginTop: '0%', padding: '2%', marginLeft: '28%', height: 8, width: 8, backgroundImage: "url(" + Background + ")"}}>
+        <span className="selected"> </span>
+        </div>
+      </p>
 
-      </td>
 
-      <td style={{width: '70%', height: '100%'}}>
-         <img className="screenshot" src={this.returnImage(this.state.currentImageIndex)} ></img>
-      </td>
-
-      <td style={{width: '10%'}}>
-
-       <Arrow
-        direction="right"
-        clickFunction={ this.nextSlide }
-        glyph="&#9654;"
-        project='weather2'
-        />
-
-        </td>
-
-        </tr>
-        </table>
+         <img className="opaque" src={require("../images/w2walk1.png")} ></img>
+         <img src={require('../images/w2walk2.png')} ></img>
+         <img src={require('../images/w2wed1.png')} ></img>
+         <img src={require('../images/w2wed3.png')} ></img>
+         <img src={require('../images/w2golf1.png')} ></img>
+         <img src={require('../images/w2golf2.png')} ></img>
+         <img src={require('../images/w2golf3.png')} ></img>
 
       </div>
     );

@@ -162,7 +162,7 @@ class Portfolio extends React.Component {
       </tr>
       </table>
 
-      <h2 style={{fontWeight: 'normal', fontStyle: 'italic'}}> A series of activity-related mobile weather apps, available on the Google Play store</h2>
+      <h2 style={{fontWeight: 'normal', fontStyle: 'italic'}}> A series of activity-related mobile weather apps, available on Android</h2>
 
       <table>
       <tr>
@@ -186,7 +186,7 @@ class Portfolio extends React.Component {
 
       <h4 className="github"><a href="https://play.google.com/store/apps/details?id=com.weather2.weather2walk">View on Google Play store</a></h4>
       <p>My motivation to do this project stemmed from a desire to hone my front-end development skills and create something visually stimulating and pleasing to the eye. Consisting of <span style={{fontStyle: 'italic'}}>Weather2Walk</span>, <span style={{fontStyle: 'italic'}}>Weather2Golf</span> and <span style={{fontStyle: 'italic'}}>Weather2Wed</span>, this mobile app series was built in ReactNative using Expo combined with emulators in Genymotion and Android Studio. <br/><br/>
-      The app uses four APIs (DarkSky, Geograph, FourSquare and GoogleMaps) to fetch relevant data. Weather data is presented in the form of historical averages obtained through a number of sequential requests, and prospective venues for the searched location are presented on an interactive map. Weather2Walk benefits from a fuzzy search, meaning highly specific place names (waterfalls, forests or small hills) can be searched, while Weather2Golf offers hourly weather snapshots, helping golfers to make an informed decision about their tee-off time.<br/><br/>
+      The app uses four APIs (DarkSky, Geograph, FourSquare and GoogleMaps) to fetch relevant data. Weather data is presented in the form of historical averages obtained through a number of sequential requests, and prospective venues for the searched location are presented on an interactive map. <span style={{fontStyle: 'italic'}}>Weather2Walk</span> benefits from a fuzzy search, meaning highly specific place names (waterfalls, forests or small hills) can be searched, while <span style={{fontStyle: 'italic'}}>Weather2Golf</span> offers hourly weather snapshots, helping golfers to make an informed decision about their tee-off time.<br/><br/>
       </p>
 
     </div>
