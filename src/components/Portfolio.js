@@ -49,6 +49,8 @@ class Portfolio extends React.Component {
 
 
     currentSelectedDiv.attr('id', 'hidden');
+    currentSelectedDiv.removeClass('slide-in');
+    currentSelectedDiv.removeClass('slide-out');
 
     // console.log("numProjects", numProjects);
     // $('#highlighted').each(function(){
@@ -60,6 +62,8 @@ class Portfolio extends React.Component {
     var currentHighlightedDiv = $(`.${newDiv}`)
 
     $(`.${newDiv}`).attr('id', 'highlighted')
+    $(`.${newDiv}`).addClass('slide-in')
+    $(`.${newDiv}`).addClass('slide-out')
 
     $("#cf7_controls-projects div").removeClass("selected");
     $(this).addClass("selected");
