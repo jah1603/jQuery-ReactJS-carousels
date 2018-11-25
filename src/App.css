@@ -164,19 +164,20 @@ p#cf7-weather2_controls-projects {
   color: #334d50;
   cursor: pointer;
   font-size: 2rem;
+  position: absolute;
 }
 
 .weather2-slide-arrow:hover {
   color: #ACBB78;
 }
 
-/* .weather2-slide-arrow.right {
-  right: 50%;
+.weather2-slide-arrow.right {
+  right: 49.5%;
 }
 
 .weather2-slide-arrow.left {
-  left: 15%;
-} */
+  left: 12%;
+}
 
 .fixture-pal-slide-arrow {
   color: #334d50;
@@ -512,11 +513,13 @@ color: white;
 }
 
 @keyframes slide-in {
+    0% { transform: translateX(-10%); }
     100% { transform: translateX(0%); }
 }
 
 @-webkit-keyframes slide-in {
-    100% { -webkit-transform: translateX(0%); }
+  0% { transform: translateX(-10%); }
+  100% { transform: translateX(0%); }
 }
 
 @keyframes slide-out {
@@ -599,11 +602,13 @@ p a {
 }
 
 .screenshot {
-  width: 100%;
+  width: 50%;
   background-color: transparent;
   height: auto;
-  margin-left: 15px;
-  margin-top: 15%;
+  margin-left: 20%;
+  margin-right: 10%;
+  margin-top: 6.5%;
+  border-radius: 10px;
 }
 
 .weather-screenshot {

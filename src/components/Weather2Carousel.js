@@ -1,6 +1,8 @@
 import React from "react";
 import Arrow from './Arrow.js'
 import ImageSlide from './ImageSlide.js'
+import $ from 'jquery';
+
 const imgUrls = ["../images/w2walk1.png", '../images/w2walk2.png',
   '../images/w2wed1.png',
  '../images/w2wed3.png', '../images/w2golf1.png', '../images/w2golf2.png',
@@ -33,15 +35,49 @@ class Weather2Carousel extends React.Component {
   }
 
   nextSlide () {
+
     const lastIndex = imgUrls.length - 1;
     const { currentImageIndex } = this.state;
     const shouldResetIndex = currentImageIndex === lastIndex;
     const index =  shouldResetIndex ? 0 : currentImageIndex + 1;
 
+    // this.slideAnimationScript();
+
     this.setState({
       currentImageIndex: index
     });
   }
+
+  slideAnimationScript(){
+
+  $(document).ready(function() {
+
+    function disableSlide(){
+
+      $("img.screenshot").removeClass("slide-in");
+
+      setTimeout(reactivateSlide(), 200)
+
+    }
+
+    function reactivateSlide(){
+
+      console.log("slide");
+
+      $("img.screenshot").addClass("slide-in");
+
+    }
+
+    $("td").on('click', 'div', function() {
+
+      setTimeout(disableSlide(), 200)
+
+  })
+
+})
+
+}
+
 
   returnImage(index){
     switch(index) {
@@ -57,6 +93,8 @@ class Weather2Carousel extends React.Component {
   }
 
   render () {
+
+
     return (
       <div className="carousel">
 
@@ -73,7 +111,7 @@ class Weather2Carousel extends React.Component {
 
       </td>
 
-      <td style={{width: '70%', height: '100%'}}>
+      <td style={{width: '100%', height: '100%', justifyContent: 'center'}}>
          <img className="screenshot" src={this.returnImage(this.state.currentImageIndex)} ></img>
       </td>
 

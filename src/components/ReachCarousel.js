@@ -25,15 +25,15 @@ class ReachCarousel extends React.Component {
       var counter = 1;
 
   $("#cf7_controls").on('click', 'div', function() {
-    console.log("counter", counter);
-    console.log("numPhotos", numberOfPhotos);
+    // console.log("counter", counter);
+    // console.log("numPhotos", numberOfPhotos);
     $("#cf7 img").removeClass("opaque");
 
     // var newImage = $(this).index();
 
     $("#cf7 img").eq(counter).addClass("opaque");
 
-    console.log("image", $("#cf7 img").eq(counter));
+    // console.log("image", $("#cf7 img").eq(counter));
 
     $("#cf7_controls div").removeClass("selected");
     $(this).addClass("selected");
