@@ -92,7 +92,7 @@ p#cf7_controls-projects {
   overflow: visible;
 }
 
-/* Weather2 crossfade */
+/* Weather2Wed crossfade */
 
 p#cf7-weather2_controls {
   text-align:center;
@@ -113,10 +113,10 @@ p#cf7-weather2_controls-projects {
   justify-content: 'center',
 }
 #cf7-weather2 img {
-  width: 30%;
+  width: 50%;
   height: auto;
   position: absolute;
-  margin-left: 10%;
+  margin-left: 4%;
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
   -o-transition: opacity 1s ease-in-out;
@@ -139,7 +139,7 @@ p#cf7-weather2_controls-projects {
   overflow: visible;
 }
 
-/* Weather2 crossfade end */
+/* Weather2Wed crossfade end */
 
 .reach-slide-arrow {
   color: #334d50;
