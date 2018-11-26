@@ -134,8 +134,8 @@ class Portfolio extends React.Component {
       </table>
 
       <h4 className="github"><a href="https://www.github.com/jah1603/Reach--">View on GitHub</a></h4>
-      <p>I took on this project with two colleagues based on our overarching vision of a networking app for hyperconnected social influencers. Together we implemented the code in Python (backend) and ReactJS (frontend), using a PSQL database for data persistence. Reach is a full-stack dating platform that measures users' social reach via web scraping, letting them find, match and interact with other users according to lifestyle preferences, location and age.<br/><br/>
-      The app, which features full JSON web token authentication, a Django REST API, geolocation, swipeable cards and email activation, retrieves users' total social reach by scraping their follower count on three major social media platforms. All of this underpins a fresh and vibrant UI designed to appeal to millenials.</p>
+      <p>I took on this project with two colleagues based on our overarching vision of a networking app for hyperconnected social influencers. We set up a ReactJS frontend to consume the Python backend with axios. <span style={{fontStyle: 'italic'}}>Reach</span> is a full-stack dating platform that measures users' social reach through web scraping, letting them find, match and interact with other users according to lifestyle preferences, location and age.<br/><br/>
+      <span style={{fontStyle: 'italic'}}>Reach</span>, which features JSON web token authentication, a Django REST API, geolocation, swipeable cards and email activation, retrieves users' total social reach by scraping their follower count on three major social media platforms. All of this underpins a vibrant UI designed to appeal to millenials.</p>
 
     </div>
 
@@ -228,8 +228,8 @@ class Portfolio extends React.Component {
     </table>
 
     <h4 className="github"><a href="https://github.com/jah1603/FixturePal/blob/master/src/main/java/models/League.java">View on GitHub</a></h4>
-    <p>This project dates back to my time at CodeClan, where I created a custom brief along with two colleagues. The end product - FixturePal - can generate the entire match schedule for a sports season (including alternating home and away games for each team) using a round-robin algorithm. <br/><br/>
-    As well as being able to create a league of teams and enter match scores, users can keep track of team performance in a given league courtesy of a league table filtered by points, goal difference and goals scored. An option for logging match events in short match reports also exists, thereby enabling users to record information on goalscorers and disciplinary records.
+    <p>This project dates back to my time at CodeClan, where I created a custom brief along with two colleagues. The end product - <span style={{fontStyle: 'italic'}}>FixturePal</span> - can generate the entire match schedule for a sports season (including alternating home and away games for each team) using a round-robin algorithm. <br/><br/>
+    As well as being able to create a league of teams and enter match scores, users can keep track of team performance in a given league courtesy of a league table filtered by points, goal difference and goals scored. An option for logging match events in short match reports also exists, thereby enabling users to take note of goalscorers and disciplinary records.
   </p>
 
   </div>
@@ -316,7 +316,7 @@ class Portfolio extends React.Component {
       </table>
 
       <h4 className="github"><a href="http://weather2wed.herokuapp.com">View on Heroku</a></h4>
-      <p>Another self-penned brief, this CodeClan group project aimed to inform and entertain in a novel and engaging way. Weather2Wed, built in line with the publish-subscribe pattern, presents historical weather snapshots for potential wedding locations throughout Britain and Ireland.<br/><br/>
+      <p>Another self-penned brief, this CodeClan group project aimed to inform and entertain in a novel and engaging way. <span style={{fontStyle: 'italic'}}>Weather2Wed</span>, built in line with the publish-subscribe pattern, presents historical weather snapshots for potential wedding locations throughout Britain and Ireland.<br/><br/>
       Weather data was sourced from DarkSky via coordinates from Geograph, while FourSquare and Leaflet were used to map suggested hotels and venues in and around the prospective wedding location. Astronomy equations helped to predict whether the user's wedding date would fall on a full moon.
     </p>
 
