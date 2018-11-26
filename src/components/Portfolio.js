@@ -186,7 +186,7 @@ class Portfolio extends React.Component {
 
       <h4 className="github"><a href="https://play.google.com/store/apps/details?id=com.weather2.weather2walk">View on Google Play store</a></h4>
       <p>My motivation to do this project stemmed from a desire to hone my front-end development skills and create something visually stimulating and pleasing to the eye. Consisting of <span style={{fontStyle: 'italic'}}>Weather2Walk</span>, <span style={{fontStyle: 'italic'}}>Weather2Golf</span> and <span style={{fontStyle: 'italic'}}>Weather2Wed</span>, this mobile app series was built in ReactNative using Expo combined with emulators in Genymotion and Android Studio. <br/><br/>
-      The app uses four APIs (DarkSky, Geograph, FourSquare and Google Maps) to fetch relevant data. Weather data is presented in the form of historical averages obtained through a number of sequential requests, and prospective venues for the searched location are presented on an interactive map. <span style={{fontStyle: 'italic'}}>Weather2Walk</span> benefits from a fuzzy search, meaning highly specific place names (waterfalls, forests or small hills) can be searched, while <span style={{fontStyle: 'italic'}}>Weather2Golf</span> offers hourly weather snapshots, helping golfers to make an informed decision about their tee-off time.<br/><br/>
+      The app uses four APIs (DarkSky, Geograph, FourSquare and Google Maps) to fetch relevant data. Weather data is presented in the form of historical averages obtained through a number of sequential requests, and prospective venues for the searched location are presented on an interactive map. <span style={{fontStyle: 'italic'}}>Weather2Walk</span> benefits from a fuzzy search, meaning highly specific place names (waterfalls, forests or small hills) can be searched, while <span style={{fontStyle: 'italic'}}>Weather2Golf</span> offers hourly weather snapshots, helping golfers to come to an informed decision on their tee-off time.<br/><br/>
       </p>
 
     </div>
@@ -316,8 +316,8 @@ class Portfolio extends React.Component {
       </table>
 
       <h4 className="github"><a href="http://weather2wed.herokuapp.com">View on Heroku</a></h4>
-      <p>Another custom-made brief, this was a CodeClan project which aimed to provide information in a novel and engaging way. Weather2Wed, which was built in line with the publish-subscribe pattern, presents historical weather summaries for locations throughout Britain and Ireland. Use of the Geograph photography API means that the app benefits from what is effectively a fuzzy search, as any location can be entered as a search term, be it a town, venue, landmark or even a waterfall. <br/><br/>
-      Weather data was sourced from DarkSky using the coordinates obtained from the Geograph API. These same coordinates were also fed into the FourSquare API so as to suggest prospective hotels in and around the searched wedding location. Astronomy equations were also used to predict whether the user's chosen wedding date would fall on a full moon.
+      <p>Another self-penned brief, this CodeClan group project aimed to inform and entertain in a novel and engaging way. Weather2Wed, built in line with the publish-subscribe pattern, presents historical weather snapshots for potential wedding locations throughout Britain and Ireland.<br/><br/>
+      Weather data was sourced from DarkSky via coordinates from Geograph, while FourSquare and Leaflet were used to map suggested hotels and venues in and around the prospective wedding location. Astronomy equations helped to predict whether the user's wedding date would fall on a full moon.
     </p>
 
     </div>
