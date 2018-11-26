@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const About = () => (
   <div className="about">
-    <h1 className="headline">About me</h1>
+    <h1 className="headline">About</h1>
     <div className="about-paragraph">
       <p><strong>I am passionate about software development obsessed with the web. I love confronting a challenege head on and turning it into an opportunity for growth and learning.</strong>. <br/><br/>
       I recently graduated from <a href="https://codeclan.com/">CodeClan's</a> software development course in Edinburgh. Throughout the 16 week ct we woulund 8ree full-stack projects (you can check those out <a href="/projects" >here</a>). <br/><br/>
