@@ -134,7 +134,7 @@ class Portfolio extends React.Component {
       </table>
 
       <h4 className="github"><a href="https://www.github.com/jah1603/Reach--">View on GitHub</a></h4>
-      <p>I undertook this project with two friends based on our overarching vision of a networking app for hyperconnected social influencers. Together we implemented the code in Python (backend) and ReactJS (frontend), using a PSQL database for data persistence. Reach is a full-stack dating platform that measures users' social reach via web scraping, letting them find, match and interact with other users according to lifestyle preferences, location and age.<br/><br/>
+      <p>I took on this project with two colleagues based on our overarching vision of a networking app for hyperconnected social influencers. Together we implemented the code in Python (backend) and ReactJS (frontend), using a PSQL database for data persistence. Reach is a full-stack dating platform that measures users' social reach via web scraping, letting them find, match and interact with other users according to lifestyle preferences, location and age.<br/><br/>
       The app, which features full JSON web token authentication, a Django REST API, geolocation, swipeable cards and email activation, retrieves users' total social reach by scraping their follower count on three major social media platforms. All of this underpins a fresh and vibrant UI designed to appeal to millenials.</p>
 
     </div>

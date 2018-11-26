@@ -1,6 +1,6 @@
 import React from "react";
 import Arrow from './Arrow.js'
-import ImageSlide from './ImageSlide.js'
+import CarouselImage from './CarouselImage.js'
 import $ from 'jquery';
 
 const imgUrls = ["../images/w2walk1.png", '../images/w2walk2.png',
@@ -47,6 +47,7 @@ class Weather2Carousel extends React.Component {
       currentImageIndex: index
     });
   }
+  
 
   slideAnimationScript(){
 
@@ -61,8 +62,6 @@ class Weather2Carousel extends React.Component {
     }
 
     function reactivateSlide(){
-
-      console.log("slide");
 
       $("img.screenshot").addClass("slide-in");
 
@@ -112,7 +111,8 @@ class Weather2Carousel extends React.Component {
       </td>
 
       <td style={{width: '100%', height: '100%', justifyContent: 'center'}}>
-         <img className="screenshot" src={this.returnImage(this.state.currentImageIndex)} ></img>
+         <CarouselImage url={this.returnImage(this.state.currentImageIndex)}   />
+
       </td>
 
       <td style={{width: '10%'}}>

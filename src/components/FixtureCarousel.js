@@ -1,6 +1,5 @@
 import React from "react";
 import Arrow from './Arrow.js'
-import ImageSlide from './ImageSlide.js'
 import $ from 'jquery';
 import Background from '../images/fast-forward.png'
 const imgUrls = ["../images/fixturepal1.png", '../images/fixturepal2.png', '../images/fixturepal3.png', '../images/fixturepal4.png']
