@@ -1,6 +1,7 @@
 import React from "react";
 import Arrow from './Arrow.js'
-import ImageSlide from './ImageSlide.js'
+import $ from 'jquery';
+import Background from '../images/fast-forward.png'
 const imgUrls = ["../images/story1.png", '../images/story2.png', '../images/story3.png', '../images/story4.png'
 ]
 
@@ -11,61 +12,65 @@ class BookCarousel extends React.Component {
     super(props);
 
     this.state = {
-      currentImageIndex: 0
+
     };
 
-    this.nextSlide = this.nextSlide.bind(this);
-    this.previousSlide = this.previousSlide.bind(this);
   }
 
-  previousSlide () {
-    const lastIndex = imgUrls.length - 1;
-    const { currentImageIndex } = this.state;
-    const shouldResetIndex = currentImageIndex === 0;
-    const index =  shouldResetIndex ? lastIndex : currentImageIndex - 1;
+  crossfadeScript(numberOfPhotos){
 
-    this.setState({
-      currentImageIndex: index
-    });
+    $(document).ready(function() {
+
+      var counter = 1;
+
+  $("#cf7-story_controls").on('click', 'div', function() {
+    console.log("counter", counter);
+    console.log("numPhotos", numberOfPhotos);
+    $("#cf7-story img").removeClass("opaque");
+
+    // var newImage = $(this).index();
+
+    $("#cf7-story img").eq(counter).addClass("opaque");
+
+    console.log("image", $("#cf7-story img").eq(counter));
+
+    $("#cf7-story_controls div").removeClass("selected");
+    $(this).addClass("selected");
+
+    if (counter === numberOfPhotos - 1){
+      counter = 0;
+    }
+
+    else {
+
+    counter++;
+
   }
 
-  nextSlide () {
-    const lastIndex = imgUrls.length - 1;
-    const { currentImageIndex } = this.state;
-    const shouldResetIndex = currentImageIndex === lastIndex;
-    const index =  shouldResetIndex ? 0 : currentImageIndex + 1;
-
-    this.setState({
-      currentImageIndex: index
-    });
-  }
-
-  returnImage(index){
-    switch(index) {
-    case 0: return require("../images/story1.png");
-    case 1: return require("../images/story2.png");
-    case 2: return require("../images/story3.png");
-    case 3: return require("../images/story4.png");
-  }
+  });
+});
   }
 
   render () {
+
+    this.crossfadeScript(imgUrls.length);
+
     return (
-      <div className="carousel">
 
-      <Arrow
-        direction="left"
-        clickFunction={ this.previousSlide }
-        glyph="&#9664;"
-        project="story" />
+      <div id="cf7-story" className="shadow">
 
-         <img className="story-screenshot" src={this.returnImage(this.state.currentImageIndex)} ></img>
+      <p id="cf7-story_controls" style={{justifyContent: 'center', overflow: 'visible'}}>
+        <div className="pulse" style={{borderRadius: 35, marginTop: '2%', padding: '2%', marginLeft: '28%', height: 8, width: 8, backgroundImage: "url(" + Background + ")"}}>
+        <span className="selected"> </span>
+        </div>
+      </p>
 
-       <Arrow
-        direction="right"
-        clickFunction={ this.nextSlide }
-        glyph="&#9654;"
-        project='story' />
+
+         <img className="opaque" src={require("../images/story1.png")} ></img>
+         <img src={require("../images/story2.png")} ></img>
+         <img src={require("../images/story3.png")} ></img>
+         <img src={require("../images/story4.png")} ></img>
+
 
       </div>
     );

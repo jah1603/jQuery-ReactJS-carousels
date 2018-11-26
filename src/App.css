@@ -141,6 +141,105 @@ p#cf7-weather2_controls-projects {
 
 /* Weather2Wed crossfade end */
 
+/* Invent.story crossfade begins */
+
+p#cf7-story_controls {
+  text-align:center;
+}
+#cf7-story_controls span {
+  padding-right:2em;
+  cursor:pointer;
+  justify-content: 'center'
+}
+p#cf7-story_controls-projects {
+  text-align:center;
+  justify-content: 'center';
+  overflow: 'visible';
+}
+#cf7-story_controls-projects span {
+  padding-right:2em;
+  cursor:pointer;
+  justify-content: 'center',
+}
+#cf7-story img {
+  width: 50%;
+  height: auto;
+  position: absolute;
+  margin-left: 4%;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  opacity:0;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+}
+
+#cf7-story img.opaque {
+  opacity:1;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=1);
+}
+#cf7-story {
+  position: relative;
+  height: auto;
+  width: 100%;
+  margin: 0 auto 10px;
+  overflow: visible;
+}
+
+/* Invent.story crossfade end */
+
+/* FixturePal crossfade begins */
+
+p#cf7-fixture-pal_controls {
+  text-align:center;
+}
+#cf7-fixture-pal_controls span {
+  padding-right:2em;
+  cursor:pointer;
+  justify-content: 'center'
+}
+p#cf7-fixture-pal_controls-projects {
+  text-align:center;
+  justify-content: 'center';
+  overflow: 'visible';
+}
+#cf7-fixture-pal_controls-projects span {
+  padding-right:2em;
+  cursor:pointer;
+  justify-content: 'center',
+}
+#cf7-fixture-pal img {
+  width: 50%;
+  height: auto;
+  position: absolute;
+  margin-left: 4%;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  opacity:0;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+}
+
+#cf7-fixture-pal img.opaque {
+  opacity:1;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=1);
+}
+
+#cf7-fixture-pal {
+  position: relative;
+  height: auto;
+  width: 100%;
+  margin: 0 auto 10px;
+  overflow: visible;
+}
+
+/* FixturePal crossfade end */
+
 .reach-slide-arrow {
   color: #334d50;
   cursor: pointer;
@@ -513,12 +612,12 @@ color: white;
 }
 
 @keyframes slide-in {
-    0% { transform: translateX(-10%); }
+
     100% { transform: translateX(0%); }
 }
 
 @-webkit-keyframes slide-in {
-  0% { transform: translateX(-10%); }
+
   100% { transform: translateX(0%); }
 }
 
@@ -622,7 +721,7 @@ p a {
 
 .fixture-pal-screenshot {
   margin-top: 5%;
-  width: 55%;
+  width: 60%;
   background-color: transparent;
   height: auto;
   margin-left: 2%;
