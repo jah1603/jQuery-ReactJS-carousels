@@ -102,7 +102,7 @@ class Portfolio extends React.Component {
 
       <table>
       <tr>
-      <th><img style={{width:'3rem', height: '3rem', marginTop: '0.2rem', borderRadius: '15rem'}} src={require('../images/reach.png')}></img></th>
+      <th className="project-logo"><img style={{width:'3rem', height: '3rem', marginTop: '0.2rem', borderRadius: '15rem'}} src={require('../images/reach.png')}></img></th>
       <th>
       <h2 style={{marginLeft: '0.5rem'}}>
           Reach
@@ -153,7 +153,7 @@ class Portfolio extends React.Component {
 
       <table>
       <tr>
-      <th><img style={{width:'5rem', height: '5rem', marginTop: '0.2rem'}} src={require('../images/weather2.gif')}></img></th>
+      <th className="project-logo"><img style={{width:'5rem', height: '5rem', marginTop: '0.2rem'}} src={require('../images/weather2.gif')}></img></th>
       <th>
       <h2 style={{marginLeft: '0.5rem'}}>
           Weather2...
@@ -205,7 +205,7 @@ class Portfolio extends React.Component {
 
     <table>
     <tr>
-    <th><img style={{width:'5rem', height: '5rem', marginTop: '0.2rem'}} src={require('../images/football-boots.png')}></img></th>
+    <th className="project-logo"><img style={{width:'5rem', height: '5rem', marginTop: '0.2rem'}} src={require('../images/football-boots.png')}></img></th>
     <th>
     <h2 style={{marginLeft: '0.5rem'}}>
         FixturePal
@@ -248,7 +248,7 @@ class Portfolio extends React.Component {
 
   <table>
   <tr>
-  <th><img style={{width:'5rem', height: '5rem', marginTop: '0,5rem'}} src={require('../images/books.png')}></img></th>
+  <th className="project-logo"><img style={{width:'5rem', height: '5rem', marginTop: '0,5rem'}} src={require('../images/books.png')}></img></th>
   <th>
   <h2 style={{marginLeft: '0.5rem'}}>
       Invent.story
@@ -293,7 +293,7 @@ class Portfolio extends React.Component {
 
       <table>
       <tr>
-      <th><img style={{width:'5rem', height: '5rem', marginTop: '0,5rem'}} src={require('../images/weather2wed.png')}></img></th>
+      <th className="project-logo"><img style={{width:'5rem', height: '5rem', marginTop: '0,5rem'}} src={require('../images/weather2wed.png')}></img></th>
       <th>
       <h2 style={{marginLeft: '0.5rem'}}>
           Weather2Wed

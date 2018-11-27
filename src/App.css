@@ -606,6 +606,15 @@ color: white;
 @media (max-width: 840px) {
   .about-paragraph {
     width: auto;
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 450px) {
+  .about-paragraph {
+    width: auto;
+    font-size: 12px;
+    margin-top: 0px;
   }
 }
 
@@ -762,6 +771,24 @@ color: white;
   margin-bottom: 20px;
   font-weight: normal;
   background: linear-gradient(to bottom right, #334d50, #cbcaa5);
+
+}
+
+@media (max-width: 840px) {
+
+  .headline {
+    font-size: 28px;
+    margin-bottom: 5px;
+  }
+
+}
+
+@media (max-width: 450px) {
+
+  .headline {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
 
 }
 
