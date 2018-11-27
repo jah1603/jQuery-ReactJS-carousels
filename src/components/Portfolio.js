@@ -113,8 +113,8 @@ class Portfolio extends React.Component {
 
       <h2 style={{fontWeight: 'normal', fontStyle: 'italic'}}>A modern social networking and dating app for millenials</h2>
 
-      <table>
-      <tr>
+      <table className="reach-programming-logos">
+      <tr style={{justifyContent: 'center'}}>
       <th>
         <img style={{width:'3.5rem', height: '3.5rem'}} src={require('../images/python.png')}></img>
       </th>
@@ -149,7 +149,7 @@ class Portfolio extends React.Component {
 
     <div id="hidden" className="project-info 1">
 
-    <div className="project-paragraph">
+    <div className="project-paragraph-weather2">
 
       <table>
       <tr>
@@ -164,7 +164,7 @@ class Portfolio extends React.Component {
 
       <h2 style={{fontWeight: 'normal', fontStyle: 'italic'}}> A series of activity-related mobile weather apps, available on Android</h2>
 
-      <table>
+      <table className="weather2-programming-logos">
       <tr>
       <th>
         <img style={{width:'4rem', height: '3.5rem'}} src={require('../images/react_native.png')}></img>
@@ -216,7 +216,7 @@ class Portfolio extends React.Component {
 
     <h2 style={{fontWeight: 'normal', fontStyle: 'italic'}}> A sports match schedule generator and results tracker</h2>
 
-    <table>
+    <table className="fixture-programming-logos">
     <tr>
     <th>
       <img style={{width:'4rem', height: '3.5rem'}} src={require('../images/java.png')}></img>
@@ -259,7 +259,7 @@ class Portfolio extends React.Component {
 
   <h2 style={{fontWeight: 'normal', fontStyle: 'italic'}}>A lightweight inventory and profit tracker built with independent booksellers in mind</h2>
 
-  <table>
+  <table className="story-programming-logos">
   <tr>
   <th>
     <img style={{width:'2.5rem', height: '2.5rem'}} src={require('../images/ruby.png')}></img>
@@ -304,7 +304,7 @@ class Portfolio extends React.Component {
 
       <h2 style={{fontWeight: 'normal', fontStyle: 'italic'}}>A fun wedding day planning tool, vanilla JavaScript</h2>
 
-      <table>
+      <table className="w2w-programming-logos">
       <tr>
       <th>
         <img style={{width:'2.5rem', height: '2.5rem'}} src={require('../images/javascript.png')}></img>

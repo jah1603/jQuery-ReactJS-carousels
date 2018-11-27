@@ -57,7 +57,7 @@ class ReachCarousel extends React.Component {
 
     return (
 
-      <div id="cf7" className="shadow">
+      <div id="cf7">
 
       <p id="cf7_controls" style={{justifyContent: 'center', overflow: 'visible'}}>
         <div className="pulse" style={{backgroundImage: "url(" + Background + ")"}}>
@@ -66,7 +66,7 @@ class ReachCarousel extends React.Component {
       </p>
 
 
-         <img className="opaque screenshot" src={require("../images/reach1.png")} ></img>
+         <img className="opaque" src={require("../images/reach1.png")} ></img>
          <img src={require("../images/reach2.png")} ></img>
          <img src={require("../images/reach3.png")} ></img>
          <img src={require("../images/reach4.png")} ></img>

@@ -22,7 +22,56 @@ body {
 
 @media (max-width: 840px) {
   .pulse{
-    margin-top: 100%;
+    margin-top: 250%;
+    margin-left: 47%;
+  }
+}
+
+@media (max-width: 840px) {
+  .reach-programming-logos {
+    position: relative;
+    left: 30%;
+
+  }
+  .weather2-programming-logos {
+    position: relative;
+    left: 28.5%;
+  }
+  .fixture-programming-logos {
+    position: relative;
+    left: 42.5%;
+  }
+  .story-programming-logos {
+    position: relative;
+    left: 37%;
+  }
+  .w2w-programming-logos {
+    position: relative;
+    left: 42.5%;
+  }
+}
+
+@media (max-width: 450px) {
+  .reach-programming-logos {
+    position: relative;
+    left: 10%;
+
+  }
+  .weather2-programming-logos {
+    position: relative;
+    left: 9%;
+  }
+  .fixture-programming-logos {
+    position: relative;
+    left: 30%;
+  }
+  .story-programming-logos {
+    position: relative;
+    left: 23%;
+  }
+  .w2w-programming-logos {
+    position: relative;
+    left: 30%;
   }
 }
 
@@ -94,11 +143,20 @@ p#cf7_controls-projects {
   filter: alpha(opacity=0);
 }
 
+@media (max-width: 840px) {
+  #cf7 img {
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    width: 85%;
+  }
+}
+
 #cf7 img.opaque {
   opacity:1;
   -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
   filter: alpha(opacity=1);
 }
+
 #cf7 {
   position: relative;
   height: auto;
@@ -391,7 +449,7 @@ p#cf7-fixture-pal_controls-projects {
 }
 
 .navbar li .website-title a:hover {
-  color: blue;
+
   background: linear-gradient(to bottom right, #F7F8F8, #ACBB78);
   border-radius: 5px;
 }
@@ -705,10 +763,25 @@ color: white;
   float: right;
 }
 
+.project-paragraph-weather2 {
+  width: 37%;
+  float: right;
+}
+
 
 @media (max-width: 840px) {
   .project-paragraph {
     width: 100%;
+    margin-bottom: 50%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  .project-paragraph-weather2 {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
   }
 }
 
