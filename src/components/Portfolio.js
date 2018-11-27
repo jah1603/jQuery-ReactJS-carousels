@@ -122,7 +122,7 @@ class Portfolio extends React.Component {
         <img style={{width:'2.5rem', height: '2.5rem', marginLeft: '0.2rem'}} src={require('../images/django.png')}></img>
       </th>
       <th>
-        <img style={{width:'2.5', height: '2.5rem', marginLeft: '0.2rem'}} src={require('../images/reactjs.png')}></img>
+        <img style={{width:'2.5rem', height: '2.5rem', marginLeft: '0.2rem'}} src={require('../images/reactjs.png')}></img>
       </th>
       <th>
         <img style={{width:'2.5rem', height: '2.5rem', marginLeft: '0.2rem'}} src={require('../images/jquery.png')}></img>

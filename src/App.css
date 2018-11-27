@@ -11,6 +11,21 @@ body {
   width: 100%;
 }
 
+.pulse{
+  border-radius: 35px;
+  margin-top: 2.5%;
+  padding: 2%;
+  margin-left: 28%;
+  height: 8px;
+  width: 8px;
+}
+
+@media (max-width: 840px) {
+  .pulse{
+    margin-top: 100%;
+  }
+}
+
 @-webkit-keyframes pulse {
   0% {
     -moz-transform: scale(0.9);
@@ -278,6 +293,16 @@ p#cf7-fixture-pal_controls-projects {
   left: 12%;
 }
 
+@media (max-width: 840px) {
+  .weather2-slide-arrow.right {
+    right: 8%;
+  }
+
+  .weather2-slide-arrow.left {
+    left: 8%;
+  }
+  }
+
 .fixture-pal-slide-arrow {
   color: #334d50;
   cursor: pointer;
@@ -337,8 +362,6 @@ p#cf7-fixture-pal_controls-projects {
 .story-slide-arrow.left {
   left: 5%;
 }
-
-
 
 .navbar {
   list-style-type: none;
@@ -677,8 +700,6 @@ color: white;
 
 }
 
-
-
 .project-paragraph {
   width: 37%;
   float: right;
@@ -721,6 +742,14 @@ p a {
   margin-right: 10%;
   margin-top: 6.5%;
   border-radius: 10px;
+}
+
+@media (max-width: 840px){
+  .screenshot{
+    width: 75%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+  }
 }
 
 .weather-screenshot {
