@@ -431,6 +431,16 @@ color: black;
   font-weight: bold;
 }
 
+@media screen and (max-width: 840px) {
+
+  .button {
+    font-size: 15px;
+    padding: 10px 40px;
+
+  }
+
+}
+
 .button:hover {
 background: linear-gradient(to bottom right, #0F2027, #203A43, #2C5364);
 color: white;
@@ -667,6 +677,8 @@ color: white;
 
 }
 
+
+
 .project-paragraph {
   width: 37%;
   float: right;
@@ -756,12 +768,34 @@ p a {
     display: block;
     color: black;
   } */
+  .navbar {
+    justify-content: center;
+    align-items: center;
+  }
   .navbar-icon {
     width: 30px;
     height: 30px;
   }
   .website-title {
     display: none;
+  }
+  .navbar li {
+    float: left;
+      position: relative;
+      left: 24%;
+      padding-left: 4%;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+
+  .navbar li {
+    float: left;
+      position: relative;
+      left: 15%;
+    font-size: 20px;
+    padding-left: 0%;
   }
 }
 
