@@ -6,18 +6,6 @@ class Navbar extends React.Component {
 
   constructor(props){
     super(props);
-    this.state = {};
-    this.changeNavClass = this.changeNavClass.bind(this);
-    this.revertClass = this.revertClass.bind(this);
-  }
-
-  changeNavClass() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "navbar") {
-      x.className = "responsive";
-    } else {
-      x.className = "navbar";
-    }
   }
 
   revertClass() {
@@ -55,7 +43,6 @@ class Navbar extends React.Component {
       </div>
     )
   }
-
 }
 
 export default Navbar;

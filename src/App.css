@@ -555,12 +555,12 @@ color: white;
   margin-right: 15px;
   margin-left: 15px;
   padding-bottom: 8px;
-  border-bottom: 8px solid #334d50;
+  border-bottom: 2px solid #334d50;
 }
 
 .social-media img:hover {
   opacity: 0.8;
-  border-bottom: 8px solid #a3bded;
+  border-bottom: 5px solid #334d50;
 }
 
 .email a {
@@ -569,7 +569,7 @@ color: white;
 }
 
 .email a:hover {
-  color: ##191970;
+  color: #334d50;
 }
 
 .projects {
@@ -748,17 +748,20 @@ p a {
 }
 
 @media screen and (max-width: 840px) {
-  .navbar li a:not(.website-title) {
+   /* .navbar li a:not(.website-title) {
     display: none;
-  }
-  .navbar li a.icon {
+  } */
+  /* .navbar li a.icon {
     float: right;
     display: block;
     color: black;
-  }
+  } */
   .navbar-icon {
-    width: 20px;
-    height: 20px
+    width: 30px;
+    height: 30px;
+  }
+  .website-title {
+    display: none;
   }
 }
 
