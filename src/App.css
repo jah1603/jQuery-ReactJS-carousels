@@ -1160,7 +1160,47 @@ p a {
   width: 5rem;
   height: 5rem;
   margin-top: 0.2rem;
-  border-radius: 15rem;
+  border-radius: 15em;
+}
+
+@media screen and (max-width: 840px) {
+
+  .reach-image {
+    margin-left: 15em;
+  }
+
+  .weather2-image {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-top: 0.2rem;
+    border-radius: 15rem;
+    margin-left: 14.5em;
+  }
+
+  .fixture-pal-image {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-top: 0.2rem;
+    border-radius: 15rem;
+    margin-left: 14.5em;
+  }
+
+  .story-image {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-top: 0.2rem;
+    border-radius: 15rem;
+    margin-left: 14.5em;
+  }
+
+  .w2w-image {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-top: 0.2rem;
+    border-radius: 15rem;
+    margin-left: 13.5em;
+  }
+
 }
 
 @media screen and (max-width: 500px) {
@@ -1170,6 +1210,7 @@ p a {
     height: 2rem;
     margin-top: 0.2rem;
     border-radius: 15rem;
+    margin-left: 9em;
   }
 
   .weather2-image {
@@ -1177,6 +1218,7 @@ p a {
     height: 2.5rem;
     margin-top: 0.2rem;
     border-radius: 15rem;
+    margin-left: 7em;
   }
 
   .fixture-pal-image {
@@ -1184,6 +1226,7 @@ p a {
     height: 2.5rem;
     margin-top: 0.2rem;
     border-radius: 15rem;
+    margin-left: 7em;
   }
 
   .story-image {
@@ -1191,6 +1234,7 @@ p a {
     height: 2.5rem;
     margin-top: 0.2rem;
     border-radius: 15rem;
+    margin-left: 7em;
   }
 
   .w2w-image {
@@ -1198,6 +1242,87 @@ p a {
     height: 2.5rem;
     margin-top: 0.2rem;
     border-radius: 15rem;
+    margin-left: 6rem;
+  }
+
+}
+
+@media screen and (max-width: 375px) {
+
+  .reach-image {
+    margin-left: 7.5em;
+  }
+
+  .weather2-image {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-top: 0.2rem;
+    border-radius: 15rem;
+    margin-left: 5.5em;
+  }
+
+  .fixture-pal-image {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-top: 0.2rem;
+    border-radius: 15rem;
+    margin-left: 5.5em;
+  }
+
+  .story-image {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-top: 0.2rem;
+    border-radius: 15rem;
+    margin-left: 5.5em;
+  }
+
+  .w2w-image {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-top: 0.2rem;
+    border-radius: 15rem;
+    margin-left: 4.6em;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+
+  .reach-image {
+    margin-left: 5.5em;
+  }
+
+  .weather2-image {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-top: 0.2rem;
+    border-radius: 15rem;
+    margin-left: 4em;
+  }
+
+  .fixture-pal-image {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-top: 0.2rem;
+    border-radius: 15rem;
+    margin-left: 4em;
+  }
+
+  .story-image {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-top: 0.2rem;
+    border-radius: 15rem;
+    margin-left: 4em;
+  }
+
+  .w2w-image {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-top: 0.2rem;
+    border-radius: 15rem;
+    margin-left: 3em;
   }
 
 }
