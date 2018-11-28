@@ -60,7 +60,7 @@ class BookCarousel extends React.Component {
       <div id="cf7-story" className="shadow">
 
       <p id="cf7-story_controls" style={{justifyContent: 'center', overflow: 'visible'}}>
-        <div className="pulse" style={{borderRadius: 35, marginTop: '2%', padding: '2%', marginLeft: '28%', height: 8, width: 8, backgroundImage: "url(" + Background + ")"}}>
+        <div className="pulse story" style={{backgroundImage: "url(" + Background + ")"}}>
         <span className="selected"> </span>
         </div>
       </p>

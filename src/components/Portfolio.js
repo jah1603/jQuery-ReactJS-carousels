@@ -102,7 +102,7 @@ class Portfolio extends React.Component {
 
       <table>
       <tr>
-      <th className="project-logo"><img style={{width:'3rem', height: '3rem', marginTop: '0.2rem', borderRadius: '15rem'}} src={require('../images/reach.png')}></img></th>
+      <th className="project-logo"><img className="reach-image" src={require('../images/reach.png')}></img></th>
       <th>
       <h2 style={{marginLeft: '0.5rem'}}>
           Reach
@@ -134,7 +134,7 @@ class Portfolio extends React.Component {
       </table>
 
       <h4 className="github"><a href="https://www.github.com/jah1603/Reach--">View on GitHub</a></h4>
-      <p>I took on this project with two colleagues based on our overarching vision of a networking app for hyperconnected social influencers. We set up a ReactJS frontend to consume the Python backend using Axios. <span style={{fontStyle: 'italic'}}>Reach</span> is a full-stack dating platform that measures users' social reach through web scraping, letting them find, match and interact with other users according to lifestyle preferences, location and age.<br/><br/>
+      <p className="project-description">I took on this project with two colleagues based on our overarching vision of a networking app for hyperconnected social influencers. We set up a ReactJS frontend to consume the Python backend using Axios. <span style={{fontStyle: 'italic'}}>Reach</span> is a full-stack dating platform that measures users' social reach through web scraping, letting them find, match and interact with other users according to lifestyle preferences, location and age.<br/><br/>
       <span style={{fontStyle: 'italic'}}>Reach</span>, which features JSON web token authentication, a Django REST API, geolocation, swipeable cards and email activation, retrieves users' total social reach by scraping their follower count on three major social media platforms. All of this underpins a vibrant UI designed to appeal to millenials.</p>
 
     </div>
@@ -153,7 +153,7 @@ class Portfolio extends React.Component {
 
       <table>
       <tr>
-      <th className="project-logo"><img style={{width:'5rem', height: '5rem', marginTop: '0.2rem'}} src={require('../images/weather2.gif')}></img></th>
+      <th className="project-logo"><img className="weather2-image" src={require('../images/weather2.gif')}></img></th>
       <th>
       <h2 style={{marginLeft: '0.5rem'}}>
           Weather2...
@@ -185,7 +185,7 @@ class Portfolio extends React.Component {
       </table>
 
       <h4 className="github"><a href="https://play.google.com/store/apps/details?id=com.weather2.weather2walk">View on Google Play store</a></h4>
-      <p>My motivation to do this project stemmed from a desire to hone my front-end development skills and create something visually stimulating and pleasing to the eye. Consisting of <span style={{fontStyle: 'italic'}}>Weather2Walk</span>, <span style={{fontStyle: 'italic'}}>Weather2Golf</span> and <span style={{fontStyle: 'italic'}}>Weather2Wed</span>, this mobile app series was built in ReactNative using Expo in combination with emulators in Genymotion and Android Studio. <br/><br/>
+      <p className="project-description">My motivation to do this project stemmed from a desire to hone my front-end development skills and create something visually stimulating and pleasing to the eye. Consisting of <span style={{fontStyle: 'italic'}}>Weather2Walk</span>, <span style={{fontStyle: 'italic'}}>Weather2Golf</span> and <span style={{fontStyle: 'italic'}}>Weather2Wed</span>, this mobile app series was built in ReactNative using Expo in combination with emulators in Genymotion and Android Studio. <br/><br/>
       The apps use four APIs (DarkSky, Geograph, FourSquare and Google Maps) to fetch relevant data. Weather data is presented in the form of historical averages obtained through a number of sequential requests, and prospective venues for the searched location are presented on an interactive map. <span style={{fontStyle: 'italic'}}>Weather2Walk</span> benefits from a fuzzy search, meaning highly specific place names (waterfalls, forests or small hills) can be searched, while <span style={{fontStyle: 'italic'}}>Weather2Golf</span> offers hourly weather snapshots, helping golfers to come to an informed decision on their tee-off time.<br/><br/>
       </p>
 
@@ -228,7 +228,7 @@ class Portfolio extends React.Component {
     </table>
 
     <h4 className="github"><a href="https://github.com/jah1603/FixturePal/blob/master/src/main/java/models/League.java">View on GitHub</a></h4>
-    <p>This project dates back to my time at CodeClan, where I created a custom brief along with two colleagues. The end product - <span style={{fontStyle: 'italic'}}>FixturePal</span> - can generate the entire match schedule for a sports season (including alternating home and away games for each team) using a round-robin algorithm. <br/><br/>
+    <p className="project-description">This project dates back to my time at CodeClan, where I created a custom brief along with two colleagues. The end product - <span style={{fontStyle: 'italic'}}>FixturePal</span> - can generate the entire match schedule for a sports season (including alternating home and away games for each team) using a round-robin algorithm. <br/><br/>
     As well as being able to create a league of teams and enter match scores, users can keep track of team performance in a given league courtesy of a league table filtered by points, goal difference and goals scored. An option for logging match events in short match reports also exists, thereby enabling users to take note of goalscorers and disciplinary records.
   </p>
 
@@ -274,7 +274,7 @@ class Portfolio extends React.Component {
   </table>
 
   <h4 className="github"><a href="http://invent-story.herokuapp.com">View on Heroku</a></h4>
-  <p>An application which enables a bookseller to monitor stock levels, profit, publishers and genres. A PSQL database was used for data persistence, allowing the user to create, edit and delete books and publishers as desired. It is also possible to browse stock by genre and record stock sales/replenishment at the click of a button.<br/><br/>
+  <p className="project-description">An application which enables a bookseller to monitor stock levels, profit, publishers and genres. A PSQL database was used for data persistence, allowing the user to create, edit and delete books and publishers as desired. It is also possible to browse stock by genre and record stock sales/replenishment at the click of a button.<br/><br/>
 </p>
 
 </div>
@@ -316,7 +316,7 @@ class Portfolio extends React.Component {
       </table>
 
       <h4 className="github"><a href="http://weather2wed.herokuapp.com">View on Heroku</a></h4>
-      <p>Another self-penned brief, this CodeClan group project aimed to inform and entertain in a novel and engaging way. <span style={{fontStyle: 'italic'}}>Weather2Wed</span>, built in line with the publish-subscribe pattern, presents historical weather snapshots for potential wedding locations throughout Britain and Ireland.<br/><br/>
+      <p className="project-description">Another self-penned brief, this CodeClan group project aimed to inform and entertain in a novel and engaging way. <span style={{fontStyle: 'italic'}}>Weather2Wed</span>, built in line with the publish-subscribe pattern, presents historical weather snapshots for potential wedding locations throughout Britain and Ireland.<br/><br/>
       Weather data was sourced from DarkSky via coordinates from Geograph, while FourSquare and Leaflet were used to map suggested hotels and venues in and around the prospective wedding location. Astronomy equations helped to predict whether the user's wedding date would fall on a full moon.
     </p>
 

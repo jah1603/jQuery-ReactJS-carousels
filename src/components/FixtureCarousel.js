@@ -59,7 +59,7 @@ class FixtureCarousel extends React.Component {
       <div id="cf7-fixture-pal" className="shadow">
 
       <p id="cf7-fixture-pal_controls" style={{justifyContent: 'center', overflow: 'visible'}}>
-        <div className="pulse" style={{borderRadius: 35, marginTop: '5%', padding: '2%', marginLeft: '28%', height: 8, width: 8, backgroundImage: "url(" + Background + ")"}}>
+        <div className="pulse" style={{backgroundImage: "url(" + Background + ")"}}>
         <span className="selected"> </span>
         </div>
       </p>
