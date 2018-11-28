@@ -178,6 +178,30 @@ body {
   }
 }
 
+@media (max-width: 320px) {
+  .reach-programming-logos {
+    position: relative;
+    left: 5%;
+
+  }
+  .weather2-programming-logos {
+    position: relative;
+    left: -1%;
+  }
+  .fixture-programming-logos {
+    position: relative;
+    left: 30%;
+  }
+  .story-programming-logos {
+    position: relative;
+    left: 23%;
+  }
+  .w2w-programming-logos {
+    position: relative;
+    left: 30%;
+  }
+}
+
 @-webkit-keyframes pulse {
   0% {
     -moz-transform: scale(0.9);
@@ -1087,6 +1111,7 @@ p a {
   .navbar {
     justify-content: center;
     align-items: center;
+    padding: 8px;
   }
   .navbar-icon {
     width: 30px;
@@ -1105,6 +1130,13 @@ p a {
 }
 
 @media screen and (max-width: 500px) {
+
+  .navbar {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 
   .navbar li {
     float: left;
@@ -1202,6 +1234,8 @@ p a {
   }
 
 }
+
+
 
 @media screen and (max-width: 500px) {
 
