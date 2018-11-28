@@ -205,7 +205,7 @@ class Portfolio extends React.Component {
 
     <table>
     <tr>
-    <th className="project-logo"><img style={{width:'5rem', height: '5rem', marginTop: '0.2rem'}} src={require('../images/football-boots.png')}></img></th>
+    <th className="project-logo"><img className="fixture-pal-image" src={require('../images/football-boots.png')}></img></th>
     <th>
     <h2 className="project-name" style={{marginLeft: '0.5rem'}}>
         FixturePal
@@ -248,7 +248,7 @@ class Portfolio extends React.Component {
 
   <table>
   <tr>
-  <th className="project-logo"><img style={{width:'5rem', height: '5rem', marginTop: '0,5rem'}} src={require('../images/books.png')}></img></th>
+  <th className="project-logo"><img className="story-image" src={require('../images/books.png')}></img></th>
   <th>
   <h2 className="project-name" style={{marginLeft: '0.5rem'}}>
       Invent.story
@@ -293,7 +293,7 @@ class Portfolio extends React.Component {
 
       <table>
       <tr>
-      <th className="project-logo"><img style={{width:'5rem', height: '5rem', marginTop: '0,5rem'}} src={require('../images/weather2wed.png')}></img></th>
+      <th className="project-logo"><img className='w2w-image' src={require('../images/weather2wed.png')}></img></th>
       <th>
       <h2 className="project-name" style={{marginLeft: '0.5rem'}}>
           Weather2Wed

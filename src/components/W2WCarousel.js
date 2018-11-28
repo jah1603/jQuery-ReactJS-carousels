@@ -61,7 +61,7 @@ class W2WCarousel extends React.Component {
       <div id="cf7-weather2" className="shadow">
 
       <p id="cf7-weather2_controls" style={{justifyContent: 'center', overflow: 'visible'}}>
-        <div className="pulse" style={{backgroundImage: "url(" + Background + ")"}}>
+        <div className="pulse w2w" style={{backgroundImage: "url(" + Background + ")"}}>
         <span className="selected"> </span>
         </div>
       </p>
