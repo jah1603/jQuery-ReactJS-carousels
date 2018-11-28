@@ -130,12 +130,20 @@ p#cf7_controls-projects {
   text-align:center;
   justify-content: 'center';
   overflow: 'visible';
+  align-items: 'center';
 }
 #cf7_controls-projects span {
   padding-right:2em;
   cursor:pointer;
   justify-content: 'center',
 }
+
+@media (max-width: 450px) {
+  p#cf7_controls-projects {
+    margin-top: 0px;
+  }
+}
+
 #cf7 img {
   width: 55%;
   height: auto;
@@ -618,6 +626,21 @@ color: white;
   }
 }
 
+.project-header {
+  font-size: 18px;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+@media (max-width: 450px) {
+  .project-header {
+    font-size: 7.5px;
+    margin-left: 3%;
+    margin-right: 3%;
+
+  }
+}
+
 .about-photo {
   width: 45%;
   float: right;
@@ -636,10 +659,6 @@ color: white;
   height: auto;
   max-width: 500px;
   margin-top: 2em;
-}
-
-.cv {
-  margin-top: 20px;
 }
 
 .contact {
@@ -949,6 +968,14 @@ p a {
     font-size: 20px;
     padding-left: 0%;
   }
+}
+
+@media screen and (max-width: 320px) {
+
+  .navbar li {
+      left: 7%;
+  }
+
 }
 
 .responsive {

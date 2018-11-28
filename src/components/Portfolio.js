@@ -18,7 +18,7 @@ class Portfolio extends React.Component {
 
     function applyBorder(element){
 
-      element.css({textAlign: 'center', fontWeight: 540, fontSize: 18, marginLeft: '3%', marginRight: '3%', paddingBottom: '1%', color: '#2F4F4F', borderBottom: 'solid', borderBottomWidth: 3, borderColor: '#334d50'})
+      element.css({textAlign: 'center', fontWeight: 540, paddingBottom: '1%', color: '#2F4F4F', borderBottom: 'solid', borderBottomWidth: 3, borderColor: '#334d50'})
 
     }
 
@@ -26,7 +26,7 @@ class Portfolio extends React.Component {
 
       element.removeAttr( 'style' );
 
-      element.css({display: 'inline-block', width: '10%', textAlign: 'center', color: 'black', fontSize: 18, marginLeft: '3%', marginRight: '3%', paddingBottom: '1%'})
+      element.css({display: 'inline-block', width: '13%', textAlign: 'center', color: 'black', paddingBottom: '1%'})
 
 
     }
@@ -87,11 +87,11 @@ class Portfolio extends React.Component {
     <h1 className="headline"> My portfolio</h1>
 
     <p id="cf7_controls-projects" style={{justifyContent: 'center', marginBottom: '4%'}}>
-      <div className="selected project-header" style={{display: 'inline-block', width: '10%', textAlign: 'center', fontSize: 18, marginLeft: '3%', marginRight: '3%', paddingBottom: '1%'}}>Reach</div>
-      <div className="project-header" style={{display: 'inline-block', width: '10%', textAlign: 'center', fontSize: 18, marginLeft: '3%', marginRight: '3%', paddingBottom: '1%'}}>Weather2...</div>
-      <div className="project-header" style={{display: 'inline-block', width: '10%', fontSize: 18, marginLeft: '3%', marginRight: '3%', paddingBottom: '1%'}}>FixturePal</div>
-      <div className="project-header" style={{display: 'inline-block', width: '10%', fontSize: 18, marginLeft: '3%', marginRight: '3%', paddingBottom: '1%'}}>Invent.story</div>
-      <div className="project-header" style={{display: 'inline-block', width: '10%', fontSize: 18, marginLeft: '3%', marginRight: '3%', paddingBottom: '1%'}}>Weather2Wed</div>
+      <div className="selected project-header" style={{display: 'inline-block', width: '13%', textAlign: 'center', paddingBottom: '1%'}}>Reach</div>
+      <div className="project-header" style={{display: 'inline-block', width: '13%', textAlign: 'center', paddingBottom: '1%'}}>Weather2...</div>
+      <div className="project-header" style={{display: 'inline-block', width: '13%', paddingBottom: '1%'}}>FixturePal</div>
+      <div className="project-header" style={{display: 'inline-block', width: '13%', paddingBottom: '1%'}}>Invent.story</div>
+      <div className="project-header" style={{display: 'inline-block', width: '13%', paddingBottom: '1%'}}>Weather2Wed</div>
     </p>
 
 
