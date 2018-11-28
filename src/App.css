@@ -178,6 +178,37 @@ body {
   }
 }
 
+@media (max-width: 414px) {
+  .reach-programming-logos {
+    position: relative;
+    left: 14.5%;
+
+  }
+  .weather2-programming-logos {
+    position: relative;
+    left: 9%;
+  }
+
+  .w2w-programming-logos {
+    position: relative;
+    left: 35%;
+  }
+
+}
+
+@media (max-width: 375px) {
+  .reach-programming-logos {
+    position: relative;
+    left: 10.5%;
+
+  }
+  .weather2-programming-logos {
+    position: relative;
+    left: 7%;
+  }
+
+}
+
 @media (max-width: 320px) {
   .reach-programming-logos {
     position: relative;
