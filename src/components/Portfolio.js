@@ -104,14 +104,14 @@ class Portfolio extends React.Component {
       <tr>
       <th className="project-logo"><img className="reach-image" src={require('../images/reach.png')}></img></th>
       <th>
-      <h2 style={{marginLeft: '0.5rem'}}>
+      <h2 className="project-name" style={{marginLeft: '0.5rem'}}>
           Reach
       </h2>
       </th>
       </tr>
       </table>
 
-      <h2 style={{fontWeight: 'normal', fontStyle: 'italic'}}>A modern social networking and dating app for millenials</h2>
+      <h2 className="project-blurb" style={{fontWeight: 'normal', fontStyle: 'italic'}}>A modern social networking and dating app for millenials</h2>
 
       <table className="reach-programming-logos">
       <tr style={{justifyContent: 'center'}}>
@@ -155,14 +155,14 @@ class Portfolio extends React.Component {
       <tr>
       <th className="project-logo"><img className="weather2-image" src={require('../images/weather2.gif')}></img></th>
       <th>
-      <h2 style={{marginLeft: '0.5rem'}}>
+      <h2 className="project-name" style={{marginLeft: '0.5rem'}}>
           Weather2...
       </h2>
       </th>
       </tr>
       </table>
 
-      <h2 style={{fontWeight: 'normal', fontStyle: 'italic'}}> A series of activity-related mobile weather apps, available on Android</h2>
+      <h2 className="project-blurb" style={{fontWeight: 'normal', fontStyle: 'italic'}}> A series of activity-related mobile weather apps, available on Android</h2>
 
       <table className="weather2-programming-logos">
       <tr>
@@ -207,14 +207,14 @@ class Portfolio extends React.Component {
     <tr>
     <th className="project-logo"><img style={{width:'5rem', height: '5rem', marginTop: '0.2rem'}} src={require('../images/football-boots.png')}></img></th>
     <th>
-    <h2 style={{marginLeft: '0.5rem'}}>
+    <h2 className="project-name" style={{marginLeft: '0.5rem'}}>
         FixturePal
     </h2>
     </th>
     </tr>
     </table>
 
-    <h2 style={{fontWeight: 'normal', fontStyle: 'italic'}}> A sports match schedule generator and results tracker</h2>
+    <h2 className="project-blurb" style={{fontWeight: 'normal', fontStyle: 'italic'}}> A sports match schedule generator and results tracker</h2>
 
     <table className="fixture-programming-logos">
     <tr>
@@ -250,14 +250,14 @@ class Portfolio extends React.Component {
   <tr>
   <th className="project-logo"><img style={{width:'5rem', height: '5rem', marginTop: '0,5rem'}} src={require('../images/books.png')}></img></th>
   <th>
-  <h2 style={{marginLeft: '0.5rem'}}>
+  <h2 className="project-name" style={{marginLeft: '0.5rem'}}>
       Invent.story
   </h2>
   </th>
   </tr>
   </table>
 
-  <h2 style={{fontWeight: 'normal', fontStyle: 'italic'}}>A lightweight inventory and profit tracker built with independent booksellers in mind</h2>
+  <h2 className="project-blurb" style={{fontWeight: 'normal', fontStyle: 'italic'}}>A lightweight inventory and profit tracker built with independent booksellers in mind</h2>
 
   <table className="story-programming-logos">
   <tr>
@@ -295,14 +295,14 @@ class Portfolio extends React.Component {
       <tr>
       <th className="project-logo"><img style={{width:'5rem', height: '5rem', marginTop: '0,5rem'}} src={require('../images/weather2wed.png')}></img></th>
       <th>
-      <h2 style={{marginLeft: '0.5rem'}}>
+      <h2 className="project-name" style={{marginLeft: '0.5rem'}}>
           Weather2Wed
       </h2>
       </th>
       </tr>
       </table>
 
-      <h2 style={{fontWeight: 'normal', fontStyle: 'italic'}}>A fun wedding day planning tool, vanilla JavaScript</h2>
+      <h2 className="project-blurb" style={{fontWeight: 'normal', fontStyle: 'italic'}}>A fun wedding day planning tool, vanilla JavaScript</h2>
 
       <table className="w2w-programming-logos">
       <tr>

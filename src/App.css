@@ -20,6 +20,26 @@ body {
   width: 8px;
 }
 
+.project-name {
+  font-size: 24px;
+}
+
+@media (max-width: 450px) {
+  .project-name {
+    font-size: 17px;
+  }
+}
+
+.project-blurb {
+  font-size: 24px;
+}
+
+@media (max-width: 450px) {
+  .project-blurb {
+    font-size: 16px;
+  }
+}
+
 @media (max-width: 840px) {
   .pulse{
     margin-top: 100%;
