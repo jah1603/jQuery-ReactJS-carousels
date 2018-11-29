@@ -7,7 +7,7 @@ const Contact = () => (
     <p>You can also find me on GitHub!</p>
     <div className="social-media">
         <a href="https://www.github.com/jah1603" alt="GitHub" target="_blank">
-          <img src={require('../images/github.png')} height="80" width="80" alt="GitHub"/>
+          <img className="git" src={require('../images/github.png')} height="80" width="80" alt="GitHub"/>
         </a>
 
       </div>
