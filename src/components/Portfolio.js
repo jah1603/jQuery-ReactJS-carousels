@@ -317,7 +317,7 @@ class Portfolio extends React.Component {
 
       <h4 className="github"><a href="http://weather2wed.herokuapp.com">View on Heroku</a></h4>
       <p className="project-description">Another self-penned brief, this CodeClan group project aimed to inform and entertain in a novel and engaging way. <span style={{fontStyle: 'italic'}}>Weather2Wed</span>, built in line with the publish-subscribe pattern, presents historical weather snapshots for potential wedding locations throughout Britain and Ireland.<br/><br/>
-      Weather data was sourced from DarkSky via coordinates from Geograph, while FourSquare and Leaflet were used to map suggested hotels and venues in and around the prospective wedding location. Astronomy equations helped to predict whether the user's wedding date would fall on a full moon.
+      Weather data was sourced from DarkSky via coordinates from Geograph, while FourSquare and Leaflet were used to map suggested hotels and venues in and around the prospective wedding location. <span style={{fontStyle: 'italic'}}>Weather2Wed</span> also predicts whether the wedding date falls on a full moon, via astronomy calculations.
     </p>
 
     </div>
