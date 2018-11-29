@@ -3,7 +3,7 @@ import Arrow from './Arrow.js'
 import $ from 'jquery';
 import Background from '../images/fast-forward.png'
 
-const reachUrls = ["../images/reach1.png", '../images/reach2.png', '../images/reach3.png', '../images/reach4.png', '../images/reach5.png', '../images/reach6.png' ]
+const reachUrls = ["../images/reach1.png", '../images/reach7.png', '../images/reach8.png', '../images/reach9.png', '../images/reach10.png', '../images/reach11.png', '../images/reach12.png', '../images/reach13.png', '../images/reach14.png', '../images/reach15.png', '../images/reach16.png', '../images/reach17.png', '../images/reach3.png', '../images/reach18.png', '../images/reach19.png']
 
 
 class ReachCarousel extends React.Component {
@@ -67,11 +67,20 @@ class ReachCarousel extends React.Component {
 
 
          <img className="opaque" src={require("../images/reach1.png")} ></img>
-         <img src={require("../images/reach2.png")} ></img>
+         <img src={require("../images/reach7.png")} ></img>
+         <img src={require("../images/reach8.png")} ></img>
+         <img src={require("../images/reach9.png")} ></img>
+         <img src={require("../images/reach10.png")} ></img>
+         <img src={require("../images/reach11.png")} ></img>
+         <img src={require("../images/reach12.png")} ></img>
+         <img src={require("../images/reach13.png")} ></img>
+         <img src={require("../images/reach14.png")} ></img>
+         <img src={require("../images/reach15.png")} ></img>
+         <img src={require("../images/reach16.png")} ></img>
+         <img src={require("../images/reach17.png")} ></img>
          <img src={require("../images/reach3.png")} ></img>
-         <img src={require("../images/reach4.png")} ></img>
-         <img src={require("../images/reach5.png")} ></img>
-         <img src={require("../images/reach6.png")} ></img>
+         <img src={require("../images/reach18.png")} ></img>
+         <img src={require("../images/reach19.png")} ></img>
 
       </div>
     );
