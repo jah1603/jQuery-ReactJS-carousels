@@ -2,7 +2,7 @@
 
 body {
   font-family: "Georgia", verdana, sans-serif;
-  background: linear-gradient(to bottom right, #fdfcfb, #e2d1c3);
+  background: linear-gradient(to bottom right, white, #D4D3DD);
 }
 
 #container, .carousel {
