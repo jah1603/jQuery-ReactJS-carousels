@@ -60,7 +60,7 @@ class ReachCarousel extends React.Component {
       <div id="cf7">
 
       <p id="cf7_controls" style={{justifyContent: 'center', overflow: 'visible'}}>
-        <div className="pulse" style={{backgroundImage: "url(" + Background + ")"}}>
+        <div className="pulse reach-pulse" style={{backgroundImage: "url(" + Background + ")"}}>
         <span className="selected"> </span>
         </div>
       </p>

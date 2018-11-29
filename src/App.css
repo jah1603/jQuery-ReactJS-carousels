@@ -72,7 +72,11 @@ body {
 
 @media screen and (max-width: 414px) {
   .pulse{
-    margin-top: 230%;
+    margin-top: 225%;
+    margin-left: 47%;
+  }
+  .reach-pulse{
+    margin-top: 245%;
     margin-left: 47%;
   }
   .story{
@@ -117,7 +121,11 @@ body {
 
 @media screen and (max-width: 320px) {
   .pulse{
-    margin-top: 380%;
+    margin-top: 340%;
+    margin-left: 47%;
+  }
+  .reach-pulse{
+    margin-top: 360%;
     margin-left: 47%;
   }
   .story{
