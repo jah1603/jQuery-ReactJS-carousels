@@ -675,35 +675,47 @@ p#cf7-fixture-pal_controls-projects {
   letter-spacing: .7px;
 }
 
+
 @media screen and (max-width: 1050px){
+  .welcome-title {
+    margin-top: 40%;
+
+  }
   .welcome-message {
+    font-size: 130%;
 
-    margin-top: 0%;
-  }
-
-  .welcome-title {
-    margin-top: 50%;
-
-  }
-
-}
-
-@media screen and (max-width: 840px){
-  .welcome-title {
-    margin-top: 50%;
-
-  }
-  .button {
-    margin-bottom: 50%;
   }
 }
 
 @media screen and (max-width: 840px) {
   .welcome-message {
-    font-size: 80%;
+    font-size: 95%;
     padding: 50px;
     padding-bottom: 300px;
     margin-top: 0%;
+  }
+}
+
+@media screen and (max-width: 840px){
+  .welcome-title {
+    margin-top: 40%;
+
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+  .welcome-message {
+    font-size: 70%;
+    padding: 50px;
+    padding-bottom: 300px;
+    margin-top: 0%;
+  }
+  .button {
+    font-size: 2px;
+    padding: 10px 40px;
+    margin-top: 15px;
+    margin-bottom: 20%;
   }
 }
 
@@ -720,21 +732,33 @@ color: black;
   border-color: black;
   font-size: 20px;
   margin: 4px 2px;
+  margin-bottom: 9.5%;
   cursor: pointer;
   -webkit-transition: color 0.3s, background-color 0.3s;
   transition: color 0.3s, background-color 0.3s;
   font-weight: bold;
 }
 
+@media screen and (max-width: 1050px) {
+
+.button {
+  margin-bottom: 64%;
+  font-size: 22px;
+}
+
+}
+
 @media screen and (max-width: 840px) {
 
   .button {
-    font-size: 15px;
+    font-size: 18px;
     padding: 10px 40px;
     margin-top: 15px;
-    margin
+    margin-bottom: 20%;
 
   }
+
+
 
   h3 {
     margin-top: 15px;
@@ -745,7 +769,8 @@ color: black;
 @media screen and (max-width: 350px) {
 
   .button {
-    font-size: 13px;
+    font-size: 10px;
+    margin-bottom: 20%;
 
   }
 
