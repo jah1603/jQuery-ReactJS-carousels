@@ -1006,15 +1006,31 @@ color: white;
 
 @media screen and (max-width: 1050px) {
   .contact {
-    margin-bottom: 92%;
+    margin-bottom: 94.3%;
   }
 }
 
 @media screen and (max-width: 840px) {
   .contact {
+    font-size: 96%;
+    margin: 20px 20px;
+    margin-bottom: 94.3%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .contact {
     font-size: 75%;
     margin: 20px 20px;
-    margin-bottom: 92%;
+    margin-bottom: 110.3%;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .contact {
+    font-size: 75%;
+    margin: 20px 20px;
+    margin-bottom: 130.3%;
   }
 }
 
