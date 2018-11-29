@@ -1013,6 +1013,36 @@ color: white;
   float: right;
 }
 
+@media (max-width: 1050px) {
+  .project-paragraph {
+    width: 38%;
+
+    font-size: 18px;
+  }
+
+  .reach-paragraph {
+    margin-bottom: 5%;
+  }
+
+  .fixture-pal-paragraph {
+    margin-bottom: 10%;
+  }
+
+  .story-paragraph {
+    margin-bottom: 30%;
+  }
+
+  .weather2wed-paragraph {
+    margin-bottom: 12.5%;
+  }
+
+  .project-paragraph-weather2 {
+    width: 37%;
+
+    font-size: 18px;
+  }
+}
+
 
 @media (max-width: 840px) {
   .project-paragraph {
