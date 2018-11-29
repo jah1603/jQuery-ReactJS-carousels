@@ -72,11 +72,11 @@ body {
 
 @media screen and (max-width: 414px) {
   .pulse{
-    margin-top: 225%;
+    margin-top: 215%;
     margin-left: 47%;
   }
   .reach-pulse{
-    margin-top: 245%;
+    margin-top: 235%;
     margin-left: 47%;
   }
   .story{
@@ -91,7 +91,11 @@ body {
 
 @media screen and (max-width: 375px) {
   .pulse{
-    margin-top: 270%;
+    margin-top: 255%;
+    margin-left: 47%;
+  }
+  .reach-pulse{
+    margin-top: 265%;
     margin-left: 47%;
   }
   .story{
@@ -815,17 +819,41 @@ color: black;
 
 }
 
-@media screen and (max-height: 812px) {
+@media screen and (max-height: 640px) {
 
   .button {
     font-size: 12px;
-    margin-bottom: 30%;
+    margin-bottom: -10%;
 
   }
 
 }
 
 @media screen and (max-width: 320px) {
+
+  .button {
+    font-size: 12px;
+    margin-bottom: 0%;
+
+
+  }
+
+  .welcome-title {
+    margin-top: 30%;
+    padding: 0px;
+
+
+  }
+
+}
+
+@media screen and (max-height: 568px) {
+  .welcome-title {
+    margin-top: 10%;
+    padding: 0px;
+
+
+  }
 
   .button {
     font-size: 12px;
