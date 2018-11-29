@@ -14,7 +14,7 @@ const Home = () => (
   <div className='welcome-parent'>
   <div className="welcome-header" style={ sectionStyle }>
     <div className="welcome-message">
-      <h1>I'm James</h1>
+      <h1 className='welcome-title'>I'm James</h1>
       <h3>I'm a software developer based in Edinburgh</h3>
       <Link to='/portfolio'>
         <button className="button draw-border" type="button">Browse my portfolio</button>

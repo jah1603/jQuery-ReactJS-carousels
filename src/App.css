@@ -24,7 +24,7 @@ body {
   font-size: 24px;
 }
 
-@media (max-width: 450px) {
+@media screen and (max-width: 450px) {
   .project-name {
     font-size: 17px;
   }
@@ -34,13 +34,13 @@ body {
   font-size: 24px;
 }
 
-@media (max-width: 450px) {
+@media screen and (max-width: 450px) {
   .project-blurb {
     font-size: 16px;
   }
 }
 
-@media (max-width: 840px) {
+@media screen and (max-width: 840px) {
   .pulse{
     margin-top: 100%;
     margin-left: 47%;
@@ -55,7 +55,7 @@ body {
   }
 }
 
-@media (max-width: 450px) {
+@media screen and (max-width: 450px) {
   .pulse{
     margin-top: 250%;
     margin-left: 47%;
@@ -70,7 +70,7 @@ body {
   }
 }
 
-@media (max-width: 414px) {
+@media screen and (max-width: 414px) {
   .pulse{
     margin-top: 230%;
     margin-left: 47%;
@@ -85,7 +85,7 @@ body {
   }
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 375px) {
   .pulse{
     margin-top: 270%;
     margin-left: 47%;
@@ -100,7 +100,7 @@ body {
   }
 }
 
-@media (max-width: 360px) {
+@media screen and (max-width: 360px) {
   .pulse{
     margin-top: 300%;
     margin-left: 47%;
@@ -115,7 +115,7 @@ body {
   }
 }
 
-@media (max-width: 320px) {
+@media screen and (max-width: 320px) {
   .pulse{
     margin-top: 380%;
     margin-left: 47%;
@@ -130,7 +130,7 @@ body {
   }
 }
 
-@media (max-width: 840px) {
+@media screen and (max-width: 840px) {
   .reach-programming-logos {
     position: relative;
     left: 30%;
@@ -154,7 +154,7 @@ body {
   }
 }
 
-@media (max-width: 450px) {
+@media screen and (max-width: 450px) {
   .reach-programming-logos {
     position: relative;
     left: 10%;
@@ -178,7 +178,7 @@ body {
   }
 }
 
-@media (max-width: 414px) {
+@media screen and (max-width: 414px) {
   .reach-programming-logos {
     position: relative;
     left: 14.5%;
@@ -196,7 +196,7 @@ body {
 
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 375px) {
   .reach-programming-logos {
     position: relative;
     left: 10.5%;
@@ -209,7 +209,7 @@ body {
 
 }
 
-@media (max-width: 320px) {
+@media screen and (max-width: 320px) {
   .reach-programming-logos {
     position: relative;
     left: 5%;
@@ -289,7 +289,7 @@ p#cf7_controls-projects {
   justify-content: 'center',
 }
 
-@media (max-width: 450px) {
+@media screen and (max-width: 450px) {
   p#cf7_controls-projects {
     margin-top: 0px;
   }
@@ -309,7 +309,7 @@ p#cf7_controls-projects {
   filter: alpha(opacity=0);
 }
 
-@media (max-width: 840px) {
+@media screen and (max-width: 840px) {
   #cf7 img {
     margin-left: 1%;
     margin-right: 1%;
@@ -365,7 +365,7 @@ p#cf7-weather2_controls-projects {
   filter: alpha(opacity=0);
 }
 
-@media (max-width: 840px) {
+@media screen and (max-width: 840px) {
   #cf7-weather2 img {
     margin-left: 1%;
     margin-right: 1%;
@@ -422,7 +422,7 @@ p#cf7-story_controls-projects {
   filter: alpha(opacity=0);
 }
 
-@media (max-width: 840px) {
+@media screen and (max-width: 840px) {
   #cf7-story img {
     margin-left: 1%;
     margin-right: 1%;
@@ -479,7 +479,7 @@ p#cf7-fixture-pal_controls-projects {
   filter: alpha(opacity=0);
 }
 
-@media (max-width: 840px) {
+@media screen and (max-width: 840px) {
   #cf7-fixture-pal img {
     margin-left: 1%;
     margin-right: 1%;
@@ -541,7 +541,7 @@ p#cf7-fixture-pal_controls-projects {
   left: 12%;
 }
 
-@media (max-width: 840px) {
+@media screen and (max-width: 840px) {
   .weather2-slide-arrow.right {
     right: 8%;
   }
@@ -675,11 +675,35 @@ p#cf7-fixture-pal_controls-projects {
   letter-spacing: .7px;
 }
 
-@media (max-width: 840px) {
+@media screen and (max-width: 1050px){
   .welcome-message {
-    font-size: 70%;
+
+    margin-top: 0%;
+  }
+
+  .welcome-title {
+    margin-top: 50%;
+
+  }
+
+}
+
+@media screen and (max-width: 840px){
+  .welcome-title {
+    margin-top: 50%;
+
+  }
+  .button {
+    margin-bottom: 50%;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .welcome-message {
+    font-size: 80%;
     padding: 50px;
     padding-bottom: 300px;
+    margin-top: 0%;
   }
 }
 
@@ -708,6 +732,7 @@ color: black;
     font-size: 15px;
     padding: 10px 40px;
     margin-top: 15px;
+    margin
 
   }
 
@@ -782,7 +807,7 @@ color: white;
   background: linear-gradient(to bottom right, #334d50, #cbcaa5);
 }
 
-@media (max-width: 840px) {
+@media screen and (max-width: 840px) {
   .about {
     margin: 20px 20px;
     background: linear-gradient(to bottom right, #334d50, #cbcaa5);
@@ -800,15 +825,22 @@ color: white;
 
 }
 
-@media (max-width: 840px) {
+@media screen and (max-width: 1050px) {
+  .about-paragraph {
+    margin-bottom: 39%;
+  }
+}
+
+@media screen and (max-width: 840px) {
   .about-paragraph {
     text-align: center;
     width: auto;
     margin-top: 0px;
+    margin-bottom: 0%;
   }
 }
 
-@media (max-width: 450px) {
+@media screen and (max-width: 450px) {
   .about-paragraph {
     width: auto;
     font-size: 12px;
@@ -822,7 +854,7 @@ color: white;
   margin-right: 2.5%;
 }
 
-@media (max-width: 450px) {
+@media screen and (max-width: 450px) {
   .project-header {
     font-size: 7.5px;
     margin-left: 3%;
@@ -838,7 +870,7 @@ color: white;
   text-align: center;
 }
 
-@media (max-width: 840px) {
+@media screen and (max-width: 840px) {
   .about-photo {
     width: 100%;
   }
@@ -860,10 +892,17 @@ color: white;
   word-spacing: 2px;
 }
 
-@media (max-width: 840px) {
+@media screen and (max-width: 1050px) {
+  .contact {
+    margin-bottom: 92%;
+  }
+}
+
+@media screen and (max-width: 840px) {
   .contact {
     font-size: 75%;
     margin: 20px 20px;
+    margin-bottom: 92%;
   }
 }
 
@@ -897,7 +936,7 @@ color: white;
   word-spacing: 2px;
 }
 
-@media (max-width: 840px) {
+@media screen and (max-width: 840px) {
   .projects {
     margin: 20px 20px;
   }
@@ -983,7 +1022,7 @@ color: white;
 
 }
 
-@media (max-width: 840px) {
+@media screen and (max-width: 840px) {
 
   .headline {
     font-size: 28px;
@@ -993,7 +1032,7 @@ color: white;
 
 }
 
-@media (max-width: 450px) {
+@media screen and (max-width: 450px) {
 
   .headline {
     font-size: 20px;
@@ -1013,7 +1052,7 @@ color: white;
   float: right;
 }
 
-@media (max-width: 1050px) {
+@media screen and (max-width: 1050px) {
   .project-paragraph {
     width: 38%;
 
@@ -1044,7 +1083,7 @@ color: white;
 }
 
 
-@media (max-width: 840px) {
+@media screen and (max-width: 840px) {
   .project-paragraph {
     width: 100%;
     margin-bottom: 75%;
@@ -1062,7 +1101,7 @@ color: white;
   }
 }
 
-@media (max-width: 450px) {
+@media screen and (max-width: 450px) {
   .project-paragraph {
     width: 100%;
     margin-bottom: 100%;
@@ -1080,7 +1119,7 @@ color: white;
   }
 }
 
-@media (max-width: 450) {
+@media screen and (max-width: 450) {
   .project-description {
     font-size: 14px;
   }
@@ -1092,7 +1131,7 @@ color: white;
   margin-top: 2em;
 }
 
-@media (max-width: 840px) {
+@media screen and (max-width: 840px) {
   .project-photo {
     width: auto;
   }
@@ -1118,7 +1157,7 @@ p a {
   border-radius: 10px;
 }
 
-@media (max-width: 840px){
+@media screen and (max-width: 840px){
   .screenshot{
     width: 75%;
     margin-left: 7.5%;
