@@ -1,5 +1,5 @@
 Carousels and toggles etc
 
-Hosted on Digital Ocean
+Hosted with a Digital Ocean droplet
 
 
