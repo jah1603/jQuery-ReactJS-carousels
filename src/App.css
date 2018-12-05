@@ -13,6 +13,7 @@ body {
 
 .pulse{
   border-radius: 35px;
+  border-width: 0.1px;
   margin-top: 2.5%;
   padding: 2%;
   margin-left: 28%;
@@ -257,15 +258,70 @@ body {
     -ms-transform: scale(1);
     -webkit-transform: scale(1);
     transform: scale(1);
-    box-shadow: 0 0 0 10px #E4E5E6;
-    background-color: #E4E5E6;
+    box-shadow: 0 0 0 10px silver;
+    background-color: silver;
   }
   100% {
     -moz-transform: scale(0.9);
     -ms-transform: scale(0.9);
     -webkit-transform: scale(0.9);
     transform: scale(0.9);
-    box-shadow: 0 0 0 0 #E4E5E6;
+    box-shadow: 0 0 0 0 silver;
+  }
+}
+
+@media screen and (max-width: 850px) {
+
+  @-webkit-keyframes pulse {
+    0% {
+      -moz-transform: scale(0.9);
+      -ms-transform: scale(0.9);
+      -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+    }
+    70% {
+      -moz-transform: scale(0.95);
+      -ms-transform: scale(0.95);
+      -webkit-transform: scale(0.95);
+      transform: scale(0.95);
+      box-shadow: 0 0 0 10px silver;
+      background-color: silver;
+    }
+    100% {
+      -moz-transform: scale(0.9);
+      -ms-transform: scale(0.9);
+      -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+      box-shadow: 0 0 0 0 silver;
+    }
+  }
+
+}
+
+@media screen and (max-width: 520px) {
+
+  @-webkit-keyframes pulse {
+    0% {
+      -moz-transform: scale(0.7);
+      -ms-transform: scale(0.7);
+      -webkit-transform: scale(0.7);
+      transform: scale(0.7);
+    }
+    70% {
+      -moz-transform: scale(0.85);
+      -ms-transform: scale(0.85);
+      -webkit-transform: scale(0.85);
+      transform: scale(0.85);
+      box-shadow: 0 0 0 10px silver;
+      background-color: silver;
+    }
+    100% {
+      -moz-transform: scale(0.7);
+      -ms-transform: scale(0.7);
+      -webkit-transform: scale(0.7);
+      transform: scale(0.7);
+      box-shadow: 0 0 0 0 silver;
+    }
   }
 }
 
