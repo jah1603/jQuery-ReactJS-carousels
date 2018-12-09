@@ -975,13 +975,13 @@ color: white;
 .about {
   margin: 5px 100px;
   width: auto;
-  background: linear-gradient(to bottom right, #334d50, #cbcaa5);
+  background: #4C7064;
 }
 
 @media screen and (max-width: 840px) {
   .about {
     margin: 20px 20px;
-    background: linear-gradient(to bottom right, #334d50, #cbcaa5);
+    background: #4C7064;
   }
 }
 
@@ -1205,7 +1205,7 @@ color: white;
   padding: 10px;
   margin-bottom: 20px;
   font-weight: normal;
-  background: linear-gradient(to bottom right, #334d50, #cbcaa5);
+  background: #4C7064;
 
 }
 
