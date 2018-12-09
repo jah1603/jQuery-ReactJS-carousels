@@ -684,7 +684,7 @@ p#cf7-fixture-pal_controls-projects {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background: linear-gradient(to bottom right, #334d50, #cbcaa5);
+  background-color: #4C7064;
 
   padding: 20px;
 }
@@ -783,7 +783,7 @@ p#cf7-fixture-pal_controls-projects {
 
 .button {
 
-background: linear-gradient(to bottom right, #334d50, #cbcaa5);
+background: #4C7064;
 
 color: black;
 
@@ -920,7 +920,7 @@ color: black;
 }
 
 .button:hover {
-background: linear-gradient(to bottom right, #0F2027, #203A43, #2C5364);
+background: #213D30;
 color: white;
 
 }
@@ -954,7 +954,7 @@ color: white;
 }
 .draw-border:hover {
   color: white;
-  background: linear-gradient(to bottom right, #0F2027, #203A43, #2C5364);
+  background: #213D30;
 }
 .draw-border:hover::before, .draw-border:hover::after {
   border-color: white;
