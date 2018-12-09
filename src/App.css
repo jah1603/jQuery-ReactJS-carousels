@@ -1174,13 +1174,13 @@ color: white;
 }
 
 .slide-in {
-    animation: slide-in 0.5s forwards;
-    -webkit-animation: slide-in 0.5s forwards;
+    animation: slide-in 0.1s forwards;
+    -webkit-animation: slide-in 0.1s forwards;
 }
 
 .slide-out {
-    animation: slide-out 0.5s forwards;
-    -webkit-animation: slide-out 0.5s forwards;
+    animation: slide-out 0.42s forwards;
+    -webkit-animation: slide-out 0.42s forwards;
 }
 
 #hidden {
