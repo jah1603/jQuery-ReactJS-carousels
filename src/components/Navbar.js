@@ -25,16 +25,16 @@ class Navbar extends React.Component {
             </a>
           </li>
           <li>
-            <NavLink to="/contact" onClick={this.revertClass} activeStyle={{ color: "white" }}><img className="navbar-icon" src={require("../images/contact.png")} alt="home icon" width="40" height="40"></img></NavLink>
+            <NavLink to="/contact" onClick={this.revertClass} activeStyle={{ color: "white" }}><img className="navbar-icon" src={require("../images/contact2.png")} alt="home icon" width="40" height="40"></img></NavLink>
           </li>
           <li>
-            <NavLink to="/portfolio" onClick={this.revertClass} activeStyle={{ color: "white"}}><img className="navbar-icon" src={require("../images/folder.png")} alt="home icon" width="40" height="40"></img></NavLink>
+            <NavLink to="/portfolio" onClick={this.revertClass} activeStyle={{ color: "white"}}><img className="navbar-icon" src={require("../images/folder2.png")} alt="home icon" width="40" height="40"></img></NavLink>
           </li>
           <li>
-            <NavLink to="/about" onClick={this.revertClass} activeStyle={{ color: "white"}}><img className="navbar-icon" src={require("../images/user.png")} alt="home icon" width="40" height="40"></img></NavLink>
+            <NavLink to="/about" onClick={this.revertClass} activeStyle={{ color: "white"}}><img className="navbar-icon" src={require("../images/user2.png")} alt="home icon" width="40" height="40"></img></NavLink>
           </li>
           <li>
-            <NavLink exact to="/" onClick={this.revertClass} activeStyle={{ color: "white"}}><img className="navbar-icon" src={require("../images/home.png")} alt="home icon" width="40" height="40"></img></NavLink>
+            <NavLink exact to="/" onClick={this.revertClass} activeStyle={{ color: "white"}}><img className="navbar-icon" src={require("../images/home2.png")} alt="home icon" width="40" height="40"></img></NavLink>
           </li>
           <li className="website-title" id="title">
             <NavLink to="/" onClick={this.revertClass} activeStyle={{ color: "white", fontWeight: 'normal'}}>James A. Henderson</NavLink>
