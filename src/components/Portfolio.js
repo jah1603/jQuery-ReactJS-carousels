@@ -111,7 +111,7 @@ class Portfolio extends React.Component {
       </tr>
       </table>
 
-      <h2 className="project-blurb" style={{fontWeight: 'normal', fontStyle: 'italic'}}>A modern social networking and dating app for millenials</h2>
+      <h2 className="project-blurb" style={{fontWeight: 'normal', fontStyle: 'italic'}}>A modern social networking and dating app for millennials</h2>
 
       <table className="reach-programming-logos">
       <tr style={{justifyContent: 'center'}}>
@@ -135,7 +135,7 @@ class Portfolio extends React.Component {
 
       <h4 className="github"><a href="https://www.github.com/jah1603/Reach--">View on GitHub</a></h4>
       <p className="project-description">I took on this project with two colleagues based on our overarching vision of a networking app for hyperconnected social influencers. We set up a ReactJS frontend to consume the Python backend using Axios. <span style={{fontStyle: 'italic'}}>Reach</span> is a full-stack dating platform that measures users' social reach through web scraping, letting them find, match and interact with other users according to lifestyle preferences, location and age.<br/><br/>
-      <span style={{fontStyle: 'italic'}}>Reach</span>, which features JSON web token authentication, a Django REST API, geolocation, swipeable cards and email activation, retrieves users' total social reach by scraping their follower count on three major social media platforms. All of this underpins a vibrant UI designed to appeal to millenials.</p>
+      <span style={{fontStyle: 'italic'}}>Reach</span>, which features JSON web token authentication, a Django REST API, geolocation, swipeable cards and email activation, retrieves users' total social reach by scraping their follower count on three major social media platforms. All of this underpins a vibrant UI designed to appeal to millennials.</p>
 
     </div>
 
