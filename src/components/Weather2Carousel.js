@@ -80,13 +80,15 @@ class Weather2Carousel extends React.Component {
 
   returnImage(index){
     switch(index) {
-    case 0: return require("../images/w2walk1.png");
-    case 1: return require("../images/w2walk2.png");
-    case 2: return require("../images/w2wed1.png");
-    case 3: return require("../images/w2wed3.png");
-    case 4: return require("../images/w2golf1.png");
-    case 5: return require("../images/w2golf2.png");
-    case 6: return require("../images/w2golf3.png");
+    case 0: return require("../images/w2bbq2.png");
+    case 1: return require("../images/w2bbq3.png");
+    case 2: return require("../images/w2walk1.png");
+    case 3: return require("../images/w2walk2.png");
+    case 4: return require("../images/w2wed1.png");
+    case 5: return require("../images/w2wed3.png");
+    case 6: return require("../images/w2golf1.png");
+    case 7: return require("../images/w2golf2.png");
+    case 8: return require("../images/w2golf3.png");
 
   }
   }

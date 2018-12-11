@@ -162,7 +162,7 @@ class Portfolio extends React.Component {
       </tr>
       </table>
 
-      <h2 className="project-blurb" style={{fontWeight: 'normal', fontStyle: 'italic'}}> A series of activity-related mobile weather apps, available on Android</h2>
+      <h2 className="project-blurb" style={{fontWeight: 'normal', fontStyle: 'italic'}}> A suite of activity-related mobile weather apps, available on Android</h2>
 
       <table className="weather2-programming-logos">
       <tr>
