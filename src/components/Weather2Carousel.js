@@ -3,7 +3,7 @@ import Arrow from './Arrow.js'
 import CarouselImage from './CarouselImage.js'
 import $ from 'jquery';
 
-const imgUrls = ["../images/w2walk1.png", '../images/w2walk2.png',
+const imgUrls = ["../images/w2bbq2.png", "../images/w2bbq3.png", "../images/w2walk1.png", '../images/w2walk2.png',
   '../images/w2wed1.png',
  '../images/w2wed3.png', '../images/w2golf1.png', '../images/w2golf2.png',
  '../images/w2golf3.png'
@@ -47,7 +47,7 @@ class Weather2Carousel extends React.Component {
       currentImageIndex: index
     });
   }
-  
+
 
   slideAnimationScript(){
 
