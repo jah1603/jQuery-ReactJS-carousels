@@ -24,15 +24,10 @@ class BookCarousel extends React.Component {
       var counter = 1;
 
   $("#cf7-story_controls").on('click', 'div', function() {
-    console.log("counter", counter);
-    console.log("numPhotos", numberOfPhotos);
+
     $("#cf7-story img").removeClass("opaque");
 
-    // var newImage = $(this).index();
-
     $("#cf7-story img").eq(counter).addClass("opaque");
-
-    console.log("image", $("#cf7-story img").eq(counter));
 
     $("#cf7-story_controls div").removeClass("selected");
     $(this).addClass("selected");

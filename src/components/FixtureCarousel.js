@@ -23,15 +23,10 @@ class FixtureCarousel extends React.Component {
       var counter = 1;
 
   $("#cf7-fixture-pal_controls").on('click', 'div', function() {
-    console.log("counter", counter);
-    console.log("numPhotos", numberOfPhotos);
+
     $("#cf7-fixture-pal img").removeClass("opaque");
 
-    // var newImage = $(this).index();
-
     $("#cf7-fixture-pal img").eq(counter).addClass("opaque");
-
-    console.log("image", $("#cf7-fixture-pal img").eq(counter));
 
     $("#cf7-fixture-pal_controls div").removeClass("selected");
     $(this).addClass("selected");
