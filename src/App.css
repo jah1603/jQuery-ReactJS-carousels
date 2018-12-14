@@ -1775,7 +1775,7 @@ body {
   width: 600px;
   position: relative;
   top: -1000px;
-  margin: 10% auto;
+  margin: 0% auto;
   padding: 20px 20px 13px 20px;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -1818,7 +1818,7 @@ body {
     width: 70%;
     position: relative;
     top: -1000px;
-    margin: 10% auto;
+    margin: 0% auto;
     padding: 20px 20px 13px 20px;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
