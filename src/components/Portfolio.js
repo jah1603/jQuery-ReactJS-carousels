@@ -87,11 +87,11 @@ class Portfolio extends React.Component {
     <h1 className="headline"> My portfolio</h1>
 
     <p id="cf7_controls-projects" style={{justifyContent: 'center', marginBottom: '4%'}}>
-      <div className="selected project-header" style={{display: 'inline-block', width: '13%', textAlign: 'center', paddingBottom: '1%'}}>Weather2...</div>
-      <div className="project-header" style={{display: 'inline-block', width: '13%', textAlign: 'center', paddingBottom: '1%'}}>Reach</div>
-      <div className="project-header" style={{display: 'inline-block', width: '13%', paddingBottom: '1%'}}>FixturePal</div>
-      <div className="project-header" style={{display: 'inline-block', width: '13%', paddingBottom: '1%'}}>Invent.story</div>
-      <div className="project-header" style={{display: 'inline-block', width: '13%', paddingBottom: '1%'}}>Weather2Wed</div>
+      <div className="selected project-header" style={{display: 'inline-block', width: '13%', textAlign: 'center', paddingBottom: '1%'}}>JS</div>
+      <div className="project-header" style={{display: 'inline-block', width: '13%', textAlign: 'center', paddingBottom: '1%'}}>Python/JS</div>
+      <div className="project-header" style={{display: 'inline-block', width: '13%', paddingBottom: '1%'}}>Java</div>
+      <div className="project-header" style={{display: 'inline-block', width: '13%', paddingBottom: '1%'}}>Ruby</div>
+      <div className="project-header" style={{display: 'inline-block', width: '13%', paddingBottom: '1%'}}>JS</div>
     </p>
 
 
