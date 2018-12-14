@@ -187,13 +187,13 @@ class Portfolio extends React.Component {
       <h4 className="github"><a href="https://play.google.com/store/apps/developer?id=Weather2">View on Google Play store</a></h4>
       <a class="button2" href="#openModal">Launch video</a>
 
-<div id="openModal" class="modalbg">
+<div id="openModal" class="modalbg" style={{alignItems: 'center', textAlign: 'center', justifyContent: 'center'}}>
   <div class="dialog">
     <a href="#close" title="Close" class="close">X</a>
-  	<h2>Weather2BBQ</h2>
+  	<h2>Video demo</h2>
 		<video width="45%" controls>
-              <source src="/images/project_images/TravelSite/Travelsite.mp4" type="video/mp4"></source>
-              <source src="/images/project_images/TravelSite/Travelsite.mp4" type="video/ogg"></source>
+              <source src={require("../images/W2BBQ.mp4")} type="video/mp4"></source>
+              <source src={require("../images/W2BBQ.mp4")} type="video/ogg"></source>
               Your browser does not support the video tag.
             </video>
 	</div>
