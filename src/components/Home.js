@@ -15,7 +15,7 @@ const Home = () => (
   <div className="welcome-header" style={ sectionStyle }>
     <div className="welcome-message">
       <h1 className='welcome-title'>I'm James</h1>
-      <h3>I'm a software developer based in Edinburgh</h3>
+      <h3>I'm <span style={{color: '#32CC99'}}>passionate</span> about creating engaging digital experiences</h3>
       <Link to='/portfolio'>
         <button className="button draw-border" type="button">Browse my portfolio</button>
       </Link>
