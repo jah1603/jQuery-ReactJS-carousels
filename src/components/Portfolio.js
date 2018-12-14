@@ -87,8 +87,8 @@ class Portfolio extends React.Component {
     <h1 className="headline"> My portfolio</h1>
 
     <p id="cf7_controls-projects" style={{justifyContent: 'center', marginBottom: '4%'}}>
-      <div className="selected project-header" style={{display: 'inline-block', width: '13%', textAlign: 'center', paddingBottom: '1%'}}>Reach</div>
-      <div className="project-header" style={{display: 'inline-block', width: '13%', textAlign: 'center', paddingBottom: '1%'}}>Weather2...</div>
+      <div className="selected project-header" style={{display: 'inline-block', width: '13%', textAlign: 'center', paddingBottom: '1%'}}>Weather2...</div>
+      <div className="project-header" style={{display: 'inline-block', width: '13%', textAlign: 'center', paddingBottom: '1%'}}>Reach</div>
       <div className="project-header" style={{display: 'inline-block', width: '13%', paddingBottom: '1%'}}>FixturePal</div>
       <div className="project-header" style={{display: 'inline-block', width: '13%', paddingBottom: '1%'}}>Invent.story</div>
       <div className="project-header" style={{display: 'inline-block', width: '13%', paddingBottom: '1%'}}>Weather2Wed</div>
@@ -97,57 +97,6 @@ class Portfolio extends React.Component {
 
 
     <div id='highlighted' className="project-info 0">
-
-    <div className="project-paragraph reach-paragraph">
-
-      <table>
-      <tr>
-      <th className="project-logo"><img className="reach-image" src={require('../images/reach.png')}></img></th>
-      <th>
-      <h2 className="project-name" style={{marginLeft: '0.5rem'}}>
-          Reach
-      </h2>
-      </th>
-      </tr>
-      </table>
-
-      <h2 className="project-blurb" style={{fontWeight: 'normal', fontStyle: 'italic'}}>A modern social networking and dating app for millennials</h2>
-
-      <table className="reach-programming-logos">
-      <tr style={{justifyContent: 'center'}}>
-      <th>
-        <img style={{width:'3.5rem', height: '3.5rem'}} src={require('../images/python.png')}></img>
-      </th>
-      <th>
-        <img style={{width:'2.5rem', height: '2.5rem', marginLeft: '0.2rem'}} src={require('../images/django.png')}></img>
-      </th>
-      <th>
-        <img style={{width:'2.5rem', height: '2.5rem', marginLeft: '0.2rem'}} src={require('../images/reactjs.png')}></img>
-      </th>
-      <th>
-        <img style={{width:'2.5rem', height: '2.5rem', marginLeft: '0.2rem'}} src={require('../images/jquery.png')}></img>
-      </th>
-      <th>
-        <img style={{width:'2.5rem', height: '2.5rem', marginLeft: '0.2rem'}} src={require('../images/psql.png')}></img>
-      </th>
-      </tr>
-      </table>
-
-      <h4 className="github"><a href="https://www.github.com/jah1603/Reach--">View on GitHub</a></h4>
-      <p className="project-description">I took on this project with two colleagues based on our overarching vision of a networking app for hyperconnected social influencers. We set up a ReactJS frontend to consume the Python backend using Axios. <span style={{fontStyle: 'italic'}}>Reach</span> is a full-stack dating platform that measures users' social reach through web scraping, letting them find, match and interact with other users according to lifestyle preferences, location and age.<br/><br/>
-      <span style={{fontStyle: 'italic'}}>Reach</span>, which features JSON web token authentication, a Django REST API, geolocation, swipeable cards and email activation, retrieves users' total social reach by scraping their follower count on three major social media platforms. All of this underpins a vibrant UI designed to appeal to millennials.</p>
-
-    </div>
-
-    <ReachCarousel>
-
-    </ReachCarousel>
-
-
-  </div>
-
-
-    <div id="hidden" className="project-info 1">
 
     <div className="project-paragraph-weather2">
 
@@ -207,6 +156,57 @@ class Portfolio extends React.Component {
 
   </Weather2Carousel>
 
+
+
+  </div>
+
+
+    <div id="hidden" className="project-info 1">
+
+    <div className="project-paragraph reach-paragraph">
+
+      <table>
+      <tr>
+      <th className="project-logo"><img className="reach-image" src={require('../images/reach.png')}></img></th>
+      <th>
+      <h2 className="project-name" style={{marginLeft: '0.5rem'}}>
+          Reach
+      </h2>
+      </th>
+      </tr>
+      </table>
+
+      <h2 className="project-blurb" style={{fontWeight: 'normal', fontStyle: 'italic'}}>A modern social networking and dating app for millennials</h2>
+
+      <table className="reach-programming-logos">
+      <tr style={{justifyContent: 'center'}}>
+      <th>
+        <img style={{width:'3.5rem', height: '3.5rem'}} src={require('../images/python.png')}></img>
+      </th>
+      <th>
+        <img style={{width:'2.5rem', height: '2.5rem', marginLeft: '0.2rem'}} src={require('../images/django.png')}></img>
+      </th>
+      <th>
+        <img style={{width:'2.5rem', height: '2.5rem', marginLeft: '0.2rem'}} src={require('../images/reactjs.png')}></img>
+      </th>
+      <th>
+        <img style={{width:'2.5rem', height: '2.5rem', marginLeft: '0.2rem'}} src={require('../images/jquery.png')}></img>
+      </th>
+      <th>
+        <img style={{width:'2.5rem', height: '2.5rem', marginLeft: '0.2rem'}} src={require('../images/psql.png')}></img>
+      </th>
+      </tr>
+      </table>
+
+      <h4 className="github"><a href="https://www.github.com/jah1603/Reach--">View on GitHub</a></h4>
+      <p className="project-description">I took on this project with two colleagues based on our overarching vision of a networking app for hyperconnected social influencers. We set up a ReactJS frontend to consume the Python backend using Axios. <span style={{fontStyle: 'italic'}}>Reach</span> is a full-stack dating platform that measures users' social reach through web scraping, letting them find, match and interact with other users according to lifestyle preferences, location and age.<br/><br/>
+      <span style={{fontStyle: 'italic'}}>Reach</span>, which features JSON web token authentication, a Django REST API, geolocation, swipeable cards and email activation, retrieves users' total social reach by scraping their follower count on three major social media platforms. All of this underpins a vibrant UI designed to appeal to millennials.</p>
+
+    </div>
+
+    <ReachCarousel>
+
+    </ReachCarousel>
 
   </div>
 
