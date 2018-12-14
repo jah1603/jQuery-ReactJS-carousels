@@ -190,7 +190,6 @@ class Portfolio extends React.Component {
 <div id="openModal" class="modalbg" style={{alignItems: 'center', textAlign: 'center', justifyContent: 'center'}}>
   <div class="dialog">
     <a href="#close" title="Close" class="close">X</a>
-  	<h2>Video demo</h2>
 		<video width="45%" controls>
               <source src={require("../images/W2BBQ.mp4")} type="video/mp4"></source>
               <source src={require("../images/W2BBQ.mp4")} type="video/ogg"></source>
