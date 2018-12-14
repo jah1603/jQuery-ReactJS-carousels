@@ -185,6 +185,19 @@ class Portfolio extends React.Component {
       </table>
 
       <h4 className="github"><a href="https://play.google.com/store/apps/developer?id=Weather2">View on Google Play store</a></h4>
+      <a class="button2" href="#openModal">Launch video</a>
+
+<div id="openModal" class="modalbg">
+  <div class="dialog">
+    <a href="#close" title="Close" class="close">X</a>
+  	<h2>Weather2BBQ</h2>
+		<video width="45%" controls>
+              <source src="/images/project_images/TravelSite/Travelsite.mp4" type="video/mp4"></source>
+              <source src="/images/project_images/TravelSite/Travelsite.mp4" type="video/ogg"></source>
+              Your browser does not support the video tag.
+            </video>
+	</div>
+</div>
       <p className="project-description">My motivation to do this project stemmed from a desire to hone my front-end development skills and create something visually stimulating and pleasing to the eye. Consisting of <span style={{fontStyle: 'italic'}}>Weather2Walk</span>, <span style={{fontStyle: 'italic'}}>Weather2BBQ</span>, <span style={{fontStyle: 'italic'}}>Weather2Fish</span>, <span style={{fontStyle: 'italic'}}>Weather2Golf</span> and <span style={{fontStyle: 'italic'}}>Weather2Wed</span>, this mobile app series was built in ReactNative using Expo in combination with emulators in Genymotion and Android Studio. <br/><br/>
       The apps use four APIs (DarkSky, Geograph, FourSquare and Google Maps) to fetch relevant data. Weather data is presented in the form of historical averages obtained through a number of sequential requests, and prospective venues for the searched location are presented on an interactive map. <span style={{fontStyle: 'italic'}}>Weather2Walk</span> benefits from a fuzzy search, meaning highly specific place names (waterfalls, forests or small hills) can be searched, while <span style={{fontStyle: 'italic'}}>Weather2Golf</span> offers hourly weather snapshots, helping golfers to come to an informed decision on their tee-off time.<br/><br/>
       </p>
