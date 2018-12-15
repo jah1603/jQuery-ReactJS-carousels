@@ -94,8 +94,6 @@ class Portfolio extends React.Component {
       <div className="project-header" style={{display: 'inline-block', width: '13%', paddingBottom: '1%'}}>JS</div>
     </p>
 
-
-
     <div id='highlighted' className="project-info 0">
 
     <div className="project-paragraph reach-paragraph">
