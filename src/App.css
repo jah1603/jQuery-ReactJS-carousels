@@ -1,5 +1,4 @@
 
-
 body {
   font-family: "Georgia", verdana, sans-serif;
   background: linear-gradient(to bottom right, white, #D4D3DD);
@@ -1751,7 +1750,7 @@ p a {
 }
 body {
   width: 100%;
-  background: url(http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/grid.png) repeat #fefefe;
+
 }
 
 .modalbg {
