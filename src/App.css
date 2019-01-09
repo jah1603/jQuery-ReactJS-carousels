@@ -1294,6 +1294,11 @@ color: white;
   float: right;
 }
 
+.project-paragraph-findasaur {
+  width: 37%;
+  float: right;
+}
+
 @media screen and (max-width: 1050px) {
   .project-paragraph {
     width: 38%;
@@ -1322,6 +1327,11 @@ color: white;
 
     font-size: 18px;
   }
+  .project-paragraph-findasaur {
+    width: 37%;
+
+    font-size: 18px;
+  }
 }
 
 
@@ -1341,6 +1351,13 @@ color: white;
     align-items: center;
     font-size: 18px;
   }
+  .project-paragraph-findasaur {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 18px;
+  }
 }
 
 @media screen and (max-width: 450px) {
@@ -1353,6 +1370,13 @@ color: white;
     font-size: 14px;
   }
   .project-paragraph-weather2 {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 14px;
+  }
+  .project-paragraph-findasaur {
     width: 100%;
     justify-content: center;
     text-align: center;
