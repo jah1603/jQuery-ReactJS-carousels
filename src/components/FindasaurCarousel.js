@@ -105,7 +105,7 @@ class FindasaurCarousel extends React.Component {
       <table>
       <tr style={{ justifyContent: 'center'}}>
 
-      <td style={{justifyContent: 'center', top: '50%', width: '10%', height: 1}}>
+      <td style={{top: '50%', width: '10%', height: 1}}>
       <Arrow
         direction="left"
         clickFunction={ this.previousSlide }
@@ -120,7 +120,7 @@ class FindasaurCarousel extends React.Component {
 
       </td>
 
-      <td style={{width: '10%'}}>
+      <td style={{width: '5%'}}>
 
        <Arrow
         direction="right"
