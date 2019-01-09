@@ -145,7 +145,7 @@ class Portfolio extends React.Component {
 
   </div>
 
-  <div id="hidden" className="project-info 2">
+  <div id="hidden" className="project-info 1">
 
   <div className="project-paragraph-findasaur">
 
