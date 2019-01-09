@@ -182,7 +182,7 @@ class Portfolio extends React.Component {
     </tr>
     </table>
 
-    <h4 className="github"><a href="https://play.google.com/store/apps/developer?id=Weather2">View on Google Play store</a></h4>
+    <h4 className="github"><a href="https://play.google.com/store/apps/details?id=com.levelapps.findasaur">View on Google Play store</a></h4>
     <h4 className="github"><a href="https://github.com/jah1603/Di">View code on GitHub</a></h4>
     <a class="button2" href="#openModal">Launch video</a>
 
