@@ -27,7 +27,7 @@ class Portfolio extends React.Component {
 
       element.removeAttr( 'style' );
 
-      element.css({display: 'inline-block', width: '13%', textAlign: 'center', color: 'black', paddingBottom: '1%'})
+      element.css({display: 'inline-block', width: '11%', textAlign: 'center', color: 'black', paddingBottom: '1%'})
 
 
     }
@@ -88,12 +88,12 @@ class Portfolio extends React.Component {
     <h1 className="headline"> My portfolio</h1>
 
     <p id="cf7_controls-projects" style={{justifyContent: 'center', marginBottom: '4%'}}>
-      <div className="selected project-header" style={{display: 'inline-block', width: '13%', textAlign: 'center', paddingBottom: '1%'}}>Python/JS</div>
-      <div className="project-header" style={{display: 'inline-block', width: '13%', textAlign: 'center', paddingBottom: '1%'}}>JS</div>
-      <div className="project-header" style={{display: 'inline-block', width: '13%', textAlign: 'center', paddingBottom: '1%'}}>JS</div>
-      <div className="project-header" style={{display: 'inline-block', width: '13%', paddingBottom: '1%'}}>Java</div>
-      <div className="project-header" style={{display: 'inline-block', width: '13%', paddingBottom: '1%'}}>Ruby</div>
-      <div className="project-header" style={{display: 'inline-block', width: '13%', paddingBottom: '1%'}}>JS</div>
+      <div className="selected project-header" style={{display: 'inline-block', width: '11%', textAlign: 'center', paddingBottom: '1%'}}>Python/JS</div>
+      <div className="project-header" style={{display: 'inline-block', width: '11%', textAlign: 'center', paddingBottom: '1%'}}>JS</div>
+      <div className="project-header" style={{display: 'inline-block', width: '11%', textAlign: 'center', paddingBottom: '1%'}}>JS</div>
+      <div className="project-header" style={{display: 'inline-block', width: '11%', paddingBottom: '1%'}}>Java</div>
+      <div className="project-header" style={{display: 'inline-block', width: '11%', paddingBottom: '1%'}}>Ruby</div>
+      <div className="project-header" style={{display: 'inline-block', width: '11%', paddingBottom: '1%'}}>JS</div>
     </p>
 
     <div id='highlighted' className="project-info 0">
