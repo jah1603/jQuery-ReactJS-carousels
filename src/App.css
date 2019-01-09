@@ -1543,6 +1543,13 @@ p a {
   border-radius: 15rem;
 }
 
+.findasaur-image {
+  width: 5rem;
+  height: 5rem;
+  margin-top: 0.2rem;
+  border-radius: 1rem;
+}
+
 .fixture-pal-image {
   width: 5rem;
   height: 5rem;
@@ -1575,6 +1582,14 @@ p a {
     height: 2.5rem;
     margin-top: 0.2rem;
     border-radius: 15rem;
+    margin-left: 14.5em;
+  }
+
+  .findasaur-image {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-top: 0.2rem;
+    border-radius: 1rem;
     margin-left: 14.5em;
   }
 
@@ -1624,6 +1639,14 @@ p a {
     margin-left: 7em;
   }
 
+  .findasaur-image {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-top: 0.2rem;
+    border-radius: 1rem;
+    margin-left: 7em;
+  }
+
   .fixture-pal-image {
     width: 2.5rem;
     height: 2.5rem;
@@ -1664,6 +1687,14 @@ p a {
     margin-left: 5.5em;
   }
 
+  .findasaur-image {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-top: 0.2rem;
+    border-radius: 1rem;
+    margin-left: 5.5em;
+  }
+
   .fixture-pal-image {
     width: 2.5rem;
     height: 2.5rem;
@@ -1701,6 +1732,14 @@ p a {
     height: 2.5rem;
     margin-top: 0.2rem;
     border-radius: 15rem;
+    margin-left: 4em;
+  }
+
+  .findasaur-image {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-top: 0.2rem;
+    border-radius: 1rem;
     margin-left: 4em;
   }
 
