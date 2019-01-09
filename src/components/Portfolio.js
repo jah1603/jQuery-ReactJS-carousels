@@ -183,6 +183,7 @@ class Portfolio extends React.Component {
     </table>
 
     <h4 className="github"><a href="https://play.google.com/store/apps/developer?id=Weather2">View on Google Play store</a></h4>
+    <h4 className="github"><a href="https://github.com/jah1603/Di">View code on GitHub</a></h4>
     <a class="button2" href="#openModal">Launch video</a>
 
 <div id="openModal" class="modalbg" style={{alignItems: 'center', textAlign: 'center', justifyContent: 'center'}}>
