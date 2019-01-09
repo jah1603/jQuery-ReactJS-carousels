@@ -89,8 +89,8 @@ class Portfolio extends React.Component {
 
     <p id="cf7_controls-projects" style={{justifyContent: 'center', marginBottom: '4%'}}>
       <div className="project-header" style={{display: 'inline-block', width: '11%', textAlign: 'center', paddingBottom: '1%'}}>Py./JS</div>
-      <div className="project-header" style={{display: 'inline-block', width: '11%', textAlign: 'center', paddingBottom: '1%'}}>JS/Py.</div>
-      <div className="selected project-header" style={{display: 'inline-block', width: '11%', textAlign: 'center', paddingBottom: '1%'}}>JS</div>
+      <div className="selected project-header" style={{display: 'inline-block', width: '11%', textAlign: 'center', paddingBottom: '1%'}}>JS/Py.</div>
+      <div className="project-header" style={{display: 'inline-block', width: '11%', textAlign: 'center', paddingBottom: '1%'}}>JS</div>
       <div className="project-header" style={{display: 'inline-block', width: '11%', paddingBottom: '1%'}}>Java</div>
       <div className="project-header" style={{display: 'inline-block', width: '11%', paddingBottom: '1%'}}>Ruby</div>
       <div className="project-header" style={{display: 'inline-block', width: '11%', paddingBottom: '1%'}}>JS</div>
@@ -145,7 +145,7 @@ class Portfolio extends React.Component {
 
   </div>
 
-  <div id="hidden" className="project-info 1">
+  <div id="highlighted" className="project-info 1">
 
   <div className="project-paragraph-findasaur">
 
@@ -209,7 +209,7 @@ class Portfolio extends React.Component {
 </div>
 
 
-    <div id="highlighted" className="project-info 2">
+    <div id="hidden" className="project-info 2">
 
     <div className="project-paragraph-weather2">
 
