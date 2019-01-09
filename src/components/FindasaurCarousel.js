@@ -8,7 +8,6 @@ const imgUrls = ["../images/findasaur1.png", "../images/findasaur2.png", "../ima
  '../images/findasaur6.png'
 ]
 
-
 class FindasaurCarousel extends React.Component {
 
   constructor (props) {

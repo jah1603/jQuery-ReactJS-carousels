@@ -4,6 +4,7 @@ import Weather2Carousel from './Weather2Carousel.js';
 import FixtureCarousel from './FixtureCarousel.js';
 import W2WCarousel from './W2WCarousel.js';
 import BookCarousel from './BookCarousel.js';
+import FindasaurCarousel from './FindasaurCarousel.js';
 import $ from 'jquery';
 
 
@@ -89,6 +90,7 @@ class Portfolio extends React.Component {
     <p id="cf7_controls-projects" style={{justifyContent: 'center', marginBottom: '4%'}}>
       <div className="selected project-header" style={{display: 'inline-block', width: '13%', textAlign: 'center', paddingBottom: '1%'}}>Python/JS</div>
       <div className="project-header" style={{display: 'inline-block', width: '13%', textAlign: 'center', paddingBottom: '1%'}}>JS</div>
+      <div className="project-header" style={{display: 'inline-block', width: '13%', textAlign: 'center', paddingBottom: '1%'}}>JS</div>
       <div className="project-header" style={{display: 'inline-block', width: '13%', paddingBottom: '1%'}}>Java</div>
       <div className="project-header" style={{display: 'inline-block', width: '13%', paddingBottom: '1%'}}>Ruby</div>
       <div className="project-header" style={{display: 'inline-block', width: '13%', paddingBottom: '1%'}}>JS</div>
@@ -142,6 +144,68 @@ class Portfolio extends React.Component {
     </ReachCarousel>
 
   </div>
+
+  <div id="hidden" className="project-info 1">
+
+  <div className="project-paragraph-weather2">
+
+    <table>
+    <tr>
+    <th className="project-logo"><img className="weather2-image" src={require('../images/weather2.gif')}></img></th>
+    <th>
+    <h2 className="project-name" style={{marginLeft: '0.5rem'}}>
+        Weather2...
+    </h2>
+    </th>
+    </tr>
+    </table>
+
+    <h2 className="project-blurb" style={{fontWeight: 'normal', fontStyle: 'italic'}}> A suite of activity-related mobile weather apps, available on Android</h2>
+
+    <table className="weather2-programming-logos">
+    <tr>
+    <th>
+      <img style={{width:'4rem', height: '3.5rem'}} src={require('../images/react_native.png')}></img>
+    </th>
+    <th>
+      <img style={{width:'2.5rem', height: '2.5rem', marginLeft: '0.2rem'}} src={require('../images/javascript.png')}></img>
+    </th>
+    <th>
+      <img style={{width:'3.5', height: '3.5rem', marginLeft: '0.2rem'}} src={require('../images/android.png')}></img>
+    </th>
+    <th>
+      <img style={{width:'3.5rem', height: '3.5rem'}} src={require('../images/python.png')}></img>
+    </th>
+    <th>
+      <img style={{width:'2.5rem', height: '2.5rem', marginLeft: '0.5rem'}} src={require('../images/expo.png')}></img>
+    </th>
+    </tr>
+    </table>
+
+    <h4 className="github"><a href="https://play.google.com/store/apps/developer?id=Weather2">View on Google Play store</a></h4>
+    <a class="button2" href="#openModal">Launch video</a>
+
+<div id="openModal" class="modalbg" style={{alignItems: 'center', textAlign: 'center', justifyContent: 'center'}}>
+<div class="dialog">
+  <a href="#close" title="Close" class="close">X</a>
+  <video width="45%" controls>
+            <source src={require("../images/W2BBQ.mp4")} type="video/mp4"></source>
+            <source src={require("../images/W2BBQ.mp4")} type="video/ogg"></source>
+            Your browser does not support the video tag.
+          </video>
+</div>
+</div>
+    <p className="project-description">My motivation to do this project stemmed from a desire to hone my front-end development skills and create something visually stimulating and pleasing to the eye. Consisting of <span style={{fontStyle: 'italic'}}>Weather2Walk</span>, <span style={{fontStyle: 'italic'}}>Weather2BBQ</span>, <span style={{fontStyle: 'italic'}}>Weather2Fish</span>, <span style={{fontStyle: 'italic'}}>Weather2Golf</span> and <span style={{fontStyle: 'italic'}}>Weather2Wed</span>, this mobile app series was built in ReactNative using Expo in combination with emulators in Genymotion and Android Studio. <br/><br/>
+    The apps use four APIs (DarkSky, Geograph, FourSquare and Google Maps) to fetch relevant data. Weather data is presented in the form of historical averages obtained through a number of sequential requests, and prospective venues for the searched location are presented on an interactive map. <span style={{fontStyle: 'italic'}}>Weather2Walk</span> benefits from a fuzzy search, meaning highly specific place names (waterfalls, forests or small hills) can be searched, while <span style={{fontStyle: 'italic'}}>Weather2Golf</span> offers hourly weather snapshots, helping golfers to come to an informed decision on their tee-off time.<br/><br/>
+    </p>
+
+  </div>
+
+<FindasaurCarousel>
+
+</FindasaurCarousel>
+
+</div>
 
 
     <div id="hidden" className="project-info 1">
