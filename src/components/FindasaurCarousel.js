@@ -84,10 +84,10 @@ class FindasaurCarousel extends React.Component {
     switch(index) {
     case 0: return require("../images/findasaur7.png");
     case 1: return require("../images/findasaur8.png");
-    case 2: return require("../images/findasaur9.png");
+    case 2: return require("../images/findasaur6.png");
     case 3: return require("../images/findasaur3.png");
-    case 4: return require("../images/findasaur4.png");
-    case 5: return require("../images/findasaur6.png");
+    case 4: return require("../images/findasaur9.png");
+    case 5: return require("../images/findasaur4.png");
     case 6: return require("../images/findasaur1.png");
     case 7: return require("../images/findasaur2.png");
     case 8: return require("../images/findasaur10.png");
@@ -110,7 +110,7 @@ class FindasaurCarousel extends React.Component {
         direction="left"
         clickFunction={ this.previousSlide }
         glyph="&#9664;"
-        project='weather2'
+        project='findasaur'
         />
 
       </td>
@@ -126,7 +126,7 @@ class FindasaurCarousel extends React.Component {
         direction="right"
         clickFunction={ this.nextSlide }
         glyph="&#9654;"
-        project='weather2'
+        project='findasaur'
         />
 
         </td>

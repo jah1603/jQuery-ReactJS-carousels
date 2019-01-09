@@ -608,12 +608,38 @@ p#cf7-fixture-pal_controls-projects {
   left: 12%;
 }
 
+.findasaur-slide-arrow {
+  color: #334d50;
+  cursor: pointer;
+  font-size: 2rem;
+  position: absolute;
+}
+
+.findasaur-slide-arrow:hover {
+  color: #ACBB78;
+}
+
+.findasaur-slide-arrow.right {
+  right: 49.5%;
+}
+
+.findasaur-slide-arrow.left {
+  left: 16%;
+}
+
 @media screen and (max-width: 840px) {
   .weather2-slide-arrow.right {
     right: 8%;
   }
 
   .weather2-slide-arrow.left {
+    left: 8%;
+  }
+  .findasaur-slide-arrow.right {
+    right: 8%;
+  }
+
+  .findasaur-slide-arrow.left {
     left: 8%;
   }
   }
