@@ -214,7 +214,7 @@ class Portfolio extends React.Component {
 
       <table>
       <tr>
-      <th className="project-logo"><img className="weather2-image" src={require('../images/weather2.gif')}></img></th>
+      <th className="project-logo"><img className="weather2-image" src={require('../images/diplo.png')}></img></th>
       <th>
       <h2 className="project-name" style={{marginLeft: '0.5rem'}}>
           Weather2...
