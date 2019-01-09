@@ -82,8 +82,8 @@ class FindasaurCarousel extends React.Component {
 
   returnImage(index){
     switch(index) {
-    case 0: return require("../images/findasaur7.png");
-    case 1: return require("../images/findasaur8.png");
+    case 0: return require("../images/findasaur8.png");
+    case 1: return require("../images/findasaur7.png");
     case 2: return require("../images/findasaur6.png");
     case 3: return require("../images/findasaur3.png");
     case 4: return require("../images/findasaur9.png");
