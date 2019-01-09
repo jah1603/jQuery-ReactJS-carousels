@@ -88,8 +88,8 @@ class Portfolio extends React.Component {
     <h1 className="headline"> My portfolio</h1>
 
     <p id="cf7_controls-projects" style={{justifyContent: 'center', marginBottom: '4%'}}>
-      <div className="selected project-header" style={{display: 'inline-block', width: '11%', textAlign: 'center', paddingBottom: '1%'}}>Pyth./JS</div>
-      <div className="project-header" style={{display: 'inline-block', width: '11%', textAlign: 'center', paddingBottom: '1%'}}>JS/Pyth.</div>
+      <div className="selected project-header" style={{display: 'inline-block', width: '11%', textAlign: 'center', paddingBottom: '1%'}}>Py./JS</div>
+      <div className="project-header" style={{display: 'inline-block', width: '11%', textAlign: 'center', paddingBottom: '1%'}}>JS/Py.</div>
       <div className="project-header" style={{display: 'inline-block', width: '11%', textAlign: 'center', paddingBottom: '1%'}}>JS</div>
       <div className="project-header" style={{display: 'inline-block', width: '11%', paddingBottom: '1%'}}>Java</div>
       <div className="project-header" style={{display: 'inline-block', width: '11%', paddingBottom: '1%'}}>Ruby</div>
