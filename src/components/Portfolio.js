@@ -145,7 +145,7 @@ class Portfolio extends React.Component {
 
   </div>
 
-  <div id="hidden" className="project-info 1">
+  <div id="hidden" className="project-info 2">
 
   <div className="project-paragraph-weather2">
 
@@ -208,7 +208,7 @@ class Portfolio extends React.Component {
 </div>
 
 
-    <div id="hidden" className="project-info 1">
+    <div id="hidden" className="project-info 2">
 
     <div className="project-paragraph-weather2">
 
@@ -271,7 +271,7 @@ class Portfolio extends React.Component {
   </div>
 
 
-  <div id="hidden" className="project-info 2">
+  <div id="hidden" className="project-info 3">
 
   <div className="project-paragraph fixture-pal-paragraph">
 
@@ -314,7 +314,7 @@ class Portfolio extends React.Component {
 </div>
 
 
-<div id="hidden" className="project-info 3">
+<div id="hidden" className="project-info 4">
 
 <div className="project-paragraph story-paragraph">
 
@@ -359,7 +359,7 @@ class Portfolio extends React.Component {
 </div>
 
 
-    <div id="hidden" className="project-info 4">
+    <div id="hidden" className="project-info 5">
 
     <div className="project-paragraph weather2wed-paragraph">
 
