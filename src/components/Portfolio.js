@@ -88,8 +88,8 @@ class Portfolio extends React.Component {
     <h1 className="headline"> My portfolio</h1>
 
     <p id="cf7_controls-projects" style={{justifyContent: 'center', marginBottom: '4%'}}>
-      <div className="selected project-header" style={{display: 'inline-block', width: '11%', textAlign: 'center', paddingBottom: '1%'}}>Python/JS</div>
-      <div className="project-header" style={{display: 'inline-block', width: '11%', textAlign: 'center', paddingBottom: '1%'}}>JS</div>
+      <div className="selected project-header" style={{display: 'inline-block', width: '11%', textAlign: 'center', paddingBottom: '1%'}}>Pyth./JS</div>
+      <div className="project-header" style={{display: 'inline-block', width: '11%', textAlign: 'center', paddingBottom: '1%'}}>JS/Pyth.</div>
       <div className="project-header" style={{display: 'inline-block', width: '11%', textAlign: 'center', paddingBottom: '1%'}}>JS</div>
       <div className="project-header" style={{display: 'inline-block', width: '11%', paddingBottom: '1%'}}>Java</div>
       <div className="project-header" style={{display: 'inline-block', width: '11%', paddingBottom: '1%'}}>Ruby</div>
@@ -154,13 +154,13 @@ class Portfolio extends React.Component {
     <th className="project-logo"><img className="weather2-image" src={require('../images/weather2.gif')}></img></th>
     <th>
     <h2 className="project-name" style={{marginLeft: '0.5rem'}}>
-        Weather2...
+        Findasaur
     </h2>
     </th>
     </tr>
     </table>
 
-    <h2 className="project-blurb" style={{fontWeight: 'normal', fontStyle: 'italic'}}> A suite of activity-related mobile weather apps, available on Android</h2>
+    <h2 className="project-blurb" style={{fontWeight: 'normal', fontStyle: 'italic'}}> An educational app which lets users explore the prehistoric world</h2>
 
     <table className="weather2-programming-logos">
     <tr>
