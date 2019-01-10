@@ -3,16 +3,7 @@ import Arrow from './Arrow.js'
 import CarouselImage from './CarouselImage.js'
 import $ from 'jquery';
 
-const imgUrls = ["../images/findasaur1.png", "../images/findasaur2.png", "../images/findasaur3.png", '../images/findasaur4.png',
-  '../images/findasaur5.png',
- '../images/findasaur6.png',
- '../images/findasaur7.png',
- '../images/findasaur8.png',
- '../images/findasaur9.png',
- '../images/findasaur10.png',
- '../images/findasaur11.png',
- '../images/findasaur12.png',
- '../images/findasaur13.png'
+const imgUrls = ["../images/findasaur1.png", "../images/findasaur2.png", "../images/findasaur3.png", '../images/findasaur4.png', '../images/findasaur5.png', '../images/findasaur6.png', '../images/findasaur7.png', '../images/findasaur8.png', '../images/findasaur9.png', '../images/findasaur10.png', '../images/findasaur11.png', '../images/findasaur12.png', '../images/findasaur13.png'
 ]
 
 class FindasaurCarousel extends React.Component {
@@ -77,9 +68,7 @@ class FindasaurCarousel extends React.Component {
       setTimeout(disableSlide(), 200)
 
   })
-
 })
-
 }
 
   returnImage(index){
