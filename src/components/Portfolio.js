@@ -184,7 +184,6 @@ class Portfolio extends React.Component {
 
     <h4 className="github"><a href="https://play.google.com/store/apps/details?id=com.levelapps.findasaur">View on Google Play store</a></h4>
     <h4 className="github"><a href="https://github.com/jah1603/Di">View code on GitHub</a></h4>
-    <a class="button2" href="#openModal">Launch video</a>
 
     <p className="project-description">I set myself the target to make an app over the Christmas and New Year break in order to keep my programming skills sharp. Out of this came <span style={{fontStyle: 'italic'}}>Findasaur</span>, a ReactNative Android and (soon-to-be) iOS app designed to educate inquisitive young minds on the world of dinosaurs. <br/><br/>
     The app is built around a sleek and elegant front end designed to be minimalist and engaging. Three APIs (Wikipedia, The Paleobiology Database and Google Maps) are used to fetch dinosaur data. That data is initially presented in preview form in a scrolling view akin to an address book, with each clickable preview image leading to a page with more details. <span style={{fontStyle: 'italic'}}>Findasaur</span> also features a predictive search bar and the ability to favourite individual dinosaurs by era, which allows users to remember their most interesting finds. <span style={{fontStyle: 'italic'}}>Findasaur</span> sourced additional data for 270 dinosaurs from the Natural History Museum website via scraping methods in Python. <br/><br/>
