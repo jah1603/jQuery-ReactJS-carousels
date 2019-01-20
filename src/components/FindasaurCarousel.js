@@ -3,7 +3,7 @@ import Arrow from './Arrow.js'
 import CarouselImage from './CarouselImage.js'
 import $ from 'jquery';
 
-const imgUrls = ["../images/findasaur1.png", "../images/findasaur2.png", "../images/findasaur3.png", '../images/findasaur4.png', '../images/findasaur5.png', '../images/findasaur6.png', '../images/findasaur7.png', '../images/findasaur8.png', '../images/findasaur9.png', '../images/findasaur10.png', '../images/findasaur11.png', '../images/findasaur12.png', '../images/findasaur13.png'
+const imgUrls = ["../images/find1.png", "../images/find2.png", "../images/find3.png", '../images/find4.png', '../images/find5.png', '../images/find6.png', '../images/find7.png', '../images/find8.png'
 ]
 
 class FindasaurCarousel extends React.Component {
@@ -73,19 +73,14 @@ class FindasaurCarousel extends React.Component {
 
   returnImage(index){
     switch(index) {
-    case 0: return require("../images/findasaur8.png");
-    case 1: return require("../images/findasaur7.png");
-    case 2: return require("../images/findasaur6.png");
-    case 3: return require("../images/findasaur3.png");
-    case 4: return require("../images/findasaur12.png");
-    case 5: return require("../images/findasaur13.png");
-    case 6: return require("../images/findasaur9.png");
-    case 7: return require("../images/findasaur4.png");
-    case 8: return require("../images/findasaur1.png");
-    case 9: return require("../images/findasaur2.png");
-    case 10: return require("../images/findasaur10.png");
-    case 11: return require("../images/findasaur11.png");
-    case 12: return require("../images/findasaur5.png");
+    case 0: return require("../images/find1.png");
+    case 1: return require("../images/find2.png");
+    case 2: return require("../images/find3.png");
+    case 3: return require("../images/find4.png");
+    case 4: return require("../images/find5.png");
+    case 5: return require("../images/find6.png");
+    case 6: return require("../images/find7.png");
+    case 7: return require("../images/find8.png");
   }
   }
 
