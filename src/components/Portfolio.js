@@ -168,7 +168,7 @@ class Portfolio extends React.Component {
       <img style={{width:'4rem', height: '3.5rem'}} src={require('../images/react_native.png')}></img>
     </th>
     <th>
-      <img style={{width:'2.5rem', height: '2.5rem', marginLeft: '0.2rem'}} src={require('../images/javascript.png')}></img>
+      <img style={{width:'2.5rem', height: '2.5rem', marginLeft: '0.2rem'}} src={require('../images/apple.png')}></img>
     </th>
     <th>
       <img style={{width:'3.5', height: '3.5rem', marginLeft: '0.2rem'}} src={require('../images/android.png')}></img>
