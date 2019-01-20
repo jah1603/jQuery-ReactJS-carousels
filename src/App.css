@@ -1573,7 +1573,7 @@ p a {
   width: 5rem;
   height: 5rem;
   margin-top: 0.2rem;
-  border-radius: 1rem;
+  border-radius: 0.1rem;
 }
 
 .fixture-pal-image {
@@ -1615,7 +1615,7 @@ p a {
     width: 2.5rem;
     height: 2.5rem;
     margin-top: 0.2rem;
-    border-radius: 1rem;
+    border-radius: 0.1rem;
     margin-left: 14.5em;
   }
 
@@ -1669,7 +1669,7 @@ p a {
     width: 2.5rem;
     height: 2.5rem;
     margin-top: 0.2rem;
-    border-radius: 1rem;
+    border-radius: 0.1rem;
     margin-left: 7em;
   }
 
@@ -1717,7 +1717,7 @@ p a {
     width: 2.5rem;
     height: 2.5rem;
     margin-top: 0.2rem;
-    border-radius: 1rem;
+    border-radius: 0.1rem;
     margin-left: 5.5em;
   }
 
@@ -1765,7 +1765,7 @@ p a {
     width: 2.5rem;
     height: 2.5rem;
     margin-top: 0.2rem;
-    border-radius: 1rem;
+    border-radius: 0.1rem;
     margin-left: 4em;
   }
 
