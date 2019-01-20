@@ -823,8 +823,8 @@ text-shadow: 0px 0px 3px #000;
   padding: 25px 60px;
   text-align: center;
   display: inline-block;
-  border-radius: 3px;
-  border-color: black;
+
+
   font-size: 20px;
   margin: 4px 2px;
   margin-bottom: 12.1%;
@@ -845,8 +845,7 @@ text-shadow: 0px 0px 3px #000;
   padding: 10px 20px;
   text-align: center;
   display: inline-block;
-  border-radius: 3px;
-  border-color: black;
+
   font-size: 20px;
   margin: 4px 2px;
   margin-bottom: 9.7%;
@@ -1013,6 +1012,7 @@ color: white;
   position: relative;
   border-radius: 3px;
   border-width: 2px;
+  border-color: transparent;
 }
 .draw-border::before, .draw-border::after {
   border: 0 solid transparent;
