@@ -3,7 +3,7 @@ import Arrow from './Arrow.js'
 import CarouselImage from './CarouselImage.js'
 import $ from 'jquery';
 
-const imgUrls = ["../images/find1.png", "../images/find2.png", "../images/find3.png", '../images/find4.png', '../images/find5.png', '../images/find6.png', '../images/find7.png', '../images/find8.png'
+const imgUrls = ["../images/find1.png", "../images/find2.png", "../images/find3.png", '../images/find4.png', '../images/find5.png', '../images/find6.png', '../images/find7.png'
 ]
 
 class FindasaurCarousel extends React.Component {
@@ -74,13 +74,12 @@ class FindasaurCarousel extends React.Component {
   returnImage(index){
     switch(index) {
     case 0: return require("../images/find1.png");
-    case 1: return require("../images/find2.png");
-    case 2: return require("../images/find3.png");
+    case 1: return require("../images/find5.png");
+    case 2: return require("../images/find6.png");
     case 3: return require("../images/find4.png");
-    case 4: return require("../images/find5.png");
-    case 5: return require("../images/find6.png");
+    case 4: return require("../images/find2.png");
+    case 5: return require("../images/find3.png");
     case 6: return require("../images/find7.png");
-    case 7: return require("../images/find8.png");
   }
   }
 
