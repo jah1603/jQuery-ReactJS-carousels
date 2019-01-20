@@ -160,7 +160,7 @@ class Portfolio extends React.Component {
     </tr>
     </table>
 
-    <h2 className="project-blurb" style={{fontWeight: 'normal', fontStyle: 'italic'}}> An educational app which lets users explore the prehistoric world</h2>
+    <h2 className="project-blurb" style={{fontWeight: 'normal', fontStyle: 'italic'}}> An educational Apple and Android app which lets users explore the prehistoric world</h2>
 
     <table className="weather2-programming-logos">
     <tr>
@@ -197,7 +197,7 @@ class Portfolio extends React.Component {
 </div>
 </div>
 
-    <p className="project-description">I set myself the target to make an app over the Christmas and New Year break in order to keep my programming skills sharp. Out of this came <span style={{fontStyle: 'italic'}}>Findasaur</span>, a ReactNative Android and iOS app designed to educate inquisitive young minds via a digital <span style={{fontStyle: 'italic'}}>exhibition</span> featuring hundreds of dinosaurs and thousands of mapped fossils. <br/><br/>
+    <p className="project-description">I set myself the target to make an app over the Christmas and New Year break in order to keep my programming skills sharp. Out of this came <span style={{fontStyle: 'italic'}}>Findasaur</span>, a ReactNative Android and iOS app designed to educate inquisitive young minds via a digital <span style={{fontStyle: 'italic'}}>exhibition</span> featuring hundreds of dinosaurs and thousands of mapped fossils. This project was a collaboration with two other talented developers: David Pears and Stephen Rooney.<br/><br/>
     The app is built around a sleek and elegant front end designed to be minimalist and engaging. Three APIs (Wikipedia, The Paleobiology Database and Google Maps) are used to fetch dinosaur data. That data is initially presented (respnsively) in preview form in either a scrolling <span style={{fontStyle: 'italic'}}>address book</span> or a list, with each clickable preview image leading to a page with more details. Users can toggle between the two views as desired. <span style={{fontStyle: 'italic'}}>Findasaur</span> also offers a full exhibition of fossils which are plotted on an interactive map, allowing users to discover where the paleontological hotspots are located. As a final feature, the app makes use of a predictive search bar and the ability to favourite individual dinosaurs by era, which allows users to remember their most interesting finds. <span style={{fontStyle: 'italic'}}>Findasaur</span> sourced additional data for 270 dinosaurs from the Natural History Museum website via scraping methods in Python. <br/><br/>
     </p>
 
