@@ -184,7 +184,7 @@ class Portfolio extends React.Component {
 
     <h4 className="github"><a href="https://play.google.com/store/apps/details?id=com.levelapps.findasaur">View on Google Play store</a></h4>
     <h4 className="github"><a href="https://github.com/jah1603/Di">View code on GitHub</a></h4>
-    <a class="button3" href="#openModal2">Launch iPhone demo</a>
+    <a class="button3" href="#openModal2">Watch iPhone demo</a>
 
 <div id="openModal2" class="modalbg" style={{alignItems: 'center', textAlign: 'center', justifyContent: 'center'}}>
 <div class="dialog">
