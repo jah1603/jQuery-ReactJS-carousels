@@ -160,7 +160,7 @@ class Portfolio extends React.Component {
     </tr>
     </table>
 
-    <h2 className="project-blurb" style={{fontWeight: 'normal', fontStyle: 'italic'}}> An educational Apple and Android app which lets users explore the prehistoric world</h2>
+    <h2 className="project-blurb" style={{fontWeight: 'normal', fontStyle: 'italic'}}> A "digital exhibition" for Apple and Android which lets users explore the prehistoric world</h2>
 
     <table className="weather2-programming-logos">
     <tr>
