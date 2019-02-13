@@ -45,6 +45,10 @@ body {
     margin-top: 100%;
     margin-left: 47%;
   }
+  .nuv-pulse{
+    margin-top: 100%;
+    margin-left: 47%;
+  }
   .story{
     margin-top: 79%;
     margin-left: 47%;
@@ -70,10 +74,20 @@ body {
   }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 411px) {
   .pulse{
     margin-top: 215%;
     margin-left: 47%;
+  }
+  .nuv-pulse{
+    margin-top: 234%;
+    margin-left: 47%;
+  }
+  #cf7-nuv img {
+    margin-left: 30%;
+    margin-right: 1%;
+    width: 60%;
+    height: auto;
   }
   .reach-pulse{
     margin-top: 235%;
@@ -92,6 +106,10 @@ body {
 @media screen and (max-width: 375px) {
   .pulse{
     margin-top: 255%;
+    margin-left: 47%;
+  }
+  .nuv-pulse{
+    margin-top: 280%;
     margin-left: 47%;
   }
   .reach-pulse{
@@ -113,6 +131,10 @@ body {
     margin-top: 300%;
     margin-left: 47%;
   }
+  .nuv-pulse{
+    margin-top: 300%;
+    margin-left: 47%;
+  }
   .story{
     margin-top: 200%;
     margin-left: 47%;
@@ -130,6 +152,10 @@ body {
   }
   .reach-pulse{
     margin-top: 360%;
+    margin-left: 47%;
+  }
+  .nuv-pulse{
+    margin-top: 375%;
     margin-left: 47%;
   }
   .story{
@@ -410,10 +436,10 @@ p#cf7_controls-nuv {
 }
 
 #cf7-nuv img {
-  width: 55%;
+  width: 38%;
   height: auto;
   position: absolute;
-  margin-left: 2%;
+  margin-left: 10%;
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
   -o-transition: opacity 1s ease-in-out;
@@ -425,9 +451,10 @@ p#cf7_controls-nuv {
 
 @media screen and (max-width: 840px) {
   #cf7-nuv img {
-    margin-left: 1%;
+    margin-left: 24%;
     margin-right: 1%;
-    width: 98%;
+    width: 48%;
+    height: auto;
   }
 }
 
@@ -1199,6 +1226,15 @@ color: white;
     font-size: 7.5px;
     margin-left: 1.75%;
     margin-right: 1.75%;
+
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .project-header {
+    font-size: 7.5px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
 
   }
 }

@@ -3,7 +3,7 @@ import Arrow from './Arrow.js'
 import $ from 'jquery';
 import Background from '../images/fast-forward.png'
 
-const nuvUrls = ["../images/reach18.png", "../images/reach1.png", '../images/reach7.png', '../images/reach8.png', '../images/reach9.png', '../images/reach10.png', '../images/reach11.png', '../images/reach12.png', '../images/reach13.png', '../images/reach14.png', '../images/reach15.png', '../images/reach16.png', '../images/reach17.png', '../images/reach3.png', '../images/reach19.png']
+const nuvUrls = ["../images/nuv01.png", "../images/nuv02.png", '../images/nuv03.png', '../images/nuv04.png', '../images/nuv05.png', '../images/nuv06.png', '../images/nuv07.png', '../images/nuv08.png', '../images/nuv09.png']
 
 
 class NuVCarousel extends React.Component {
@@ -60,22 +60,15 @@ class NuVCarousel extends React.Component {
         </div>
       </p>
 
-
-         <img className="opaque" src={require("../images/reach18.png")} ></img>
-         <img src={require("../images/reach19.png")} ></img>
-         <img src={require("../images/reach1.png")} ></img>
-         <img src={require("../images/reach7.png")} ></img>
-         <img src={require("../images/reach8.png")} ></img>
-         <img src={require("../images/reach9.png")} ></img>
-         <img src={require("../images/reach10.png")} ></img>
-         <img src={require("../images/reach11.png")} ></img>
-         <img src={require("../images/reach12.png")} ></img>
-         <img src={require("../images/reach13.png")} ></img>
-         <img src={require("../images/reach14.png")} ></img>
-         <img src={require("../images/reach15.png")} ></img>
-         <img src={require("../images/reach16.png")} ></img>
-         <img src={require("../images/reach17.png")} ></img>
-         <img src={require("../images/reach3.png")} ></img>
+         <img className="opaque" src={require("../images/nuv01.png")} ></img>
+         <img src={require("../images/nuv02.png")} ></img>
+         <img src={require("../images/nuv03.png")} ></img>
+         <img src={require("../images/nuv04.png")} ></img>
+         <img src={require("../images/nuv05.png")} ></img>
+         <img src={require("../images/nuv06.png")} ></img>
+         <img src={require("../images/nuv07.png")} ></img>
+         <img src={require("../images/nuv08.png")} ></img>
+         <img src={require("../images/nuv09.png")} ></img>
 
       </div>
     );
