@@ -100,6 +100,55 @@ class Portfolio extends React.Component {
 
     <div id='highlighted' className="project-info 0">
 
+    <div className="project-paragraph">
+
+      <table>
+      <tr>
+      <th className="project-logo"><img className="nuv-image" src={require('../images/greenlogo2.png')}></img></th>
+      <th>
+      <h2 className="project-name" style={{marginLeft: '0.5rem'}}>
+          
+      </h2>
+      </th>
+      </tr>
+      </table>
+
+      <h2 className="project-blurb" style={{fontWeight: 'normal', fontStyle: 'italic'}}>A lifestyle support system for vegans and vegetarians</h2>
+
+      <table className="weather2-programming-logos">
+      <tr>
+      <th>
+        <img style={{width:'4rem', height: '3.5rem'}} src={require('../images/react_native.png')}></img>
+      </th>
+      <th>
+        <img style={{width:'2.5rem', height: '2.5rem', marginLeft: '0.2rem'}} src={require('../images/apple.png')}></img>
+      </th>
+      <th>
+        <img style={{width:'3.5', height: '3.5rem', marginLeft: '0.2rem'}} src={require('../images/android.png')}></img>
+      </th>
+      <th>
+        <img style={{width:'2.5rem', height: '2.5rem'}} src={require('../images/ruby.png')}></img>
+      </th>
+      <th>
+        <img style={{width:'2.5rem', height: '2.5rem', marginLeft: '0.5rem'}} src={require('../images/expo.png')}></img>
+      </th>
+      </tr>
+      </table>
+
+      <h4 className="github"><a href="https://www.github.com/jah1603/NuV--">View on GitHub</a></h4>
+      <p className="project-description">This project was a joint venture between David Pears, Stephen Rooney and I. We were inspired to create a community hub for vegans and vegetarians which would act as an antidote to the increasingly fragmented nature of vegan-targeted apps. We built the mobile app in React Native with a Heroku-hosted backend made in Ruby on Rails. <span style={{fontStyle: 'italic'}}>NüV</span> allows users to share, view and rate recipes, venues, brands and media items, with restaurants being filtered by geolocation.<br/><br/>
+      <span style={{fontStyle: 'italic'}}>NüV</span> features JSON web token authentication, image hosting via Cloudinary, a responsive cross-platform design, more than 30 React components/containers, and also boasts a growing user base. The mobile app should be available for download from both the iOS and Android stores by the end of February 2019.</p>
+
+    </div>
+
+    <NuVCarousel>
+
+    </NuVCarousel>
+
+  </div>
+
+    <div id='hidden' className="project-info 1">
+
     <div className="project-paragraph reach-paragraph">
 
       <table>
@@ -147,7 +196,7 @@ class Portfolio extends React.Component {
 
   </div>
 
-  <div id="hidden" className="project-info 1">
+  <div id="hidden" className="project-info 2">
 
   <div className="project-paragraph-findasaur">
 
@@ -212,7 +261,7 @@ class Portfolio extends React.Component {
 </div>
 
 
-    <div id="hidden" className="project-info 2">
+    <div id="hidden" className="project-info 3">
 
     <div className="project-paragraph-weather2">
 
@@ -276,7 +325,7 @@ class Portfolio extends React.Component {
   </div>
 
 
-  <div id="hidden" className="project-info 3">
+  <div id="hidden" className="project-info 4">
 
   <div className="project-paragraph fixture-pal-paragraph">
 
@@ -319,7 +368,7 @@ class Portfolio extends React.Component {
 </div>
 
 
-<div id="hidden" className="project-info 4">
+<div id="hidden" className="project-info 5">
 
 <div className="project-paragraph story-paragraph">
 
@@ -364,7 +413,7 @@ class Portfolio extends React.Component {
 </div>
 
 
-    <div id="hidden" className="project-info 5">
+    <div id="hidden" className="project-info 6">
 
     <div className="project-paragraph weather2wed-paragraph">
 

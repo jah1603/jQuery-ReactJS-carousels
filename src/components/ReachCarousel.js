@@ -52,7 +52,7 @@ class ReachCarousel extends React.Component {
 
     return (
 
-      <div id="cf7">
+      <div id="cf7" className="shadow">
 
       <p id="cf7_controls" style={{justifyContent: 'center', overflow: 'visible'}}>
         <div className="pulse reach-pulse" style={{backgroundImage: "url(" + Background + ")"}}>

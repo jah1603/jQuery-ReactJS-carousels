@@ -23,13 +23,13 @@ class NuVCarousel extends React.Component {
 
       var counter = 1;
 
-  $("#cf7_controls").on('click', 'div', function() {
+  $("#cf7_controls-nuv").on('click', 'div', function() {
 
-    $("#cf7 img").removeClass("opaque");
+    $("#cf7-nuv img").removeClass("opaque");
 
-    $("#cf7 img").eq(counter).addClass("opaque");
+    $("#cf7-nuv img").eq(counter).addClass("opaque");
 
-    $("#cf7_controls div").removeClass("selected");
+    $("#cf7_controls-nuv div").removeClass("selected");
     $(this).addClass("selected");
 
     if (counter === numberOfPhotos - 1){
@@ -52,10 +52,10 @@ class NuVCarousel extends React.Component {
 
     return (
 
-      <div id="cf7">
+      <div id="cf7-nuv" className="shadow">
 
-      <p id="cf7_controls" style={{justifyContent: 'center', overflow: 'visible'}}>
-        <div className="pulse reach-pulse" style={{backgroundImage: "url(" + Background + ")"}}>
+      <p id="cf7_controls-nuv" style={{justifyContent: 'center', overflow: 'visible'}}>
+        <div className="pulse nuv-pulse" style={{backgroundImage: "url(" + Background + ")"}}>
         <span className="selected"> </span>
         </div>
       </p>
