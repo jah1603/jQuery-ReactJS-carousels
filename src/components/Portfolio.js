@@ -1,5 +1,6 @@
 import React from "react";
 import ReachCarousel from './ReachCarousel.js';
+import NuVCarousel from './NuVCarousel.js';
 import Weather2Carousel from './Weather2Carousel.js';
 import FixtureCarousel from './FixtureCarousel.js';
 import W2WCarousel from './W2WCarousel.js';
@@ -27,7 +28,7 @@ class Portfolio extends React.Component {
 
       element.removeAttr( 'style' );
 
-      element.css({display: 'inline-block', width: '11%', textAlign: 'center', color: 'black', paddingBottom: '1%'})
+      element.css({display: 'inline-block', width: '8.5%', textAlign: 'center', color: 'black', paddingBottom: '1%'})
 
 
     }
@@ -88,12 +89,13 @@ class Portfolio extends React.Component {
     <h1 className="headline"> My portfolio</h1>
 
     <p id="cf7_controls-projects" style={{justifyContent: 'center', marginBottom: '4%'}}>
-      <div className="selected project-header" style={{display: 'inline-block', width: '11%', textAlign: 'center', paddingBottom: '1%'}}>Py./JS</div>
-      <div className="project-header" style={{display: 'inline-block', width: '11%', textAlign: 'center', paddingBottom: '1%'}}>JS/Py.</div>
-      <div className="project-header" style={{display: 'inline-block', width: '11%', textAlign: 'center', paddingBottom: '1%'}}>JS</div>
-      <div className="project-header" style={{display: 'inline-block', width: '11%', paddingBottom: '1%'}}>Java</div>
-      <div className="project-header" style={{display: 'inline-block', width: '11%', paddingBottom: '1%'}}>Ruby</div>
-      <div className="project-header" style={{display: 'inline-block', width: '11%', paddingBottom: '1%'}}>JS</div>
+      <div className="selected project-header" style={{display: 'inline-block', width: '8.5%', textAlign: 'center', paddingBottom: '1%'}}>JS/Ruby</div>
+      <div className="project-header" style={{display: 'inline-block', width: '8.5%', textAlign: 'center', paddingBottom: '1%'}}>Py./JS</div>
+      <div className="project-header" style={{display: 'inline-block', width: '8.5%', textAlign: 'center', paddingBottom: '1%'}}>JS/Py.</div>
+      <div className="project-header" style={{display: 'inline-block', width: '8.5%', textAlign: 'center', paddingBottom: '1%'}}>JS</div>
+      <div className="project-header" style={{display: 'inline-block', width: '8.5%', paddingBottom: '1%'}}>Java</div>
+      <div className="project-header" style={{display: 'inline-block', width: '8.5%', paddingBottom: '1%'}}>Ruby</div>
+      <div className="project-header" style={{display: 'inline-block', width: '8.5%', paddingBottom: '1%'}}>JS</div>
     </p>
 
     <div id='highlighted' className="project-info 0">
