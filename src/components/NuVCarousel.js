@@ -59,7 +59,8 @@ class NuVCarousel extends React.Component {
         </div>
       </p>
 
-         <img className="opaque" src={require("../images/nuv01.png")} ></img>
+         <img className="opaque" src={require("../images/nuv09.png")} ></img>
+         <img src={require("../images/nuv01.png")} ></img>
          <img src={require("../images/nuv02.png")} ></img>
          <img src={require("../images/nuv03.png")} ></img>
          <img src={require("../images/nuv04.png")} ></img>
@@ -67,7 +68,6 @@ class NuVCarousel extends React.Component {
          <img src={require("../images/nuv06.png")} ></img>
          <img src={require("../images/nuv07.png")} ></img>
          <img src={require("../images/nuv08.png")} ></img>
-         <img src={require("../images/nuv09.png")} ></img>
 
       </div>
     );
