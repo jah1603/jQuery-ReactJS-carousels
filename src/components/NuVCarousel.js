@@ -3,8 +3,7 @@ import Arrow from './Arrow.js'
 import $ from 'jquery';
 import Background from '../images/fast-forward.png'
 
-const nuvUrls = ["../images/nuv01.png", "../images/nuv02.png", '../images/nuv03.png', '../images/nuv04.png', '../images/nuv05.png', '../images/nuv06.png', '../images/nuv07.png', '../images/nuv08.png', '../images/nuv09.png']
-
+const nuvUrls = ['../images/nuv09.png', "../images/nuv01.png", "../images/nuv02.png", '../images/nuv03.png', '../images/nuv04.png', '../images/nuv05.png', '../images/nuv06.png', '../images/nuv07.png', '../images/nuv08.png']
 
 class NuVCarousel extends React.Component {
 
