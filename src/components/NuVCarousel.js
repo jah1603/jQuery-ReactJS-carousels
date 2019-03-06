@@ -3,7 +3,7 @@ import Arrow from './Arrow.js'
 import $ from 'jquery';
 import Background from '../images/fast-forward.png'
 
-const nuvUrls = ['../images/nuv09.png', "../images/nuv01.png", "../images/nuv02.png", '../images/nuv03.png', '../images/nuv04.png', '../images/nuv05.png', '../images/nuv06.png', '../images/nuv07.png', '../images/nuv08.png']
+const nuvUrls = ["../images/NüV2.png", "../images/NüV3.png", '../images/NüV4.png', '../images/NüV5.png', '../images/NüV6.png', '../images/NüV7.png', '../images/NüV8.png', '../images/NüV9.png']
 
 class NuVCarousel extends React.Component {
 
@@ -59,15 +59,14 @@ class NuVCarousel extends React.Component {
         </div>
       </p>
 
-         <img className="opaque" src={require("../images/nuv09.png")} ></img>
-         <img src={require("../images/nuv01.png")} ></img>
-         <img src={require("../images/nuv02.png")} ></img>
-         <img src={require("../images/nuv03.png")} ></img>
-         <img src={require("../images/nuv04.png")} ></img>
-         <img src={require("../images/nuv05.png")} ></img>
-         <img src={require("../images/nuv06.png")} ></img>
-         <img src={require("../images/nuv07.png")} ></img>
-         <img src={require("../images/nuv08.png")} ></img>
+         <img className="opaque" src={require("../images/NüV2.png")} ></img>
+         <img src={require("../images/NüV3.png")} ></img>
+         <img src={require("../images/NüV4.png")} ></img>
+         <img src={require("../images/NüV5.png")} ></img>
+         <img src={require("../images/NüV6.png")} ></img>
+         <img src={require("../images/NüV7.png")} ></img>
+         <img src={require("../images/NüV8.png")} ></img>
+         <img src={require("../images/NüV9.png")} ></img>
 
       </div>
     );
