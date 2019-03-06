@@ -135,7 +135,11 @@ class Portfolio extends React.Component {
       </tr>
       </table>
 
-      <h4 className="github"><a href="https://www.github.com/jah1603/NuV">View on GitHub</a></h4>
+      <h4 className="github"><a href="https://play.google.com/store/apps/details?id=com.levelapps.nuv">View on Google Play store</a></h4>
+      <div style={{flexDirection: 'row'}}>
+      <h4 className="github"><a href="https://www.github.com/jah1603/NuV">Front end code</a></h4>
+      <h4 className="github"><a href="https://github.com/SFR1981/NuV-API">Back end code</a></h4>
+      </div>
       <p className="project-description">This project was a joint venture between David Pears, Stephen Rooney and I. We were inspired to create a community hub for vegans and vegetarians which would act as an antidote to the increasingly fragmented nature of vegan-targeted apps. We built the mobile app in React Native with a Heroku-hosted backend made in Ruby on Rails. <span style={{fontStyle: 'italic'}}>NüV</span> allows users to share, view and rate recipes, venues, brands and media items, with restaurants being filtered by geolocation.<br/><br/>
       <span style={{fontStyle: 'italic'}}>NüV</span> features JSON web token authentication, image hosting via Cloudinary, a responsive cross-platform design, more than 30 React components/containers, and also boasts a growing user base. The mobile app should be available for download from both the iOS and Android stores by the end of February 2019.</p>
 
